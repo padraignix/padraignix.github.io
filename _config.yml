@@ -24,7 +24,7 @@ github_username:  padraignix
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
 
