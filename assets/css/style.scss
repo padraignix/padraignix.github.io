@@ -107,7 +107,7 @@ footer .owner p { font-family: Georgia, serif; }
 footer .owner p a { font-size: 16px; font-style: italic; }
 
 /* Style */
-body { font-size: 15px; font-family: Arial, Arial, Helvetica, sans-serif; line-height: 1.5; background: #D1D1D1;   background-image: url("http://127.0.0.1:4000/assets/25.jpg");
+body { font-size: 15px; font-family: Arial, Arial, Helvetica, sans-serif; line-height: 1.5; background: #D1D1D1;   background-image: url({{ '/assets/25.jpg' | relative_url }});
   background-repeat: repeat-x; box-shadow: 0 0 8px #D1D1D1;}
 
 #main { margin-top: 20px; padding: 0 20px 90px; background-color: #fff; }
