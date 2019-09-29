@@ -8,8 +8,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
-  
+
   {% seo %}
   {% if site.google_analytics and jekyll.environment == 'production' %}
   <script>
@@ -28,7 +27,7 @@
   <div class="wrapper">
     <header>
         <div class="inner">
-			<h1 class="title" >{{ site.title | default: site.github.repository_name }}</h1>
+			<h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
 		</div>
     </header>
     <div id="container">
@@ -45,16 +44,8 @@
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
-        <article class="markdown-body">
+        <article class="markdown-body1">
           {{ content }}
-		  
-		  {% for post in site.posts %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a> </h2>
-      <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-			  <p>{{ post.excerpt }}</p>
-			
-		  {% endfor %}
-		
         </article>
       </div>
     </div>
@@ -62,7 +53,7 @@
       <div class="owner">
         <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="56" height="56"></a></p> <p margin-bottom=-1em; align=center>Experience is valuable only if it's imbued with meaning from which one can draw salient conclusions. Otherwise, experience becomes imprisoning - <i>Barry McCaffrey</i></p>
       </div>
-      <div class="social-links">
+	  <div class="social-links">
 			{%- assign social = site.social_links -%}
 			<ul class="social-media-list">
 			  {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><img src="{{ '/assets/github.png' | relative_url }}" height="50" width="50"></a></li>{%- endif -%}
