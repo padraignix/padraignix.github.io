@@ -24,7 +24,7 @@ tags:
 <p>With the plan mapped out I started prepping the deck. Thankfully, there were several resources available that had covered the topic similarly. I was able to cherry-pick between the various sources then add my own explanations and hands-on walkthroughs.</p>
 
 <h2>Presentation</h2>
-The original presentation was done in person using a PPT deck. I've extracted the data and present it here, however I will also include a <a href="{{ '/assets/pdfs/BufferOverflow-Presentation.pdf' | relative_url }}">link</a> to the original deck in PDF format as some of the magic does not translate perfectly. I would be remiss to not to mention <a href="https://www.coengoedegebure.com/buffer-overflow-attacks-explained/">Coen Goedegebure</a>'s post as he goes into excellent code theory and while I won’t repeat everything here I shamelessly pulled material from his presensation as well as others.</p>
+<p>The original presentation was done in person using a PPT deck. I've extracted the data and present it here, however I will also include a <a href="{{ '/assets/pdfs/BufferOverflow-Presentation.pdf' | relative_url }}">link</a> to the original deck in PDF format as some of the magic does not translate perfectly. I would be remiss to not to mention <a href="https://www.coengoedegebure.com/buffer-overflow-attacks-explained/">Coen Goedegebure</a>'s post as he goes into excellent code theory and while I won’t repeat everything here I shamelessly pulled material from his presensation as well as others.</p>
 
 <!-- Slide 3 -->
 <h2>ELF (Executable and Linkable Format)</h2>
