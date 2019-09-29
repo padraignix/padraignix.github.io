@@ -1,83 +1,19 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
-  
-  {% seo %}
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-  {% endif %}
-</head>
+<!DOCTYPE html>
+<html>
 
-<body>
+    {% include head.html %}
 
-  <div class="wrapper">
-    <header>
-        <div class="inner">
-			<h1 class="title" >{{ site.title | default: site.github.repository_name }}</h1>
-		</div>
-    </header>
-    <div id="container">
-		<div>
-		<p class="tagline" align=center>{{ site.description | default: site.github.project_tagline }}</p>
-		</div>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-			  <a class="code"  href="{{ site.home.url | relative_url}}">{{ site.home.title | escape }}</a>
-			  <a class="page-link" href="{{ site.about.url | relative_url }}">{{ site.about.title | escape }}</a>
-			  <a class="page-link" href="{{ site.archive.url | relative_url }}">{{ site.archive.title | escape }}</a>
-			  
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          {{ content }}
-		  
-		  {% for post in site.posts %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a> </h2>
-      <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-			  <p>{{ post.excerpt }}</p>
-			
-		  {% endfor %}
-		
-        </article>
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
       </div>
     </div>
-    <footer>
-      <div class="owner">
-        <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="56" height="56"></a></p> <p margin-bottom=-1em; align=center>Experience is valuable only if it's imbued with meaning from which one can draw salient conclusions. Otherwise, experience becomes imprisoning - <i>Barry McCaffrey</i></p>
-      </div>
-      <div class="social-links">
-			{%- assign social = site.social_links -%}
-			<ul class="social-media-list">
-			  {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><img src="{{ '/assets/github.png' | relative_url }}" height="50" width="50"></a></li>{%- endif -%}
-			  {%- if social.linkedin -%}<li><a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}"><img src="{{ '/assets/linkedin.png' | relative_url }}" height="50" width="50"></a></li>{%- endif -%}
-			  {%- if social.hackerone -%}<li><a href="https://hackerone.com/{{ social.hackerone | cgi_escape | escape }}" title="{{ social.hackerone | escape }}"><img src="{{ '/assets/hacker1.png' | relative_url }}" height="50" width="50"></a></li>{%- endif -%}
-        {%- if social.twitter -%}<li><a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><img src="{{ '/assets/twitter.png' | relative_url }}" height="50" width="50"></a></li>{%- endif -%}
-        {%- if social.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}"><img src="{{ '/assets/rss.png' | relative_url }}" height="50" width="50"></a></li>{%- endif -%}
-			</ul>
-	  </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <p class="name"></p>
-  </div>
 
-</body>
+    {% include footer.html %}
+
+    </body>
 </html>

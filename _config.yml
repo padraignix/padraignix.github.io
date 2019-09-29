@@ -1,51 +1,41 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Padraignix's InfoSec Blog_
+title: "Padraignix's InfoSec Blog_"
 email: padraignix@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development and related adventures
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://padraignix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development and related adventures"
+baseurl: ""
+url: "https://padraignix.github.io"
+title_description: "Personal blog covering CTF events, HTB writeups, Bug Bounties, Security Infrastructure, Cryptography, Emulator development and related adventures"
+title_image: "https://github.com/padraignix.png"
+google_analytics: "UA-148947358-1"
+disqus_account: 
+github_repository: https://github.com/padraignix
+addthis_id: ra-5d90e1af4e80d2a2
+post_limit: 5
 
-# Google Analytics
-google_analytics: UA-148947358-1
+# Social usernames/URLs
+twitter_username: Padraignix_
+github_username: padraignix
+instagram_username: 
+reddit_username: 
+linkedin_link: http://linkedin.com/in/downingpatrick
+google_plus_link: 
+stackoverflow_link:
+xing_link:
+facebook_link:
+hackerone_username: padraignix
 
-social_links:
-    twitter: Padraignix_
-    github:  padraignix
-    rss: rss
-    linkedin: downingpatrick
-    hackerone: padraignix
-    
-github_username:  padraignix
+# Footer
+#footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_left: 
+footer_right: "&lt;/&gt;Padraignix on <a href=\"https://github.com/padraignix\">Github</a> &nbsp;<i class=\"fa fa-github\"></i>"
+# Experience is valuable only if it's imbued with meaning from which one can draw salient conclusions. Otherwise, experience becomes imprisoning - Barry McCaffrey
 
-home:
-    url: "/"
-    title: "Home"
-
-about:
-    url: "/about/"
-    title: "About"
-
-archive:
-    url: "/archive/"
-    title: "Archive"
-    
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-time-machine
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
