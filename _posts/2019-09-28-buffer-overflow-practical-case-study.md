@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Exploring Buffer Overflows - CTF Prep Case Study
+title:      Exploring Buffer Overflows - CTF Prep
 date:       2019-09-28 17:46:48 -0400
 summary:    See what the different elements looks like.
 categories: presentation buffer-overflow ctf
@@ -24,7 +24,7 @@ tags:
 <p>With the plan mapped out I started prepping the deck. Thankfully, there were several resources available that had covered the topic similarly. I was able to cherry-pick between the various sources then add my own explanations and hands-on walkthroughs.</p>
 
 <h2>Presentation</h2>
-The original presentation was done in person using a PPT deck. I've extracted the data and present it here, however I will also include a <a href="{{ '/assets/pdfs/BufferOverflow-Presentation.pdf' | relative_url }}">link</a> to the original deck in PDF format as some of the magic does not translate perfectly.
+The original presentation was done in person using a PPT deck. I've extracted the data and present it here, however I will also include a <a href="{{ '/assets/pdfs/BufferOverflow-Presentation.pdf' | relative_url }}">link</a> to the original deck in PDF format as some of the magic does not translate perfectly. I would be remiss to not to mention <p><a href="https://www.coengoedegebure.com/buffer-overflow-attacks-explained/">Coen Goedegebure</a>'s excellent post as he goes into excellent code theory and while I won’t repeat everything here I shamelessly pulled some excellent material from his presensation as well as others.</p>
 
 <!-- Slide 3 -->
 <h2>ELF (Executable and Linkable Format)</h2>
@@ -34,16 +34,16 @@ The original presentation was done in person using a PPT deck. I've extracted th
 <p>
 Each ELF file is made up of one ELF header followed by file data. The data can include:</p>
 
-*  Program header table
+* Program header table
 * Section header table
 * <b>Data referred to by entries</b> in the program header table or section header table
 
 <p>
 When a program is run by the OS the executable will be held in memory in a very specific way.
 </p><p>
-On top of the data area is the <b>heap</b>. This is a big area of memory where large objects are allocated (like images, files, etc.)
+On top of the data area is the <b>heap</b>. This is an area of memory where large objects are allocated .
 </p><p>
-Below the kernel is the <b>stack</b>. This holds the local variables for each of the functions. When a new function is called, these are pushed on the end of the stack (see the stack abstract data type for more information on that).
+Below the kernel is the <b>stack</b>. This holds the local variables for each of the functions. When a new function is called, these are pushed on the end of the stack.
 Note that the <b>heap grows up</b> (from low to higher memory) and the <b>stack grows downwards</b> (from high to lower memory).
 </p>
 
@@ -54,7 +54,7 @@ Note that the <b>heap grows up</b> (from low to higher memory) and the <b>stack 
 </p>
 <p>Consider the case where a program calls a function, a piece of code that does something and returns where it was before. </p>
 <p>When the call is made, the parameters that are passed to the function, are pushed on top of the stack. With the parameters on the stack, the code of the function will then jump to somewhere else in memory and do something with these parameters. </p>
-<p><a href="https://www.coengoedegebure.com/buffer-overflow-attacks-explained/">https://www.coengoedegebure.com/buffer-overflow-attacks-explained/)</a> goes into code theory quite well and I won’t repeat everything here.</p>
+
 <p>The important part to remember is while the <b>stack grows downward</b> from high-memory to lower-memory addresses, <b>the buffer itself is filled from lower- to higher memory addresses</b>. This means that if we would pass a value that is bigger than the assigned buffer, it could start overwriting the base pointer that are lower in the stack (and higher up in the memory)</p>
 
 <!-- Slide 5 -->
@@ -76,6 +76,7 @@ void main(){
 	foo();
 }
 {% endhighlight %}
+
 <p>Let’s test this out with a simple script – take an input and paste it out. Based on the previous slide, we know that the buffer size has 600 bytes of space reserved in the stack for buffer[]. </p>
 <p>Looks like our read line in the code will take up to 1000 characters. What happens if we read over that buffer’s 600 reserved size?</p> 
 <p align="center">
