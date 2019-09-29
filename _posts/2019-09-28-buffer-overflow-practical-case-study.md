@@ -29,7 +29,7 @@ The original presentation was done in person using a PPT deck. I've extracted th
 <!-- Slide 3 -->
 <h2>ELF (Executable and Linkable Format)</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide3.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide3.PNG' | relative_url }}">
 </p>
 <p>
 Each ELF file is made up of one ELF header followed by file data. The data can include:</p>
@@ -50,7 +50,7 @@ Note that the <b>heap grows up</b> (from low to higher memory) and the <b>stack 
 <!-- Slide 4 -->
 <h2>Buffer Overflow Theory</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide4.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide4.PNG' | relative_url }}">
 </p>
 <p>Consider the case where a program calls a function, a piece of code that does something and returns where it was before. </p>
 <p>When the call is made, the parameters that are passed to the function, are pushed on top of the stack. With the parameters on the stack, the code of the function will then jump to somewhere else in memory and do something with these parameters. </p>
@@ -79,7 +79,7 @@ void main(){
 <p>Let’s test this out with a simple script – take an input and paste it out. Based on the previous slide, we know that the buffer size has 600 bytes of space reserved in the stack for buffer[]. </p>
 <p>Looks like our read line in the code will take up to 1000 characters. What happens if we read over that buffer’s 600 reserved size?</p> 
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide5.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide5.PNG' | relative_url }}">
 </p>
 <p>Segfault...good!</p>
 <p>Let’s start poking around and see if we can leverage this to control the execution flow.</p>
@@ -87,7 +87,7 @@ void main(){
 <!-- Slide 6 -->
 <h2>Initial Investigation</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide6-2.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide6-2.PNG' | relative_url }}">
 </p>
 <p>Before we start exploring too far think about what is happening in the code. Our main() function will have its own parameters and local variables inside a stack frame. When we reach the foo() function in the code, the execution will push return address and base address of the frame on to the stack then move to the execution code location of foo(). Once completed, the flow will pop off both of these and jump back to the previous execution location. </p>
 <p>If we are able to somehow overwrite this return address by overflowing data upwards, we can theoretically control the execution flow of the program.</p>
@@ -105,7 +105,7 @@ void main(){
 <!-- Slide 8 -->
 <h2>Initial Look Under the Hood</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide8.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide8.PNG' | relative_url }}">
 </p>
 <p>Let’s rerun the script – this time attaching the execution flow to gdb (specifically with the pwndbg extension) and see what we notice under the hood.</p>
 <p>We manage to overflow quite a few registers, most importantly <b>EIP</b>. This explains why we segfault – when we overflow EIP and the execution flow returns to the point it references EIP it attempts to run code located at 0x41414141, which is currently invalid.</p>
@@ -115,7 +115,7 @@ void main(){
 <!-- Slide 9 -->
 <h2>Fuzzing</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide9.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide9.PNG' | relative_url }}">
 </p>
 <p>We can leverage a unique pattern to determine the exact location of EIP:</p>
 {% highlight python %}
@@ -157,14 +157,14 @@ buf += "\xb5\x13\x92\xed\x30\xf2\xd1\x92"
 <!-- Slide 11 -->
 <h2>Payload</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide11.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide11.PNG' | relative_url }}">
 </p>
 Let’s put this all together. Our plan is to combine a 616 byte payload that will control the execution flow into our custom shellcode. We know that EIP gets overwritten at 616, which means we can pack our shellcode in the buffer beforehand. We will leverage a technique called <b>NOP Sledding</b> and point EIP to an address within the NOP Sled region. 
 
 <!-- Slide 12 -->
 <h2>Payload - Part 2</h2>
 <p align="center">
-<img src="{{ '/assets/bof-presentation/slide12.png' | relative_url }}">
+<img src="{{ '/assets/bof-presentation/slide12.PNG' | relative_url }}">
 </p>
 
 <p>A NOP Sled is a series of 0x90 (NOP - or No Operation) where the program does not perform any commands other than move to the next instruction. If we put a series of these together, as long as we redirect the execution flow anywhere within the NOP chunk, we would “slide” to the end of NOPs where our next execution command (in our case, the shellcode) is located.</p>
