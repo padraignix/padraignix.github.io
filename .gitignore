@@ -26,3 +26,6 @@ _site/
 
 # Ruby
 Gemfile.lock
+
+#cname while hosted on githubpages
+CNAME

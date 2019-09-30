@@ -24,7 +24,7 @@ tags:
 <p>With the plan mapped out I started prepping the deck. Thankfully, there were several resources available that had covered the topic similarly. I was able to cherry-pick between the various sources then add my own explanations and hands-on walkthroughs.</p>
 
 <h2>Presentation</h2>
-<p>The original presentation was done in person using a PPT deck. I've extracted the data and present it here, however I will also include a <a href="{{ '/assets/pdfs/BufferOverflow-Presentation.pdf' | relative_url }}">link</a> to the original deck in PDF format as some of the magic does not translate perfectly. I would be remiss to not to mention <a href="https://www.coengoedegebure.com/buffer-overflow-attacks-explained/">Coen Goedegebure</a>'s post as he goes into excellent code theory and while I won’t repeat everything here I shamelessly pulled material from his presensation as well as others.</p>
+<p>The original presentation was done in person using a PPT deck. I've extracted the data and present it here, however I will also include a <a href="{{ '/assets/pdfs/BufferOverflow-Presentation.pdf' | relative_url }}">link</a> to the original deck in PDF format as some of the magic does not translate perfectly. I would be remiss to not to mention <a href="https://www.coengoedegebure.com/buffer-overflow-attacks-explained/">Coen Goedegebure</a>'s post as he goes into excellent code theory and while I won’t repeat everything here I shamelessly pulled material from his post as well as others.</p>
 
 <!-- Slide 3 -->
 <h2>ELF (Executable and Linkable Format)</h2>
@@ -32,16 +32,16 @@ tags:
 <img src="{{ '/assets/bof-presentation/slide3.PNG' | relative_url }}">
 </p>
 <p>
-Each ELF file is made up of one ELF header followed by file data. The data can include:</p>
+In computing, the Executable and Linkable Format (ELF), is a common standard file format for executable files, object code, shared libraries, and core dumps. Each ELF file is made up of one ELF header followed by file data. The data can include:</p>
 
 * Program header table
 * Section header table
-* <b>Data referred to by entries</b> in the program header table or section header table
+* <b>Data</b> referred to by entries in the program header table or section header table
 
 <p>
 When a program is run by the OS the executable will be held in memory in a very specific way.
 </p><p>
-On top of the data area is the <b>heap</b>. This is an area of memory where large objects are allocated .
+On top of the data area is the <b>heap</b>. This is an area of memory where large objects are allocated.
 </p><p>
 Below the kernel is the <b>stack</b>. This holds the local variables for each of the functions. When a new function is called, these are pushed on the end of the stack.
 Note that the <b>heap grows up</b> (from low to higher memory) and the <b>stack grows downwards</b> (from high to lower memory).

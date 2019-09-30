@@ -27,7 +27,7 @@ hackerone_username: padraignix
 # Footer
 #footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
 footer_left: 
-footer_right: "&lt;/&gt;Padraignix on <a href=\"https://github.com/padraignix\">Github</a> &nbsp;<i class=\"fa fa-github\"></i>"
+footer_right: <i class="fa fa-code"></i>Padraignix on <a href=\"https://github.com/padraignix\">Github</a> &nbsp;<i class=\"fa fa-github\"></i>
 # Experience is valuable only if it's imbued with meaning from which one can draw salient conclusions. Otherwise, experience becomes imprisoning - Barry McCaffrey
 
 # Build settings
