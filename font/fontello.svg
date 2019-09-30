@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="hackerone" unicode="&#xe800;" d="M349 838c-14 8-29 12-48 12-21 0-37-4-50-12s-19-20-19-33v-908c0-11 7-22 19-32a80 80 0 0 1 49-15 83 83 0 0 1 48 15c14 10 20 21 20 32v908c2 14-5 25-19 33m115-477c-9-8-13-19-10-36 1-16 8-31 22-45 12-14 27-23 44-27s29-2 37 5l73 45v-406c0-11 7-22 19-32s29-15 49-15 35 6 49 15 21 21 21 32v548c0 14-7 24-21 32s-30 12-51 12-36-4-48-12l-185-116" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
