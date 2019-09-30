@@ -120,12 +120,12 @@ void main(){
 </p>
 <p>We can leverage a unique pattern to determine the exact location of EIP:</p>
 {% highlight python %}
-	 /usr/bin/msf-pattern_create -l 1000 > fuzz_rbp.in
+/usr/bin/msf-pattern_create -l 1000 > fuzz_rbp.in
 {% endhighlight %}
 <p>Now let’s rerun the program within gdb and check where EIP get’s overwritten:</p>
 {% highlight python %}
-	 /usr/bin/msf-pattern_offset -q 0x75413575
-	 [*] Exact match at offset 616
+/usr/bin/msf-pattern_offset -q 0x75413575
+[*] Exact match at offset 616
 {% endhighlight %}
 
 <!-- Slide 10 -->
