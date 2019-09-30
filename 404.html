@@ -41,6 +41,7 @@ permalink: /404.html
          {% else %}
           {{ post.excerpt | strip_html | truncatewords:30 }}
          {% endif %}
+         <br>
         <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
       </div>
     {% endfor %}
