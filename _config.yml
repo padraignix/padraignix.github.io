@@ -27,7 +27,7 @@ hackthebox_username: 137488
 
 # Footer
 #footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_left: <i class="fa fa-copyright"> 2019 Padraignix
+footer_left: <i class="fa fa-copyright"></i> 2019 Padraignix
 footer_right: <i class="fa fa-code"></i>Padraignix on <a href="https://github.com/padraignix">Github</a> &nbsp;<i class=\"fa fa-github\"></i>
 # Experience is valuable only if it's imbued with meaning from which one can draw salient conclusions. Otherwise, experience becomes imprisoning - Barry McCaffrey
 
