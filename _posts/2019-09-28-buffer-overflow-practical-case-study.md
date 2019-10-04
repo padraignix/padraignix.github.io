@@ -2,8 +2,8 @@
 layout:     post
 title:      Buffer Overflows - CTF Prep
 date:       2019-09-28 17:46:48 -0400
-summary:    A practical buffer overflow case study presentation to our local red team explaining basic concepts and approaches
-categories: presentation buffer-overflow ctf
+summary:    A practical buffer overflow case study presentation to our local red team explaining basic concepts and approaches.
+categories: buffer-overflow
 thumbnail: cogs
 tags:
  - ctf
