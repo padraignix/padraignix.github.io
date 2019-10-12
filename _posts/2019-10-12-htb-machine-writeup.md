@@ -9,6 +9,8 @@ tags:
  - htb
  - cms
  - pspy
+ - walkthrough
+ - writeup
 ---
 
 <h1>Introduction</h1>
