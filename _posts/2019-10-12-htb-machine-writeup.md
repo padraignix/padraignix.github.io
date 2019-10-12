@@ -234,7 +234,7 @@ DESCRIPTION
               start with an empty environment
 {% endhighlight %}
 
-<p>Ok so breaking it down: As root, clear out environment variables, set <code>PATH</code> to /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin then execute <code>run-parts</code>. Similarly let's look at run-parts' options. You may already know where I went wrong but let's follow my logic as I stepped through.</p>
+<p>Ok so breaking it down: As root, clear out environment variables, set <code>PATH</code> then execute <code>run-parts</code>. Similarly let's look at run-parts' options. You may already know where I went wrong but let's follow my logic as I stepped through.</p>
 
 {% highlight shell %}
 RUN-PARTS(8)                                            System Manager's Manual                                            RUN-PARTS(8)
