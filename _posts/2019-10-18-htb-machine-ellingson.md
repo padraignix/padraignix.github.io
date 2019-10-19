@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Hack the Box - Ellingson
-date:       2019-10-17 15:00:00 -0400
+date:       2019-10-18 13:00:00 -0400
 summary:    HTB Ellingson machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
 categories: hack-the-box
 thumbnail: cogs
