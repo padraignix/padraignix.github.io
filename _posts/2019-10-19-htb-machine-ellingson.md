@@ -150,7 +150,7 @@ $6$Lv8rcvK8$la/ms1mYal7QDxbXUYiD7LAADl.yE4H7mUGF6eTlYaZ2DVPi9z1bDIzqGZFwWrPkRrB9
 
 <h1>Root exploitation</h1>
 
-<p>Having moved the privesc scripts over from the previous pivot I decided to rerun them and see if anything else comes up now that we are running as <code>margo</code>. This time I noticed a process binary <code>garbage</code> I wasn't familiar with. Looks like it also has SUID set. A quick search online didn't return anything for <code>/usr/bin/garbage</code> as well. That seems promising, let's take a closer look.</p>
+<p>Having moved the privesc scripts over from the previous pivot I decided to rerun them and see if anything else comes up now that we are running as <code>margo</code>. This time I noticed a process binary <code>garbage</code> I wasn't familiar with. Looks like it also has SUID set. A quick search online didn't return anything for <code>/usr/bin/garbage</code>. That seems promising, let's take a closer look.</p>
 
 <p align="center">
 <img src="{{ '/assets/htb-ellingson/rootenum-suid.PNG' | relative_url }}">
