@@ -20,6 +20,7 @@ make-smaller-titles: true
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
               {% if post.tags and post.tags.size > 0 %}
+              <br>
               <div class="tags">
                 <small class="hidden-xs">
                 <i class="fa fa-tags"></i>
