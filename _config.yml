@@ -1,5 +1,5 @@
 # Site settings
-title: "Padraignix's InfoSec Blog<i class='blink'>_</i>"
+title: "Padraignix's InfoSec Blog"
 email: padraignix@gmail.com
 description: "Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development and related adventures"
 baseurl: ""
