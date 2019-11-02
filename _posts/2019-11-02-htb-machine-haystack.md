@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Hack the Box - Haystack
-date:       2019-10-13 17:46:48 -0400
+date:       2019-11-02 08:00:00 -0400
 summary:    HTB Haystack machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
 categories: hack-the-box
 thumbnail: cogs
