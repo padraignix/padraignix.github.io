@@ -231,7 +231,7 @@ Ejecutar comando: /tmp/pshell.py
 <p>
     <ul>
     <li>Based on input.conf - logstash checks <code>/opt/kibana</code> every 10 seconds for files starting with <code>logstash_*</code></li>
-    <li>Based on filter.conf - if the contents of these logstash_* files match the Grok filter of <code>"Ejecutar\s*comando\s*:\s+%{GREEDYDATA:comando}"</code> then...</li>
+    <li>Based on filter.conf - if the contents of these logstash_* files match the Grok filter of <i>"Ejecutar\s*comando\s*:\s+%{GREEDYDATA:comando}"</i> then...</li>
     <li>Based on output.conf - execute the command that was supplied as <code>comando</code></li>
     </ul>
 </p>
