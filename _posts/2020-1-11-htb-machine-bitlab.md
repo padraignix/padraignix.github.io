@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Hack the Box - Bitlab
-date:       2020-1-11 12:00:00 -0400
+date:       2020-1-11 08:00:00 -0400
 summary:    HTB Bitlab machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
 categories: hack-the-box
 thumbnail: cogs
