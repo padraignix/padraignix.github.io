@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Quantum Computing - Hello World
-date:       2020-2-07 08:00:00 -0400
+date:       2020-2-09 08:00:00 -0400
 summary:    An introductary look into Quantum Computing including the mechanics, concepts and mathematics involved. The focus will then shift to a practical implementation of these concepts using simulated environments and the qiskit python framework.  
 categories: quantum-computing
 thumbnail: microchip
