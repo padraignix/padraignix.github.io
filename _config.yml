@@ -40,3 +40,5 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
+include: .well-known

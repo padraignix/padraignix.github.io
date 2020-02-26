@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: padraignix.github.io
+Token: cc67e5fdf11e57cd1c5535e40dddbc58d0e91724aa5d3ff60e581e600c73b1d3
