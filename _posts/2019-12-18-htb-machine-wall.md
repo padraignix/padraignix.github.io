@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Wall
+title:      HacktheBox - Personal 'Wall' Walkthough 
+title2:     Hack the Box - Wall
 date:       2019-12-18 12:00:00 -0400
-summary:    HTB Wall machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Wall machine walkthrough. An easy Linux machine from HTB that focused on RCE WAF bypass to establish an initial foothold then a direct pivot to root using a vulnerable suid binary.
 categories: hack-the-box
 thumbnail: cogs
 tags:

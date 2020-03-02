@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Heist
+title:      HacktheBox - Personal 'Heist' Walkthough 
+title2:     Hack the Box - Heist
 date:       2019-11-30 12:00:00 -0400
-summary:    HTB Heist machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Heist machine walkthrough. Credential harvesting and spraying, dumping a running process to capture further credentials and a final credential spray to get Administrator access.
 categories: hack-the-box
 thumbnail: cogs
 tags:

@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Ellingson
+title:      HacktheBox - Personal 'Ellingson' Walkthough 
+title2:     Hack the Box - Ellingson
 date:       2019-10-19 12:00:00 -0400
-summary:    HTB Ellingson machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Ellingson machine walkthrough. Web enumeration and python console abuse for initial foothold, finding sensitive backup files and hashcat cracking for User pivot, finally into a ROP based overflow exploit for root priviledge escalation.
 categories: hack-the-box
 thumbnail: cogs
 tags:

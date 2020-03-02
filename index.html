@@ -1,6 +1,7 @@
 ---
 layout: default
-make-smaller-titles: true
+make-smaller-titles: false
+title: Padraignix's InfoSec Blog
 ---
 
 
@@ -31,8 +32,25 @@ make-smaller-titles: true
                   {% for post in site.posts limit: site.post_limit %}
 
                       <li>
-                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small><br>
+                          
+                        <div class="related">
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title2 }}</a>
+                            <br>
+                            <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                            <br>
+                            <p>
+                            {% if post.summary %}
+                             {{ post.summary | strip_html | truncatewords:40 }}
+                            {% else %}
+                             {{ post.excerpt | strip_html | truncatewords:40 }}
+                            {% endif %}
+                            </p>
+                            <small class="hidden-xs">
+                                <i class="fa fa-tags"></i>
+                                  {{ post.tags | join: ', ' }}
+                            </small>
+                          
+                        </div>
                       </li>
                   {% endfor %}
                   <li>

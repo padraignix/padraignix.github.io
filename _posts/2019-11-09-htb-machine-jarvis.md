@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Jarvis
+title:      HacktheBox - Personal 'Jarvis' Walkthough 
+title2:     Hack the Box - Jarvis
 date:       2019-11-09 10:00:00 -0400
-summary:    HTB Jarvis machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Jarvis machine walkthrough. Jarvis involved a SQL Injection and a web-shell for initial foothold into sudo and filter bypass to User pivot with a final systemctl abuse to pivot into root.
 categories: hack-the-box
 thumbnail: cogs
 tags:

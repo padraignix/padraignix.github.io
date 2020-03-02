@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://padraignix.github.io/sitemap.xml

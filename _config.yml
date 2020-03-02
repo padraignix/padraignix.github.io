@@ -41,4 +41,7 @@ kramdown:
 permalink: pretty
 exclude: [vendor]
 
-include: .well-known
+include: [.well-known]
+
+plugins:
+  - jekyll-sitemap

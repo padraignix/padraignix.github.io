@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Craft
+title:      HacktheBox - Personal 'Craft' Walkthough
+title2:     Hack the Box - Craft
 date:       2020-1-07 17:00:00 -0400
-summary:    HTB Craft machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Craft machine walkthrough. A well designed moderate box from HTB that exemplified bad coding practice, sensitive data disclosures and token abuse into root.
 categories: hack-the-box
 thumbnail: cogs
 tags:

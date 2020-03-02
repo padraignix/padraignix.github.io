@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Safe
+title:      HacktheBox - Personal 'Safe' Walkthough 
+title2:      Hack the Box - Safe
 date:       2019-10-26 10:00:00 -0400
-summary:    HTB Safe machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Safe machine walkthrough. A contentious box from HTB requiring a custom developed ROP (return-oriented programming) exploit tied into cracking a KeepPass database.
 categories: hack-the-box
 thumbnail: cogs
 tags:

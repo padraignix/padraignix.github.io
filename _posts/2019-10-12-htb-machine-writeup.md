@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Writeup
+title:      HacktheBox - Personal 'Writeup' Walkthough 
+title2:     Hack the Box - Writeup
 date:       2019-10-12 11:00:00 -0400
-summary:    HTB Writeup machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Writeup machine walkthrough. A relatively easy with an 'out-of-the-box' CMS exploit for User priviledges and an interesting login behavior abuse to pivot to root from there.
 categories: hack-the-box
 thumbnail: cogs
 tags:

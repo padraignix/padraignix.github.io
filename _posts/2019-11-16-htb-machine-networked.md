@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      Hack the Box - Networked
+title:      HacktheBox - Personal 'Networked' Walkthough 
+title2:     Hack the Box - Networked
 date:       2019-11-16 10:00:00 -0400
-summary:    HTB Networked machine walkthrough. Stepping through methodology of what worked, what didn't and any interesting notes gleaned along the way.
+summary:    HTB Networked machine walkthrough. Generally discussed as the easiest of the active boxes at time of retirement there is nothing particularly complex with getting to root.
 categories: hack-the-box
 thumbnail: cogs
 tags:

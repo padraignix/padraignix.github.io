@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Padraignix's InfoSec Blog - All Posts
 ---
 
 
@@ -7,7 +8,7 @@ layout: default
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">All posts</h2>
+    <h1 class="header" itemprop="headline">All posts</h1>
 
     {% for category in site.categories %}
     <div class="col-md-12 content-panel articles">
@@ -16,7 +17,7 @@ layout: default
         {% for posts in category %}
           {% for post in posts %}
             <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title2 }}</a>
               <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
               {% if post.tags and post.tags.size > 0 %}
               <br>
