@@ -1,6 +1,6 @@
 ---
 layout: default
-make-smaller-titles: false
+make-smaller-titles: true
 title: Padraignix's InfoSec Blog
 ---
 
@@ -45,10 +45,7 @@ title: Padraignix's InfoSec Blog
                              {{ post.excerpt | strip_html | truncatewords:40 }}
                             {% endif %}
                             </p>
-                            <small class="hidden-xs">
-                                <i class="fa fa-tags"></i>
-                                  {{ post.tags | join: ', ' }}
-                            </small>
+
                           
                         </div>
                       </li>
