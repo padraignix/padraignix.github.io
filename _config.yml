@@ -4,7 +4,7 @@ email: padraignix@gmail.com
 description: "Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures"
 baseurl: ""
 url: "https://padraignix.github.io"
-title_description: "Personal blog covering CTF events, HTB writeups, Bug Bounties, Security Infrastructure, Cryptography, Emulator development and related adventures"
+title_description: "Personal blog covering CTF events, HTB writeups, Bug Bounties, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures"
 title_image: "https://github.com/padraignix.png"
 google_analytics: "UA-148947358-1"
 disqus_account: 
