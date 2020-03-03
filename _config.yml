@@ -1,7 +1,7 @@
 # Site settings
 title: "Padraignix's InfoSec Blog"
 email: padraignix@gmail.com
-description: "Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development and related adventures"
+description: "Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures"
 baseurl: ""
 url: "https://padraignix.github.io"
 title_description: "Personal blog covering CTF events, HTB writeups, Bug Bounties, Security Infrastructure, Cryptography, Emulator development and related adventures"
