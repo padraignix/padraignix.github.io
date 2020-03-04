@@ -5,7 +5,8 @@ title2:     Hack the Box - Writeup
 date:       2019-10-12 11:00:00 -0400
 summary:    HTB Writeup machine walkthrough. A relatively easy with an 'out-of-the-box' CMS exploit for User priviledges and an interesting login behavior abuse to pivot to root from there.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,cms,exploit
 tags:
  - htb
  - cms

@@ -5,7 +5,8 @@ title2:     Hack the Box - Chainsaw
 date:       2019-11-23 12:00:00 -0400
 summary:    HTB Chainsaw machine walkthrough. Anonymous ftp connections, smart contract abuse, InterPlanetary File System and cracked password protected ssh private keys for user pivot. A loosely defined SUID file and PATH hijacking for root shell then finally leveraging root.txt's slack space to get the final flag.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,chainsaw,smart contract,eth,ethereum,slack space,ftp,ipfs,jtr,john the ripper
 tags:
  - htb 
  - walkthrough

@@ -5,7 +5,8 @@ title2:     Buffer Overflows - CTF Prep
 date:       2019-09-28 17:46:48 -0400
 summary:    A practical buffer overflow case study presentation to our local red team explaining basic concepts and approaches.
 categories: reverse-engineering
-thumbnail: cogs
+thumbnail:  cogs
+keywords:	buffer overflows,reverse engineering,RE,capture the flag,CTF,presentations,assembly,shellcode,fuzzing,payloads,gdb,debugger
 tags:
  - ctf
  - buffer overflow

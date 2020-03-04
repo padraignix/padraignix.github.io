@@ -5,7 +5,8 @@ title2:      Hack the Box - Safe
 date:       2019-10-26 10:00:00 -0400
 summary:    HTB Safe machine walkthrough. A contentious box from HTB requiring a custom developed ROP (return-oriented programming) exploit tied into cracking a KeepPass database.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,buffer overflow,keeppass,jtr,john-the-ripper,rop,safe
 tags:
  - htb 
  - walkthrough
@@ -21,7 +22,7 @@ tags:
 <img width="75%" height="75%" src="{{ '/assets/htb-safe/infocard.PNG' | relative_url }}">
 </p>
 
-<p>Marked as easy, Safe is a contentious box from HTB requiring a custom developed ROP (return-oriented programming) exploit tied into cracking a KeepPass database. Personally I absolutely loved the box from the perspective of digging into ROP and practicing the techniques. The box itself however was quite barren and could have definitely used a bit more "makeup" to get away from the CTF-like vibes. If you have a base in <a href="{{ site.baseurl }}{% link _posts/2019-10-12-htb-machine-writeup.md %}">binary exploitation</a> but haven't dived into ROP exploits before this is a great box to make that jump. The <a href="{{ site.baseurl }}{% link _posts/2019-10-19-htb-machine-ellingson.md %}">Ellingson</a> box was then a good next-step as it took the same ROP concepts and required use of ret2lib which wasn't required here.</p>
+<p>Marked as easy, Safe is a contentious box from HTB requiring a custom developed ROP (return-oriented programming) exploit tied into cracking a KeepPass database. Personally I absolutely loved the box from the perspective of digging into ROP and practicing the techniques. The box itself however was quite barren and could have definitely used a bit more "makeup" to get away from the CTF-like vibes. If you have a base in <a href="{{ site.baseurl }}{% link _posts/hackthebox/2019-10-12-htb-machine-writeup.md %}">binary exploitation</a> but haven't dived into ROP exploits before this is a great box to make that jump. The <a href="{{ site.baseurl }}{% link _posts/hackthebox/2019-10-19-htb-machine-ellingson.md %}">Ellingson</a> box was then a good next-step as it took the same ROP concepts and required use of ret2lib which wasn't required here.</p>
 
 <h1>Initial Recon</h1>
 

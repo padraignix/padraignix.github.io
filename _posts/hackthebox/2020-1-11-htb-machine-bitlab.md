@@ -5,7 +5,8 @@ title2:     Hack the Box - Bitlab
 date:       2020-1-11 08:00:00 -0400
 summary:    HTB Bitlab machine walkthrough. A fun little box that has us work through gitlab based exploitation. From erroneously stored user credentials, to uploading and merging our own files to the project, to finally exploiting hooks to execute our own code as root, this box was a good overview of various gitlab functionality.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,bitlab,gitlab,return hooks,hooks
 tags:
  - htb 
  - walkthrough

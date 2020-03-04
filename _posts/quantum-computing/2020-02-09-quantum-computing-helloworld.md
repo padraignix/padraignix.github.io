@@ -5,7 +5,8 @@ title2:     Quantum Computing - Hello World
 date:       2020-2-09 08:00:00 -0400
 summary:    An introductary look into Quantum Computing including the mechanics, concepts and mathematics involved. The focus will then shift to a practical implementation of these concepts using simulated environments and the qiskit python framework.  
 categories: quantum-computing
-thumbnail: microchip
+thumbnail:  microchip
+keywords:   quantum computing,qiskit,quantum,python,scripting,coding,hello world,linear algebra,math,qubits,quantum gates,logic gates
 tags:
  - qiskit
  - quantum-computing

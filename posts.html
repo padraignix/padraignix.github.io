@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Padraignix's InfoSec Blog - All Posts
+summary: Padraignix's InfoSec Blog - All Posts. A quick summary of all articles released.
 ---
 
 
@@ -21,6 +22,13 @@ title: Padraignix's InfoSec Blog - All Posts
               <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
               {% if post.tags and post.tags.size > 0 %}
               <br>
+              <p>
+                {% if post.summary %}
+                 {{ post.summary | strip_html | truncatewords:40 }}
+                {% else %}
+                 {{ post.excerpt | strip_html | truncatewords:40 }}
+                {% endif %}
+                </p>
               <div class="tags">
                 <small class="hidden-xs">
                 <i class="fa fa-tags"></i>

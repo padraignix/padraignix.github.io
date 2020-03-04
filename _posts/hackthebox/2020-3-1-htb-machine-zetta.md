@@ -5,7 +5,8 @@ title2:     Hack the Box - Zetta
 date:       2020-3-01 12:00:00 -0400
 summary:    HTB Zetta machine walkthrough. Starting with an FTP FXP IPv6 leak, to an rsync brute-force for user access to the machine. Once on, chained custom syslog messages with a postgres SQL injection to pivot user access. Finally, a dubious password policy leads to using discovered credentials and adapting them to the root password for system level access.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,zetta,ftp,rsync,postgres,brute force,sql injection,sql,ipv6,fxp
 tags:
  - htb 
  - walkthrough
@@ -15,6 +16,7 @@ tags:
  - postgres
  - brute-force
  - sql
+ - ipv6
 ---
 
 <h1>Introduction</h1>

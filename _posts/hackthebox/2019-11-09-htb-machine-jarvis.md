@@ -5,7 +5,8 @@ title2:     Hack the Box - Jarvis
 date:       2019-11-09 10:00:00 -0400
 summary:    HTB Jarvis machine walkthrough. Jarvis involved a SQL Injection and a web-shell for initial foothold into sudo and filter bypass to User pivot with a final systemctl abuse to pivot into root.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,jarvis,sql injection,suid
 tags:
  - htb
  - sql-injection
@@ -310,7 +311,7 @@ pepper@jarvis:~$ id
 uid=1000(pepper) gid=1000(pepper) groups=1000(pepper)
 {% endhighlight %}
 
-<p>Now that we have a proper shell we can turn our attention back to systemctl. As gtfobins states if systemctl <i>"runs with the SUID bit set and may be exploited to access the file system, escalate or maintain access with elevated privileges working as a SUID backdoor"</i>. They provide a POC that while it didn't work earlier, let's give it a try now that we have a proper shell. Similar to my <a href="{{ site.baseurl }}{% link _posts/2019-10-12-htb-machine-writeup.md %}">previous post</a> I wanted to keep it simple and go straight for the prize. This technique could be leveraged to call another reverse shell script that you previously uploaded to pop a root shell as well.</p>
+<p>Now that we have a proper shell we can turn our attention back to systemctl. As gtfobins states if systemctl <i>"runs with the SUID bit set and may be exploited to access the file system, escalate or maintain access with elevated privileges working as a SUID backdoor"</i>. They provide a POC that while it didn't work earlier, let's give it a try now that we have a proper shell. Similar to my <a href="{{ site.baseurl }}{% link _posts/hackthebox/2019-10-12-htb-machine-writeup.md %}">previous post</a> I wanted to keep it simple and go straight for the prize. This technique could be leveraged to call another reverse shell script that you previously uploaded to pop a root shell as well.</p>
 
 {% highlight shell %}
 pepper@jarvis:/tmp$ TF=$(mktemp).service

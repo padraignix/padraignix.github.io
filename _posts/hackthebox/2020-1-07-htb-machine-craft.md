@@ -5,7 +5,8 @@ title2:     Hack the Box - Craft
 date:       2020-1-07 17:00:00 -0400
 summary:    HTB Craft machine walkthrough. A well designed moderate box from HTB that exemplified bad coding practice, sensitive data disclosures and token abuse into root.
 categories: hack-the-box
-thumbnail: cogs
+thumbnail:  cogs
+keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,craft,gogs,remote code execution,docker,hasicorp,vault
 tags:
  - htb 
  - walkthrough
