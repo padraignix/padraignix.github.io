@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      HacktheBox - Personal 'Haystack' Walkthough 
+title:      HacktheBox - Padraignix 'Haystack' Walkthough 
 title2:      Hack the Box - Haystack
 date:       2019-11-02 08:00:00 -0400
 summary:    HTB Haystack machine walkthrough. A particularly well designed ELK (Elasticsearch, Logstash, Kibana) based machine offering a chance to dig into the full logging stack.

@@ -42,9 +42,9 @@ keywords: hacking, blog,information security,infosec,hackthebox,quantum computin
                             <br>
                             <p>
                             {% if post.summary %}
-                             {{ post.summary | strip_html | truncatewords:40 }}
+                             {{ post.summary | strip_html | truncatewords:50 }}
                             {% else %}
-                             {{ post.excerpt | strip_html | truncatewords:40 }}
+                             {{ post.excerpt | strip_html | truncatewords:50 }}
                             {% endif %}
                             </p>
 

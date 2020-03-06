@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      HacktheBox - Personal 'Jarvis' Walkthough 
+title:      HacktheBox - Padraignix 'Jarvis' Walkthough 
 title2:     Hack the Box - Jarvis
 date:       2019-11-09 10:00:00 -0400
 summary:    HTB Jarvis machine walkthrough. Jarvis involved a SQL Injection and a web-shell for initial foothold into sudo and filter bypass to User pivot with a final systemctl abuse to pivot into root.

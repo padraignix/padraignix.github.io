@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      HacktheBox - Personal 'Safe' Walkthough 
+title:      HacktheBox - Padraignix 'Safe' Walkthough 
 title2:      Hack the Box - Safe
 date:       2019-10-26 10:00:00 -0400
 summary:    HTB Safe machine walkthrough. A contentious box from HTB requiring a custom developed ROP (return-oriented programming) exploit tied into cracking a KeepPass database.

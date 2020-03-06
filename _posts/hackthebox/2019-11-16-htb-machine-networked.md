@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      HacktheBox - Personal 'Networked' Walkthough 
+title:      HacktheBox - Padraignix 'Networked' Walkthough 
 title2:     Hack the Box - Networked
 date:       2019-11-16 10:00:00 -0400
 summary:    HTB Networked machine walkthrough. Generally discussed as the easiest of the active boxes at time of retirement there is nothing particularly complex with getting to root.

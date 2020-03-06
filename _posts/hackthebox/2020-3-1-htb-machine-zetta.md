@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      HacktheBox - Personal 'Zetta' Walkthough
+title:      HacktheBox - Padraignix 'Zetta' Walkthough
 title2:     Hack the Box - Zetta
 date:       2020-3-01 12:00:00 -0400
 summary:    HTB Zetta machine walkthrough. Starting with an FTP FXP IPv6 leak, to an rsync brute-force for user access to the machine. Once on, chained custom syslog messages with a postgres SQL injection to pivot user access. Finally, a dubious password policy leads to using discovered credentials and adapting them to the root password for system level access.
@@ -18,8 +18,8 @@ tags:
  - sql
  - ipv6
 ---
-
 <h1>Introduction</h1>
+
 <p align="center">
 <img width="75%" height="75%" src="{{ '/assets/htb-zetta/infocard.PNG' | relative_url }}">
 </p>
