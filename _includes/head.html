@@ -10,6 +10,8 @@
 <meta name="twitter:description" content="{{ page.summary | strip_html | truncatewords:20 }}">
 <meta name="twitter:image" content="{{ page.thumbnail }}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.twitter_username }}" />
+<meta name="twitter:creator" content="@{{ site.twitter_username }}" />
 
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{{ page.summary | strip_html | truncatewords:20 }}">
