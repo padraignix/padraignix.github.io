@@ -1,12 +1,14 @@
 ---
 layout:     post
-title:      HacktheBox - Padraignix 'Writeup' Walkthough 
+title:      HacktheBox Writeup - Writeup - padraignix.github.io 
 title2:     Hack the Box - Writeup
 date:       2019-10-12 11:00:00 -0400
 summary:    HTB Writeup machine walkthrough. A relatively easy with an 'out-of-the-box' CMS exploit for User priviledges and an interesting login behavior abuse to pivot to root from there.
 categories: hack-the-box
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,cms,exploit
+thumbnail:  https://padraignix.github.io/assets/htb-writeup/infocard.PNG
+canon:      https://padraignix.github.io/hack-the-box/2019/10/12/htb-machine-writeup/
 tags:
  - htb
  - cms

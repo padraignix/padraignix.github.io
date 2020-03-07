@@ -7,6 +7,8 @@ summary:    An introductary look into Quantum Computing including the mechanics,
 categories: quantum-computing
 thumbnail:  microchip
 keywords:   quantum computing,qiskit,quantum,python,scripting,coding,hello world,linear algebra,math,qubits,quantum gates,logic gates
+thumbnail:  https://github.com/padraignix.png
+canon:      https://padraignix.github.io/quantum-computing/2020/02/09/quantum-computing-helloworld/
 tags:
  - qiskit
  - quantum-computing

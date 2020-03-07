@@ -1,12 +1,14 @@
 ---
 layout:     post
-title:      HacktheBox - Padraignix 'Jarvis' Walkthough 
+title:      HacktheBox Writeup - Jarvis - padraignix.github.io 
 title2:     Hack the Box - Jarvis
 date:       2019-11-09 10:00:00 -0400
 summary:    HTB Jarvis machine walkthrough. Jarvis involved a SQL Injection and a web-shell for initial foothold into sudo and filter bypass to User pivot with a final systemctl abuse to pivot into root.
 categories: hack-the-box
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,jarvis,sql injection,suid
+thumbnail:  https://padraignix.github.io/assets/htb-jarvis/infocard.PNG
+canon:      https://padraignix.github.io/hack-the-box/2019/11/09/htb-machine-jarvis/
 tags:
  - htb
  - sql-injection

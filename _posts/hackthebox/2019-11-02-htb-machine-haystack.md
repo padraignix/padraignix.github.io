@@ -1,12 +1,14 @@
 ---
 layout:     post
-title:      HacktheBox - Padraignix 'Haystack' Walkthough 
+title:      HacktheBox Writeup - Haystack - padraignix.github.io 
 title2:      Hack the Box - Haystack
 date:       2019-11-02 08:00:00 -0400
 summary:    HTB Haystack machine walkthrough. A particularly well designed ELK (Elasticsearch, Logstash, Kibana) based machine offering a chance to dig into the full logging stack.
 categories: hack-the-box
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,elasticsearch,elk,kibana,logstash,haystack
+thumbnail:  https://padraignix.github.io/assets/htb-haystack/infocard.PNG
+canon:      https://padraignix.github.io/hack-the-box/2019/11/02/htb-machine-haystack/
 tags:
  - htb 
  - walkthrough

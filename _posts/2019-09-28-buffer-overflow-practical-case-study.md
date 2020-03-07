@@ -7,6 +7,8 @@ summary:    A practical buffer overflow case study presentation to our local red
 categories: reverse-engineering
 thumbnail:  cogs
 keywords:	buffer overflows,reverse engineering,RE,capture the flag,CTF,presentations,assembly,shellcode,fuzzing,payloads,gdb,debugger
+thumbnail:  https://github.com/padraignix.png
+canon:      https://padraignix.github.io/reverse-engineering/2019/09/28/buffer-overflow-practical-case-study/
 tags:
  - ctf
  - buffer overflow

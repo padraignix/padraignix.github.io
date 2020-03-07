@@ -1,12 +1,14 @@
 ---
 layout:     post
-title:      HacktheBox - Padraignix 'Craft' Walkthough
+title:      HacktheBox Writeup - Craft - padraignix.github.io
 title2:     Hack the Box - Craft
 date:       2020-1-07 17:00:00 -0400
 summary:    HTB Craft machine walkthrough. A well designed moderate box from HTB that exemplified bad coding practice, sensitive data disclosures and token abuse into root.
 categories: hack-the-box
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,craft,gogs,remote code execution,docker,hasicorp,vault
+thumbnail:  https://padraignix.github.io/assets/htb-craft/infocard.PNG
+canon:      https://padraignix.github.io/hack-the-box/2020/01/07/htb-machine-craft/
 tags:
  - htb 
  - walkthrough
