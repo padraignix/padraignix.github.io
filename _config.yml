@@ -16,7 +16,7 @@ post_limit: 5
 twitter_username: _PatrickDowning
 github_username: padraignix
 instagram_username: 
-reddit_username: 
+reddit_username: Padraignix
 linkedin_link: http://linkedin.com/in/downingpatrick
 google_plus_link: 
 stackoverflow_link:
@@ -24,6 +24,7 @@ xing_link:
 facebook_link:
 hackerone_username: padraignix
 hackthebox_username: 137488
+#twitch_username: padraignix00
 
 # Footer
 #footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
