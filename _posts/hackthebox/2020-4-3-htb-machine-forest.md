@@ -328,5 +328,5 @@ Add-ADPermission "DC=htb,DC=local" -User $id.Name -ExtendedRights Ds-Replication
 *  Keep things simple and use what is present - Instead of creating a new account which can leave incriminating logs and evidence, I should have leverage the svc-alfresco account more.
 *  Avoid uploading files - Similarly instead of sending executables and result files back and forth between hosts I could have tried focusing on remote possibilities.
 
-<p>Overall, it got me to the same conclusion, but the point of going through these exercises is to improve our overall knowledge and thinking processes. This machine definitely achieved that goal.</p> 
+<p>Overall, it got me to the same conclusion, but the point of going through these exercises is to improve our overall knowledge and thinking processes. This machine definitely achieved that goal.</p>
 
