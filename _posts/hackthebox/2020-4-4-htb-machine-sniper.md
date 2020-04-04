@@ -8,7 +8,7 @@ categories: hack-the-box
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,forest,active directory,AD,bloodhound,pass-the-hash,pth,mimikatz
 thumbnail:  https://padraignix.github.io/assets/htb-sniper/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/04/03/htb-machine-sniper/
+canon:      https://padraignix.github.io/hack-the-box/2020/04/04/htb-machine-sniper/
 tags:
  - htb 
  - walkthrough
