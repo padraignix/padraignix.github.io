@@ -329,4 +329,4 @@ Fatal: all target directories/files do not exist
 
 <p align="center">
 <img src="{{ '/assets/htb-registry/root-fun.PNG' | relative_url }}">
-</p>
+</p> 
