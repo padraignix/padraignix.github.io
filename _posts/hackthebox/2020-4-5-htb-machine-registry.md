@@ -8,7 +8,7 @@ categories: hack-the-box
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,registry,docker,git
 thumbnail:  https://padraignix.github.io/assets/htb-registry/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/04/05/htb-machine-sniper/
+canon:      https://padraignix.github.io/hack-the-box/2020/04/05/htb-machine-registry/
 tags:
  - htb 
  - walkthrough
@@ -329,4 +329,4 @@ Fatal: all target directories/files do not exist
 
 <p align="center">
 <img src="{{ '/assets/htb-registry/root-fun.PNG' | relative_url }}">
-</p> 
+</p>
