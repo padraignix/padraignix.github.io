@@ -23,7 +23,7 @@ tags:
 
 <h1>Introduction</h1>
 
-<p>Four challenges to complete in four days - IBM sure knows how to tug at my hearstrings. Initially unaware of the challenge it was only ironically as I was preparing to deliver a Career Week Quantum Computing presentation with a colleague did <a href="https://quantum-computing.ibm.com/challenges/4anniversary">IBM's Quantum Challenge</a> come up in conversation. A quick look at the introductory page and I put on an extra pot of coffee as I knew I would be making up for loss time of the first two days.
+<p>Four challenges to complete in four days - IBM sure knows how to tug at my heartstrings. Initially unaware of the challenge it was only ironically as I was preparing to deliver a Career Week Quantum Computing presentation with a colleague did <a href="https://quantum-computing.ibm.com/challenges/4anniversary">IBM's Quantum Challenge</a> come up in conversation. A quick look at the introductory page and I put on an extra pot of coffee as I knew I would be making up for loss time of the first two days.
 
 <p align="center">
 <img src="{{ '/assets/quantum-computing/quantum-challenge-2020/quantum-challenge-intro.PNG' | relative_url }}">
