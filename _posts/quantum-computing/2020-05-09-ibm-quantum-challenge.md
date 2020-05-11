@@ -422,7 +422,7 @@ V2.draw()
 
 <h3>Optmization</h3>
 
-<p>While our HHU attempt worked because we added two separate circuits together, we should be able to reduce the complexity cost by doing the work prior to invoking isometry - at least that is my assumption in theory. I used <a href="https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.linalg.hadamard.html">scipy.linalg.hadamard</a> in my initial solution, however as I quickly found out it did not work well with this second approach. I needed to switch from generating a 16x16 Hadamard matrix (which by documentation should be using <a href="https://en.wikipedia.org/wiki/Hadamard_matrix#Sylvester's_construction">Sylverster's construction</a>) to using <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.kron.html">numpy.kron</a> to compute my own 16x16 Kronecker product. If we apply this approach we start off with.</p>
+<p>While our HHU attempt worked because we added two separate circuits together, we should be able to reduce the complexity cost by doing the work prior to invoking isometry - at least that is my assumption in theory. I used <a href="https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.linalg.hadamard.html">scipy.linalg.hadamard</a> in my initial solution, however I quickly found out it did not work well with this second approach. I needed to switch from generating a 16x16 Hadamard matrix (which by documentation should also be using <a href="https://en.wikipedia.org/wiki/Hadamard_matrix#Sylvester's_construction">Sylverster's construction</a>) to using <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.kron.html">numpy.kron</a> to compute my own 16x16 Kronecker product. If we apply this approach we start off with.</p>
 
 {% highlight python %}
 h = np.matrix([[1,1], [1,-1]]) / np.sqrt(2)
@@ -443,7 +443,7 @@ qc = transpile(qc,basis_gates=['u3','cx'],optimization_level=3)
 
 <p>Hum... so our cost was drastically reduced, but the solution did not produce the right approximation of U.</p>
 
-<p>Once again the community came to the rescue at this point. I did not fully get it originally, and to be perfectly honest I am still spending time reading into the theory, however I came to understand that since we modified our unitary to be in Hadamard space, we would need to apply H gates on our qubits before and after the circuit to represent our original unitary. This brings our solution to the following.</p>
+<p>Once again the community came to the rescue at this point. I did not fully understand it originally, and to be perfectly honest I am still spending time reading through the theory, however I came to learn that since we modified our unitary to be in Hadamard space, we would need to apply H gates on our qubits before and after the circuit to represent our original unitary. This brings our solution to the following.</p>
 
 {% highlight python %}
 h = np.matrix([[1,1], [1,-1]]) / np.sqrt(2)
@@ -472,7 +472,7 @@ qc = transpile(qc,basis_gates=['u3','cx'],optimization_level=3)
 
 <h1>Conclusion & Next Steps</h1>
 
-<p>This Quantum Challenge was a great continuation down my Quantum journey. As I mentioned in my previous <a href="{{ site.baseurl }}{% link _posts/quantum-computing/2020-02-09-quantum-computing-helloworld.md %}">QC Helloworld</a> post I was already planning on diving into BB84 implementation. Challenge 3 offered me that chance and I definitely want to continue with implementing the algorithm more completely.</p>
+<p>This Quantum Challenge was a great continuation of my Quantum journey. As I mentioned in my previous <a href="{{ site.baseurl }}{% link _posts/quantum-computing/2020-02-09-quantum-computing-helloworld.md %}">QC Helloworld</a> post I was already planning on diving into BB84 implementation. Challenge 3 offered me that chance and I definitely want to continue with implementing the algorithm more completely.</p>
 
 <p>Within a day of the challenge closing IBM issued the digital badge for completing the four exercises. This is a nice addition to the overall challenge in addition to the knowledge gained.</p>
 
@@ -482,6 +482,6 @@ qc = transpile(qc,basis_gates=['u3','cx'],optimization_level=3)
 </a>
 </p>
 
-<p>Additionally, not that I needed further reinforcement, but this challenge highlighted just how much I don't know in the space. While I have a basic Linear Algebra background and a Comp Sci mindset, there were quite a few concepts I did not have enough understanding to apply practically. These will be topics of further reading in the near future.</p>
+<p>Additionally, not that I needed further reinforcement, but this challenge highlighted just how much I don't know in the space. While I have a basic Linear Algebra background and a Comp Sci mindset, while reading some of community's the most efficient approaches to challenge 4 there were quite a few concepts I did not have enough understanding to apply myself. These will be topics of further reading in the near future.</p>
 
 <p>Hopefully you all learned something while reading along with my writeup. As always thanks folks, until next time!</p>
