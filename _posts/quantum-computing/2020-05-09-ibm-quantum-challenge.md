@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Quantum Computing - IBM Quantum Challenge 2020 Writeup
-title2:     IBM Quantum Challenge 2020 Writeup
+title2:     IBM Quantum Challenge 2020
 date:       2020-5-09 08:00:00 -0400
 summary:    Overview and walkthrough of the IBM 4th anniversary Quantum Challenge excercises and my solutions.
 categories: quantum-computing

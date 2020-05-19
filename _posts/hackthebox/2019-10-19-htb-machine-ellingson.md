@@ -356,7 +356,7 @@ p.interactive()
       <ul>
         <li>Go back to the other ROP exploit and see if using <code>pwn lib</code> makes the exploit easier than my kludgey way of doing it.</li>
         <li>Explore further the functionality of <code>pwn lib</code> and what else it can offer / become more familiar with the various uses.</li>
-        <li>Follow up my first <a href="{{ site.baseurl }}{% link _posts/2019-09-28-buffer-overflow-practical-case-study.md %}">buffer overflow</a> presentation with a second one covering ROP and more advanced topics.</li>
+        <li>Follow up my first <a href="{{ site.baseurl }}{% link _posts/reverse-engineering/2019-09-28-buffer-overflow-practical-case-study.md %}">buffer overflow</a> presentation with a second one covering ROP and more advanced topics.</li>
       </ul>
 </p>
 <p>Thanks folks. Until next time.</p>
