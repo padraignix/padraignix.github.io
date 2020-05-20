@@ -172,7 +172,7 @@ tags:
 <img src="{{ '/assets/nsec2020/nsec2020-dc1-newprocess.PNG' | relative_url }}">
 </p>
 
-<p>Alright we can understand why our previous attempts were not working. Seems the decompilation wasn't exactly accurate and gave us bad advice! With our proper understand let's give "171270" a shot. That should satisfy all our parameters.</p>
+<p>Alright we can see why our previous attempts were not working. Seems the decompilation wasn't exactly accurate and gave us bad advice! With our proper understanding let's give "171270" a shot. That should satisfy all our parameters.</p>
 
 <p align="center">
 <img src="{{ '/assets/nsec2020/nsec2020-dc1-flag.gif' | relative_url }}">
