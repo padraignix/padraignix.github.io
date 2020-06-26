@@ -11,11 +11,14 @@ canon:      https://padraignix.github.io/posts/
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h1 class="header" itemprop="headline">All posts</h1>
+    <h1 class="header" itemprop="headline">All Posts by Category</h1>
 
     {% for category in site.categories %}
     <div class="col-md-12 content-panel articles">
-      <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
+      <!-- This is where twisty goes in -->
+      <details>
+      <summary>{{ category | first }}</summary>
+      
       <ul>
         {% for posts in category %}
           {% for post in posts %}
@@ -43,6 +46,7 @@ canon:      https://padraignix.github.io/posts/
         {% endfor %}
 
       </ul>
+    </details>
     </div>
     {% endfor %}
 
