@@ -17,7 +17,7 @@ canon:      https://padraignix.github.io/posts/
     <div class="col-md-12 content-panel articles">
       <!-- This is where twisty goes in -->
       <details>
-      <summary>{{ category | first }}</summary>
+      <summary>{{ category | first }} ({{ category[1].size }})</summary>
       
       <ul>
         {% for posts in category %}
