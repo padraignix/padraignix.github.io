@@ -7,7 +7,7 @@ summary:    Initial post covering my personal project of an "organization in a b
 categories: org-in-a-box
 thumbnail:  cogs
 keywords:   org-in-a-box,identity management,access management,IAM,architecture,organizational planning,personal project,raspberry pi,pi
-thumbnail:  https://padraignix.github.io/assets/org-in-a-box/infocard-architecture.PNG
+thumbnail:  https://padraignix.github.io/assets/org-in-a-box/infocard-architecture.png
 canon:      https://padraignix.github.io/org-in-a-box/2020/07/23/org-in-a-box-architecture/
 tags:
  - org-in-a-box
@@ -18,7 +18,7 @@ tags:
 ---
 
 <p align="center">
-<img width="70%" height="70%" src="{{ '/assets/org-in-a-box/infocard-architecture.PNG' | relative_url }}">
+<img width="70%" height="70%" src="{{ '/assets/org-in-a-box/infocard-architecture.png' | relative_url }}">
 </p>
 
 <h1>Introduction & Plans</h1>
