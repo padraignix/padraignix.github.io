@@ -197,12 +197,16 @@ ul {
 		color: $google-plus;
 	}
 	
-	.icon-hackerone:hover {
-		color: $dark-green;
+	.icon-favicon:hover {
+		color: $red;
 	}
 
 	.fa-twitch:hover {
 		color: $medium-purple;
+	}
+
+	.icon-3dcube:hover {
+		color: $dark-green;
 	}
 
 	.fa-github:hover {
@@ -314,12 +318,19 @@ ul {
 			color: $dark-green;
 			font-size: 26px;
 		}
-
+		
 		summary {
 			margin-bottom: 30px;
 			color: $dark-green;
 			font-size: 26px;
 		}
+
+			p {
+				margin-bottom: 30px;
+				color: $white;
+				font-size: 26px;
+			}		
+
 
 		ul {
 
