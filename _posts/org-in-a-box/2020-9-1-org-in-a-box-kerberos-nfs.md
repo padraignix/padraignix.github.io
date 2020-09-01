@@ -7,7 +7,7 @@ summary:    Second post covering my personal project of an "organization in a bo
 categories: org-in-a-box
 thumbnail:  cogs
 keywords:   org-in-a-box,identity management,access management,IAM,Kerberos,MIT Kerberos,replication,nfs,nfsv4,lessonslearned,authentication
-thumbnail:  https://padraignix.github.io/assets/org-in-a-box/infocard-architecture.PNG
+thumbnail:  https://padraignix.github.io/assets/org-in-a-box/infocard-architecture.png
 canon:      https://padraignix.github.io/org-in-a-box/2020/09/01/org-in-a-box-kerberos-nfs/
 tags:
  - org-in-a-box
