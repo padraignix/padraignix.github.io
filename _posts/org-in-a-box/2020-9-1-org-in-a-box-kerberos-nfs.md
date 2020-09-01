@@ -8,7 +8,7 @@ categories: org-in-a-box
 thumbnail:  cogs
 keywords:   org-in-a-box,identity management,access management,IAM,Kerberos,MIT Kerberos,replication,nfs,nfsv4,lessonslearned,authentication
 thumbnail:  https://padraignix.github.io/assets/org-in-a-box/infocard-architecture.PNG
-canon:      https://padraignix.github.io/org-in-a-box/2020/07/07/org-in-a-box-architecture/
+canon:      https://padraignix.github.io/org-in-a-box/2020/09/01/org-in-a-box-kerberos-nfs/
 tags:
  - org-in-a-box
  - authentication
@@ -17,7 +17,7 @@ tags:
 ---
 
 <p align="center">
-<img width="70%" height="70%" src="{{ '/assets/org-in-a-box/infocard-architecture.PNG' | relative_url }}">
+<img width="70%" height="70%" src="{{ '/assets/org-in-a-box/infocard-architecture.png' | relative_url }}">
 </p>
 
 <h1>Introduction</h1>
