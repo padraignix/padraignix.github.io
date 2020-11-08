@@ -199,4 +199,4 @@ kali@kali:~/Desktop/HTB$ cat /etc/hosts
 
 <p>And with that our journey with tabby comes to an end. After taking a few months off for various things ongoing this was a nice box to shake the rust off and get back into it.</p>
 
-<p>Thanks folks, until next time!</p>
+<p>Thanks folks, until next time! </p>
