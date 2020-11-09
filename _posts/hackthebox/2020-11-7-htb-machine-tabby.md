@@ -59,13 +59,14 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 <p>A couple Apache instances, SSH, and an interesting REST API port for LXD. Let's start off with taking a look at the first Apache instance.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-mainpage.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-mainpage.PNG" data-lightbox="image1"><img src="{{ '/assets/htb-tabby/recon-mainpage.PNG' | relative_url }}"></a>
 </p>
+
 
 <p>Nothing too exciting on the page until we hit one of the tab redirects...</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-megahost.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-megahost.PNG" data-lightbox="image2"><img src="{{ '/assets/htb-tabby/recon-megahost.PNG' | relative_url }}"></a>
 </p>
 
 <p>Alright time to add the domain to our hosts file and retry.</p>
@@ -78,71 +79,71 @@ kali@kali:~/Desktop/HTB$ cat /etc/hosts
 {% endhighlight %}
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-megahost2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-megahost2.PNG" data-lightbox="image3"><img src="{{ '/assets/htb-tabby/recon-megahost2.PNG' | relative_url }}"></a>
 </p>
 
 <p>Well that's sure an interesting message. It also looks like it pulling a local file using <code>file=</code>. Seems like a prime LFI candidate. Let's see if we can pop out some information.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-lfi.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-lfi.PNG" data-lightbox="image4"><img src="{{ '/assets/htb-tabby/recon-lfi.PNG' | relative_url }}"></a>
 </p>
 
 <p>Excellent, good progress so far. We learn that there is a user named <code>ash</code>. Unfortunately without a hint as to where to look there isn't much more progress that can be done here. Let's table the LFI for use later and move on to the other Apache instance under port 8080.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apache2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apache2.PNG" data-lightbox="image5"><img src="{{ '/assets/htb-tabby/recon-apache2.PNG' | relative_url }}"></a>
 </p>
 
 <p>Oh ho ho the pieces are starting to come together! By clicking on manager-webapp and host-manager webapp were are presented with Basic auth. With the additional information provided we also know the root structure is under <code>/usr/share/tomcat9</code> and are also given the location of the credential file at <code>/etc/tomcat9/tomcat-users.xml</code>. We should be able to leverage our previous LFI capability to access the credentials! One thing to note here is the final location is <u>not</u> <code>/etc/tomcat9/tomcat-users.xml</code> as that location is relative to the base of the instance, which is under <code>/usr/share/tomcat9</code> giving us an ultimate final location of <code>/usr/share/tomcat9/etc/tomcat9/tomcat-users.xml</code>. Sure enough we see the results come through our BURP listener when triggered.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-tomcatcreds.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-tomcatcreds.PNG" data-lightbox="image6"><img src="{{ '/assets/htb-tabby/recon-tomcatcreds.PNG' | relative_url }}"></a>
 </p>
 
 <p>Other than the obvious user creds the interesting note is just above in the comments - specifically talking about the <code>manager-gui</code> role, which unfortunately our credentials don't possess. This may limit us, but one step at a time, let's log on and see what we can do.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger.PNG" data-lightbox="image7"><img src="{{ '/assets/htb-tabby/recon-apachemanger.PNG' | relative_url }}"></a>
 </p>
 
 <p>Sure enough as soon as we start going past the main page we start getting hit with the denial stick. We do have manager-script entitlements however, so we should in theory be able to run all these admin commands using curl calls. Let's take a quick look at the documentation and give that a shot.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-curl.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-curl.PNG" data-lightbox="image8"><img src="{{ '/assets/htb-tabby/recon-apachemanger-curl.PNG' | relative_url }}"></a>
 </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-curl2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-curl2.PNG" data-lightbox="image9"><img src="{{ '/assets/htb-tabby/recon-apachemanger-curl2.PNG' | relative_url }}"></a>
 </p>
 
 <p>Perfect now if we keep reading through the documentation we see there is a possibility to upload our own WAR applications. We can create a malicious file using msvenom, upload it using our manager-script entitlements, and then all things running smoothly be able to trigger it at will. Only one way to find out if it works.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-deploy.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-deploy.PNG" data-lightbox="image10"><img src="{{ '/assets/htb-tabby/recon-apachemanger-deploy.PNG' | relative_url }}"></a>
 </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-msvenom.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-msvenom.PNG" data-lightbox="image11"><img src="{{ '/assets/htb-tabby/recon-apachemanger-msvenom.PNG' | relative_url }}"></a>
 </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-deploy2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-deploy2.PNG" data-lightbox="image12"><img src="{{ '/assets/htb-tabby/recon-apachemanger-deploy2.PNG' | relative_url }}"></a>
 </p>
 
 <p>Now let's see if it is actually there.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-curl3.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-curl3.PNG" data-lightbox="image13"><img src="{{ '/assets/htb-tabby/recon-apachemanger-curl3.PNG' | relative_url }}"></a>
 </p>
 
 <p>All that is left is to trigger it with a local listener on 4444.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-apachemanger-curl4.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-apachemanger-curl4.PNG" data-lightbox="image14"><img src="{{ '/assets/htb-tabby/recon-apachemanger-curl4.PNG' | relative_url }}"></a>
 </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/recon-foothold.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/recon-foothold.PNG" data-lightbox="image15"><img src="{{ '/assets/htb-tabby/recon-foothold.PNG' | relative_url }}"></a>
 </p>
 
 <h1>User exploitation</h1>
@@ -150,29 +151,29 @@ kali@kali:~/Desktop/HTB$ cat /etc/hosts
 <p>Now unfortunately we only have a foothold as the tomcat user and as such do not have access to the user flag (which we now confirm is <code>ash</code> by checking /home/ash). After some poking around we managed to find a backup zip file owned by ash. </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/user-backup.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/user-backup.PNG" data-lightbox="image16"><img src="{{ '/assets/htb-tabby/user-backup.PNG' | relative_url }}"></a>
 </p>
 
 <p>Popping that over to our host we see it is password protected. Seems as good an avenue as any to crack.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/user-backup2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/user-backup2.PNG" data-lightbox="image17"><img src="{{ '/assets/htb-tabby/user-backup2.PNG' | relative_url }}"></a>
 </p>
 
 <p>We prep the hash file using zip2john and run that through our trusty rockyou list. Sure enough within a few seconds we find the password - <code>admin@it</code>.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/user-john.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/user-john.PNG" data-lightbox="image18"><img src="{{ '/assets/htb-tabby/user-john.PNG' | relative_url }}"></a>
 </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/user-john2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/user-john2.PNG" data-lightbox="image19"><img src="{{ '/assets/htb-tabby/user-john2.PNG' | relative_url }}"></a>
 </p>
 
 <p>At this point the assumption was that ash used their own password to encrypt the zip. Let us see if we can pivot over using the new creds.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/user-owned.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/user-owned.PNG" data-lightbox="image20"><img src="{{ '/assets/htb-tabby/user-owned.PNG' | relative_url }}"></a>
 </p>
 
 <p>Sure enough, user down!</p>
@@ -184,17 +185,17 @@ kali@kali:~/Desktop/HTB$ cat /etc/hosts
 <p>Following along with the instructions we get ourselves an Alpine image. We quickly pop that over to our local Apache instance and get it over to the host as ash. I had to go through an <code>lxd init</code> to get the environment on the host ready, however once completed everything worked like a charm.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/root-lxd.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/root-lxd.PNG" data-lightbox="image21"><img src="{{ '/assets/htb-tabby/root-lxd.PNG' | relative_url }}"></a>
 </p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/root-lxd2.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/root-lxd2.PNG" data-lightbox="image22"><img src="{{ '/assets/htb-tabby/root-lxd2.PNG' | relative_url }}"></a>
 </p>
 
 <p>All that is left is to navigate to our mounted root location (/mnt/root) and proceed to the usual /root/root.txt location.</p>
 
 <p align="center">
-<img src="{{ '/assets/htb-tabby/root-owned.PNG' | relative_url }}">
+<a href="/assets/htb-tabby/root-owned.PNG" data-lightbox="image23"><img src="{{ '/assets/htb-tabby/root-owned.PNG' | relative_url }}"></a>
 </p>
 
 <p>And with that our journey with tabby comes to an end. After taking a few months off for various things ongoing this was a nice box to shake the rust off and get back into it.</p>
