@@ -3,7 +3,7 @@ layout:     post
 title2:      Org-in-a-Box - Project Architecture - padraignix.github.io
 title:     Org-in-a-Box - Architecture
 date:       2020-7-23 10:00:00 -0400
-summary:    Initial post covering my personal project of an "organization in a box". Using fundamental open source Identity and Access Management components of an organization in a self-contained box to explore and expand knowledge of those various components. This article will cover the overall architecture and help establish the high level plan moving forward.
+summary:    Initial post covering my personal project of an organization in a box. Using fundamental open source Identity and Access Management components of an organization in a self-contained box to explore and expand knowledge of those various components. This article will cover the overall architecture and help establish the high level plan moving forward.
 categories: [org-in-a-box]
 thumbnail:  cogs
 keywords:   org-in-a-box,identity management,access management,IAM,architecture,organizational planning,personal project,raspberry pi,pi

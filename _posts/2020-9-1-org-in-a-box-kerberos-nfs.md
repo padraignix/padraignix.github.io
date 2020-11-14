@@ -3,7 +3,7 @@ layout:     post
 title:      Org-in-a-Box - Kerberos & NFS
 title2:     Org-in-a-Box - Kerberos & NFS - padraignix.github.io
 date:       2020-9-1 14:00:00 -0400
-summary:    Second post covering my personal project of an "organization in a box". Based on the initial architecture this article goes over partially setting up the first two authentication servers in the project leveraging MIT Kerberos and NFSv4. These hosts will serve as the core base for the rest of the Org-in-a-Box project and a subsequent post will cover the LDAP and DBIS configuration on these hosts.
+summary:    Second post covering my personal project of an organization in a box. Based on the initial architecture this article goes over partially setting up the first two authentication servers in the project leveraging MIT Kerberos and NFSv4. These hosts will serve as the core base for the rest of the Org-in-a-Box project and a subsequent post will cover the LDAP and DBIS configuration on these hosts.
 categories: [org-in-a-box]
 thumbnail:  cogs
 keywords:   org-in-a-box,identity management,access management,IAM,Kerberos,MIT Kerberos,replication,nfs,nfsv4,lessonslearned,authentication
