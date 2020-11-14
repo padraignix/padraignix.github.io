@@ -1,50 +1,25 @@
 ---
-layout: default
-title: 404
+# The 404 page
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT License
+layout: page
+title: "404: Page not found"
 permalink: /404.html
+
+redirect_from:  # part of site.sitemap_exclude
+  - /norobots/
+  - /assets/
+  - /tabs/
+  - /categories/
+  - /tags/
+  - /posts/
+
+dynamic_title: true
 ---
 
-<div class="container-fluid index error">
-  <div class="row">
-
-    <div class="col-md-12 content-panel articles">
-      <h1 class="header author-header">404</h1>
-
-      <div class="error-text">
-        Sorry but this page doesn't seem to exist.
-      </div>
-
-      <div class="error-text">
-        <a href="{{ site.baseurl }}/">Home</a> |
-        <a href="{{ site.baseurl }}/about/">About</a> |
-        <a href="{{ site.baseurl }}/posts/">All Posts</a> |
-        <a href="{{ site.baseurl }}/search/">Search</a>
-      </div>
-
-      {% include social_links.html %}
-
-    </div>
-
-  </div>
-
-  <div class="content-panel related">
-    {% for post in site.posts limit:1 %}
-      <div class="related-header">
-        <a href="{{ site.baseurl }}{{ post.url }}">Suggested Article</a>
-      </div>
-      <div class="title">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title2 }}</a>
-      </div>
-      <div class="excerpt">
-         {% if post.summary %}
-          {{ post.summary | strip_html | truncatewords:30 }}
-         {% else %}
-          {{ post.excerpt | strip_html | truncatewords:30 }}
-         {% endif %}
-         <br>
-        <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
-      </div>
-    {% endfor %}
-  </div>
-
+<div class="lead">
+  <p>Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. </p>
+  <p><a href="{{ site.baseurl }}/">Head back Home</a> to try finding it again, or search for it on the <a href="{{ site.baseurl }}/tabs/archives">Archives page</a>.</p>
 </div>

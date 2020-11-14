@@ -1,67 +1,12 @@
 ---
-layout: default
-make-smaller-titles: true
+layout: home
+breadcrumb:
+  -
+    label: Posts
+
 title: Padraignix's InfoSec Blog - Main Page
 summary: Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
 keywords: hacking, blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
 thumbnail:  https://github.com/padraignix.png
 canon:      https://padraignix.github.io
 ---
-
-
-<div class="container-fluid index">
-    <div class="row">
-
-        <div class="col-md-12 main content-panel">
-
-            <div class="gravatar">
-                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-            </div>
-
-            <h1 class="header author-header" itemprop="headline">Padraignix's InfoSec Blog<i class='blink'>_</i></h1>
-
-            <div class="author-text">
-                {{ site.title_description }}
-            </div>
-
-            {% include social_links.html %}
-          </div>
-          <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>Latest Articles</h2>
-
-              <ul>
-                  {% for post in site.posts limit: site.post_limit %}
-
-                      <li>
-                          
-                        <div class="related">
-                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title2 }}</a>
-                            <br>
-                            <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-                            <br>
-                            <p>
-                            {% if post.summary %}
-                             {{ post.summary | strip_html | truncatewords:50 }}
-                            {% else %}
-                             {{ post.excerpt | strip_html | truncatewords:50 }}
-                            {% endif %}
-                            </p>
-
-                          
-                        </div>
-                      </li>
-                  {% endfor %}
-                  <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-        </div>
-
-    </div>
-</div>

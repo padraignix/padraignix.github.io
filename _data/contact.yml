@@ -1,0 +1,33 @@
+#  The contact options.
+#  v2.3
+#  https://github.com/cotes2020/jekyll-theme-chirpy
+#  © 2020 Cotes Chung
+#  MIT Licensed
+
+-
+  type: twitter
+  icon: 'fab fa-twitter'
+-
+  type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/downingpatrick/'                  # Fill with your Linkedin homepage
+-
+  type: reddit
+  icon: 'fab fa-reddit-alien'
+  url:  'https://www.reddit.com/user/Padraignix'
+-
+  type: github
+  icon: 'fab fa-github-alt'    
+-
+  type: hackthebox
+  icon: 'icon-3dcube'
+  url:  https://www.hackthebox.eu/profile/137488
+#-
+#  type: ctftimes
+#  icon: 'icon-faviconn'
+#  url:  https://ctftime.org/user/{{ site.ctftime_username }}
+-
+  type: rss
+  icon: 'fas fa-rss'
+  noblank: true   
+
