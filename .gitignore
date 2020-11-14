@@ -1,5 +1,7 @@
 # hidden files
-.*
+.git
+.jekyll-cache
+
 
 # python compiled files
 *.pyc
