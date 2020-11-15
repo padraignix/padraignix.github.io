@@ -10,18 +10,25 @@
 
   <div class="access">
 
-  {% if site.data.updates %}
+  <!--{% if site.data.updates %}-->
 
-    {% include update-list.html %}
+    <!--{% include update-list.html %}-->
 
-    {% if update_list.size > 0 %}
+    <!--{% if update_list.size > 0 %}-->
 
     <div id="access-lastmod" class="post">
       <span>{{- site.data.label.panel.lastmod -}}</span>
       <ul class="post-content pl-0 pb-1 ml-1 mt-2">
 
+      {% for post in site.posts limit: 5 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+      {% endfor %}
+<!-- Here is where we change logic to not be off of git commits as it's messy and unnecessary 
       {% for item in update_list %}
-        {% assign post_url = item | split: "::" | last | url_encode | prepend: "/" | append: "/" %}
+        {% assign post_url = item | split: "::" | last | url_encode | prepend: "/hack-the-box" | append: "/" %}
+        
         {% assign post = site.posts | where: "url", post_url | first %}
 
         {% if post %}
@@ -30,13 +37,13 @@
         {% endif %}
 
       {% endfor %}
-
+-->
       </ul>
     </div><!-- #access-lastmod -->
 
-    {% endif %}
+    <!--{% endif %}-->
 
-  {% endif %} <!-- site.data.updates -->
+  <!--{% endif %}--> <!-- site.data.updates -->
 
   {% include trending-tags.html %}
 
@@ -54,7 +61,7 @@
     </div>
   {% endif %}
   </div> <!-- .access -->
-
+  
   {% if page.layout == 'post' and site.toc and page.toc %}
   <div id="toc-wrapper" class="pl-0 pr-4 mb-5">
     <span class="pl-3 pt-2 mb-2">
