@@ -83,6 +83,7 @@ _build() {
       git -C "$dest" add .
       git -C "$dest" commit -m "[Automation] Update site files." -q
       echo -e "\nPlease push the changes of $dest to remote master branch.\n"
+      #dest="${WORK_DIR}/_site"
     fi
   fi
 
