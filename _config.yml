@@ -57,9 +57,9 @@ google_analytics:
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
     enabled: false
     # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    proxy_url: 'https://padraignixbloganalytics.uk.r.appspot.com/query?id=ahlkfnBhZHJhaWduaXhibG9nYW5hbHl0aWNzchULEghBcGlRdWVyeRiAgIDo14eBCgw&format=jsonp'
+    proxy_endpoint: 'https://padraignixbloganalytics.uk.r.appspot.com/query?id=ahlkfnBhZHJhaWduaXhibG9nYW5hbHl0aWNzchULEghBcGlRdWVyeRiAgIDo14eBCgw&format=jsonp'
+    cache: true  # pv data local cache, good for the users from GFW area.
 
 addthis_id: ra-5d90e1af4e80d2a2
 

@@ -33,5 +33,5 @@ fi
 
 if [[ $related_dir == "_posts" ]]; then
   bash "$3"/_scripts/sh/create_pages.sh
-  bash "$3"/_scripts/sh/dump_lastmod.sh
+  #bash "$3"/_scripts/sh/dump_lastmod.sh
 fi
