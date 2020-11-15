@@ -470,7 +470,7 @@ qc = transpile(qc,basis_gates=['u3','cx'],optimization_level=3)
 
 <h1>Conclusion & Next Steps</h1>
 
-<p>This Quantum Challenge was a great continuation of my Quantum journey. As I mentioned in my previous <a href="{{'_posts/quantum-computing/2020-02-09-quantum-computing-helloworld.md' | relative_url }}">QC Helloworld</a> post I was already planning on diving into BB84 implementation. Challenge 3 offered me that chance and I definitely want to continue with implementing the algorithm more completely.</p>
+<p>This Quantum Challenge was a great continuation of my Quantum journey. As I mentioned in my previous <a href="{{ site.baseurl }}{% link _posts/2020-02-09-quantum-computing-helloworld.md %}">QC Helloworld</a> post I was already planning on diving into BB84 implementation. Challenge 3 offered me that chance and I definitely want to continue with implementing the algorithm more completely.</p>
 
 <p>Within a day of the challenge closing IBM issued the digital badge for completing the four exercises. This is a nice addition to the overall challenge in addition to the knowledge gained.</p>
 

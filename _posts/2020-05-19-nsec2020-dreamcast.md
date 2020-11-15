@@ -16,7 +16,7 @@ tags:
  - ghidra
  - gdb
  - dreamcast
- - emulation
+ - emulation 
 ---
 
 <h1>Introduction</h1>
@@ -24,7 +24,7 @@ tags:
 <img width="85%" height="85%" src="{{ '/assets/nsec2020/infocard-dreamcast.PNG' | relative_url }}">
 </p>
 
-<p>As mentioned in my previous <a href="{{ '_posts/reverse-engineering/2020-05-18-nsec2020-crackme.md' | relative_url }}">post</a> I will be covering the two <a href="https://www.nsec.io/">NSEC 2020 CTF</a> Dreamcast challenges, my approaches, and solutions. As a fan of both reverse engineering and emulation in general as soon as I saw these challenges I immediately knew I wanted to tackle them. While I had a bit of background with earlier Chip8 and GameBoy architecture and basic emulation loops I was previously not familiar with the Dreamcast's SH-4 CPU architecture. As I will cover below I was initially confused by some of the decompilation output of the challenge ROMs, however after some further reading and analyzing the machine code directly rather than the incorrectly decompiled output I was able to make sense and finish the first challenge. The second challenge was similarly created and with the previous leg work done on the first challenge it took much less time to complete.</p>
+<p>As mentioned in my previous <a href="{{ site.baseurl }}{% link _posts/2020-05-18-nsec2020-crackme.md %}">post</a> I will be covering the two <a href="https://www.nsec.io/">NSEC 2020 CTF</a> Dreamcast challenges, my approaches, and solutions. As a fan of both reverse engineering and emulation in general as soon as I saw these challenges I immediately knew I wanted to tackle them. While I had a bit of background with earlier Chip8 and GameBoy architecture and basic emulation loops I was previously not familiar with the Dreamcast's SH-4 CPU architecture. As I will cover below I was initially confused by some of the decompilation output of the challenge ROMs, however after some further reading and analyzing the machine code directly rather than the incorrectly decompiled output I was able to make sense and finish the first challenge. The second challenge was similarly created and with the previous leg work done on the first challenge it took much less time to complete.</p>
 
 <h1>Dreamcast Background</h1>
 

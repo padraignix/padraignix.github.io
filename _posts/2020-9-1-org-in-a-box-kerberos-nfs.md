@@ -13,7 +13,7 @@ tags:
  - org-in-a-box
  - authentication
  - kerberos
- - nfs
+ - nfs 
 ---
 
 <p>
@@ -22,7 +22,7 @@ tags:
 
 <h1>Introduction</h1>
 
-<p>The second post covering my personal project of an "organization in a box". Based on the <a href="{{ '_posts/org-in-a-box/2020-7-23-org-in-a-box-architecture.md' | relative_url }}">initial architecture</a> this article goes over partially setting up the first two authentication servers in the project leveraging MIT Kerberos and NFSv4. These hosts will serve as the base for the rest of the Org-in-a-Box project and a subsequent post will cover the LDAP and DBIS configuration on these hosts.</p>
+<p>The second post covering my personal project of an "organization in a box". Based on the <a href="{{ site.baseurl }}{% link _posts/2020-7-23-org-in-a-box-architecture.md %}">initial architecture</a> this article goes over partially setting up the first two authentication servers in the project leveraging MIT Kerberos and NFSv4. These hosts will serve as the base for the rest of the Org-in-a-Box project and a subsequent post will cover the LDAP and DBIS configuration on these hosts.</p>
 
 <h1>Host Prep Work</h1>
 

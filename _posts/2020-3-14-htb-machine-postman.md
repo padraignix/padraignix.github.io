@@ -22,7 +22,7 @@ tags:
 <img width="75%" height="75%" src="{{ '/assets/htb-postman/infocard.PNG' | relative_url }}">
 </p>
 
-<p>Postman was a quick, simple machine from HTB. We start off with a redis exploit for initial foothold, then pivot to user by using JTR to crack a backup SSH key before finally using an authenticated Webmin exploit to escalate ourselves to root. The only real tricky part of the machine was having to do a bit of guess work of the redis user's home directory. Otherwise, this machine was a welcome mental break from some of the previous harder ones like <a href="{{ '_posts/hackthebox/2020-3-7-htb-machine-bankrobber.md' | relative_url }}">Bankrobber</a> or <a href="{{ '_posts/hackthebox/2020-3-1-htb-machine-zetta.md' | relative_url }}">Zetta</a>.</p>
+<p>Postman was a quick, simple machine from HTB. We start off with a redis exploit for initial foothold, then pivot to user by using JTR to crack a backup SSH key before finally using an authenticated Webmin exploit to escalate ourselves to root. The only real tricky part of the machine was having to do a bit of guess work of the redis user's home directory. Otherwise, this machine was a welcome mental break from some of the previous harder ones like <a href="{{ site.baseurl }}{% link _posts/2020-3-7-htb-machine-bankrobber.md %}">Bankrobber</a> or <a href="{{ site.baseurl }}{% link _posts/2020-3-1-htb-machine-zetta.md %}">Zetta</a>.</p>
 
 <h1>Initial Recon</h1>
 
