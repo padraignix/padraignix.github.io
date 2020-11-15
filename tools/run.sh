@@ -98,7 +98,7 @@ _check_command() {
 _run() {
   cd "$CONTAINER"
   bash _scripts/sh/create_pages.sh
-  bash _scripts/sh/dump_lastmod.sh
+  #bash _scripts/sh/dump_lastmod.sh
 
   if $realtime; then
 
