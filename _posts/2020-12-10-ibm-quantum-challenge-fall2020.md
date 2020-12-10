@@ -432,7 +432,7 @@ qc.rccx(tile_qubits[0],tile_qubits[5],aux[0])
 {% endhighlight %}
 
 <p>
-<a href="/assets/quantum-computing/quantum-challenge-fall2020/10ksol.png" data-lightbox="image1"><img src="{{ '/assets/quantum-computing/quantum-challenge-fall2020/20ksol.png' | relative_url }}"></a>
+<a href="/assets/quantum-computing/quantum-challenge-fall2020/20ksol.png" data-lightbox="image1"><img src="{{ '/assets/quantum-computing/quantum-challenge-fall2020/20ksol.png' | relative_url }}"></a>
 </p>
 
 {% highlight python %}
@@ -711,5 +711,7 @@ qc.u(pi/2,0,3*pi/4,aux[1])
 <p>Secondly the issues and restrictions with the grader were frustrating. If the grader wasn't working properly that is one thing, technical issues happen. The more frustrating aspect was having to constantly doubt myself that my approach was "valid". I still don't fully know either! The rules were not necessarily clear, and the restrictions on what we could do and not do limited my willingness to be more creative in certain aspects.</p>
 
 <p>Overall I really enjoyed the event. I learned a ridiculous amount over the three weeks! Even after the event closed I was still looking at my code and having discussions with other participants to continue that knowledge momentum. At the end of the day this is what it is all about - improving ourselves and pushing the envelop forward. Back in May I barely understood what was happening and managed to hobble through to completion. This time around, only a few months later, I understood enough to start diving into academic work and trying to apply it practically. I'm looking forward to dive deeper into certain topics I barely scraped the surface of and applying the new knowledge when the next Qiskit event rolls around!</p>
+
+<p>For anyone who is interested I put up my challenge notebooks on my <a href="https://github.com/padraignix/ibm-quantum-challenge-fall2020">Github Repo</a>. 
 
 <p>Thanks folks, until next time!</p>
