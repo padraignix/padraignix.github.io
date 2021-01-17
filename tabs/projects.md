@@ -17,7 +17,7 @@ Alright so 2020 had a curve balls at what I originally had planned for the year.
 
 ### CISM - ISACA
 
-A few years ago I went through the [CISA](https://www.isaca.org/credentialing/cisa) certification process. In 2020 I applied and received a [CDPSE](https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer) designation. Time to continue the ISACA journy and finish the [CISM](https://www.isaca.org/credentialing/cism) certification. 
+A few years ago I went through the [CISA](https://www.isaca.org/credentialing/cisa) certification process. In 2020 I applied and received a [CDPSE](https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer) designation. Time to continue the ISACA journey and finish the [CISM](https://www.isaca.org/credentialing/cism) certification. 
 
 ---
 
@@ -35,4 +35,4 @@ The crowning jewel of creating a local infrastructure lab. I am planning on crea
 
 ### Shogi
 
-Near the end of 2020 I was introduced to the world of Japanese Chess, known as Shogi. This happened in a twofold way at the end of the year. The first part relates to binging the Netflix series "Queen's Gambit" which to it's credit did reinvigortate my early love of chess. As young as 7 I was competing provincially (with a decidedly quick defeat in my one national match) however I never continued my development after those early years other than playing a match or two here and there. The second part of this equation relates to playing a decent amount of Persona 5 Royal, more specifically interacting with one of the "confidants" in the game who is a professional Shogi player. With these two aspects intersecting I found myself investigating the world of Shogi more directly and fell for it immediately. I'm currently working through tsumes (puzzle challenges) and hoping to become more proficient throughout the year.
+Near the end of 2020 I was introduced to the world of Japanese Chess known as Shogi. This happened in a twofold way at the end of the year. The first part relates to binging the Netflix series "Queen's Gambit" which to its credit did reinvigortate my early love of chess. As young as 7 I was competing provincially (with a decidedly quick defeat in my one national match) however I never continued my development after those early years other than playing a match or two here and there. The second part of this equation relates to playing a decent amount of Persona 5 Royal, more specifically interacting with one of the "confidants" in the game who is a professional Shogi player. With these two aspects intersecting I found myself investigating the world of Shogi more directly and fell for it immediately. I'm currently working through tsumes (puzzle challenges) and hoping to become more proficient throughout the year.
