@@ -1,7 +1,7 @@
 # hidden files
 .git
 .jekyll-cache
-
+.container
 
 # python compiled files
 *.pyc
