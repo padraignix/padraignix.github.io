@@ -21,7 +21,7 @@ tags:
 <p>
 <img width="65%" height="65%" src="{{ '/assets/nsec2021/ctf/choir/infocard.png' | relative_url }}">
 </p>
-
+ 
 <p>Choir of "Infinite" Verses was an interesting cryptography challenge part of NSEC 2021's CTF. Once we gathered an initial understanding of how the code work it was a matter of realizing the insecure implementation of RC4, specifically with nonce reuse, then abusing this configuration to craft and encrypt our own malicious cookie.</p>
 
 <p>Challenges like this are nice in that they very quickly highlight the criticality of properly configuring cryptographic implemantions as the smallest mistake can completely break down the system.</p>
