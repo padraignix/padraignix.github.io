@@ -8,7 +8,7 @@ categories: [ctf]
 thumbnail:  cogs
 keywords:   northsec,nsec,nsec2021,ctf,writeup,binary,reverse engineering,esp32,re,ghidra,firmware,badgelife
 thumbnail:  https://padraignix.github.io/assets/nsec2021/badgelife/re-infocard.png
-canon:      https://padraignix.github.io/reverse-engineering/2021/05/30/nsec2021-badegelife-pt2/
+canon:      https://padraignix.github.io/ctf/2021/05/30/nsec2021-badegelife-pt2/
 tags:
  - nsec2021
  - ctf
