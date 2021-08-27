@@ -58,7 +58,7 @@ jobs:
 
       - name: Check baseurl
         run: |
-          baseurl="$(grep '^baseurl:' _config.yml | yq eval)"
+          baseurl="$(grep '^baseurl:' _config.yml | yq e '.baseurl' -)"
           if [[ -n $baseurl ]]; then
             echo "SPEC_TEST=_site_no_baseurl" >> $GITHUB_ENV
           fi
