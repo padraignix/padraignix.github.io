@@ -21,7 +21,7 @@
 -
   type: hackthebox
   icon: 'fab fa-twitch'
-  url:  'https://www.twitch.tv/padraignix'
+  url:  https://www.twitch.tv/padraignix
 #-
 #  type: ctftimes
 #  icon: 'icon-faviconn'
