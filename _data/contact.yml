@@ -20,8 +20,8 @@
   icon: 'fab fa-github-alt'    
 -
   type: hackthebox
-  icon: 'icon-3dcube'
-  url:  https://www.hackthebox.eu/profile/137488
+  icon: 'fab fa-twitch'
+  url:  'https://www.twitch.tv/padraignix'
 #-
 #  type: ctftimes
 #  icon: 'icon-faviconn'

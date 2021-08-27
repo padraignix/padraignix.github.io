@@ -7,32 +7,42 @@ thumbnail:  https://github.com/padraignix.png
 canon:      https://padraignix.github.io/tabs/projects/
 ---
 
-# 2021 Efforts
+## Lockpicking
 
-### Introduction
+Having stumbled on to [/r/lockpicking](https://www.reddit.com/r/lockpicking/) I immediately fell into the addiction. I love that the system was gamified with a series of belts (similar to martial arts rankings) that guides participants on how to challenge themselves in a meaningful manner. I plan on keep track of progress on this page and share any more meaningful or interesting tidbits in dedicated posts. For anyone interested in joining in I suggest perusing the subreddit (specifically [Beltranking](https://www.reddit.com/r/lockpicking/wiki/beltranking)) and the group's Discord which is highly active.
 
-Alright so 2020 had a curve balls at what I originally had planned for the year. As a result several things from the original 2020 list did not make it across the finish line, while many other unplanned things took off in ways I could not have thought possible. The following can be treated less as a wishlist and more as a "what am I currently working on in my spare time".
+### <span style="color:white">White Belt</span>
+
+* [Acrylic Lock](https://imgur.com/F9ys4qa)
+* Master Lock #1
+
+### <span style="color:yellow">Yellow Belt</span>
+
+* [Master Lock 141](https://imgur.com/uW8jAjB)
+
+### <span style="color:orange">Orange Belt</span>
+
+* [Abus 55/40](https://imgur.com/a/honG1Be)
+* [Master Lock 150](https://imgur.com/a/DQPzrBn)
+* [Master Lock 575](https://imgur.com/a/SH8z0gR)
+
+### <span style="color:green">Green Belt</span>
+
+* [Master Lock 911](https://imgur.com/a/HCNsbDe)
+  * [Video](https://www.youtube.com/watch?v=KA-ZdU4hTFE)
+* [Abus 72/40](https://imgur.com/a/CtiHBIn)
+
+### <span style="color:blue">Blue Belt</span>
+
+* [American 1100](https://imgur.com/a/4WPxr2w)
 
 ---
 
-### CISM - ISACA
+## Cryptopals
 
-A few years ago I went through the [CISA](https://www.isaca.org/credentialing/cisa) certification process. In 2020 I applied and received a [CDPSE](https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer) designation. Time to continue the ISACA journey and finish the [CISM](https://www.isaca.org/credentialing/cism) certification. 
+Starting off my infosec journey more on the cryptography side I have always wanted to go through and complete the [Cryptopals](https://cryptopals.com/) series. As both a reinforcement of the basics and expanding my practical knowledge going through the exercises offers the perfect mix of theoretical and hands-on to push my boundaries in the cryptography space. Progress and the coding itself will be stored on [Github](https://github.com/padraignix/cryptopals).
 
----
+### Progress
 
-### Quantum Computing
-
-2020 opened my eyes to Quantum Computing and Quantum Information Theory. Between two Qiskit events and related self-study I started diving into the world in a way I only dreamt about 15 years ago. The leaps that have happened in the space over the last couple years, allowing individuals to practically play with Quantum environments has been a game changer. This year will be about continuing that journey, expanding the overall knowledge, as well as trying to contribute back to community in a tangible, academic perspective.
-
----
-
-### Org-in-a-Box
-
-The crowning jewel of creating a local infrastructure lab. I am planning on creating a self-contained "Organization" that will touch on the most common components seen - authentication, identity, automation, logging, and security analysis. The initial architectural view completed and barebones authentication working it's time to start adding more functionality. The focus will be not only on the IT aspect of getting it to work but also keeping security in the forefront my mind. Security decisions will be explored and explained.  
-
----
-
-### Shogi
-
-Near the end of 2020 I was introduced to the world of Japanese Chess known as Shogi. This happened in a twofold way at the end of the year. The first part relates to binging the Netflix series "Queen's Gambit" which to its credit did reinvigortate my early love of chess. As young as 7 I was competing provincially (with a decidedly quick defeat in my one national match) however I never continued my development after those early years other than playing a match or two here and there. The second part of this equation relates to playing a decent amount of Persona 5 Royal, more specifically interacting with one of the "confidants" in the game who is a professional Shogi player. With these two aspects intersecting I found myself investigating the world of Shogi more directly and fell for it immediately. I'm currently working through tsumes (puzzle challenges) and hoping to become more proficient throughout the year.
+* Problem Set 1 - Basics [8/8]
+* Problem Set 2 - Block Crypto [2/8]
