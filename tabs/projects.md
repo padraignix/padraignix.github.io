@@ -13,28 +13,27 @@ Having stumbled on to [/r/lockpicking](https://www.reddit.com/r/lockpicking/) I 
 
 ### <span style="color:white">White Belt</span>
 
-* [Acrylic Lock](https://imgur.com/F9ys4qa)
+* Acrylic Lock - [[Pic]](https://imgur.com/F9ys4qa)
 * Master Lock #1
 
 ### <span style="color:yellow">Yellow Belt</span>
 
-* [Master Lock 141](https://imgur.com/uW8jAjB)
+* Master Lock 141 - [[Pic]](https://imgur.com/uW8jAjB)
 
 ### <span style="color:orange">Orange Belt</span>
 
-* [Abus 55/40](https://imgur.com/a/honG1Be)
-* [Master Lock 150](https://imgur.com/a/DQPzrBn)
-* [Master Lock 575](https://imgur.com/a/SH8z0gR)
+* Abus 55/40 - [[Pic]](https://imgur.com/a/honG1Be)
+* Master Lock 150 - [[Pic]](https://imgur.com/a/DQPzrBn)
+* Master Lock 575 - [[Pic]](https://imgur.com/a/SH8z0gR)
 
 ### <span style="color:green">Green Belt</span>
 
-* [Master Lock 911](https://imgur.com/a/HCNsbDe)
-  * [Video](https://www.youtube.com/watch?v=KA-ZdU4hTFE)
-* [Abus 72/40](https://imgur.com/a/CtiHBIn)
+* Master Lock 911 - [[Pic]](https://imgur.com/a/HCNsbDe) [[Video]](https://www.youtube.com/watch?v=KA-ZdU4hTFE)
+* Abus 72/40 - [[Pic]](https://imgur.com/a/CtiHBIn)
 
 ### <span style="color:blue">Blue Belt</span>
 
-* [American 1100](https://imgur.com/a/4WPxr2w)
+* American 1100 - [[Pic]](https://imgur.com/a/4WPxr2w)
 
 ---
 
