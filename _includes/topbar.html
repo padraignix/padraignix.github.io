@@ -34,18 +34,26 @@
     {% elsif page.layout == "home" %}
       {{- site.title -}}
     {% else %}
-      {{- page.title -}}
+      {{- site.title -}}&nbsp;-&nbsp;{{- page.title -}}
     {% endif %}
     </div>
 
-    <!--<i id="search-trigger" class="fas fa-search fa-fw"></i>
-    <span id="search-wrapper" class="align-items-center">
+    <i id="search-trigger" ></i>
+    <!--<span id="search-wrapper" class="align-items-center">
       <i class="fas fa-search fa-fw"></i>
       <input class="form-control" id="search-input" type="search"
         aria-label="search" placeholder="{{ site.data.label.search_hint }}...">
       <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i>
+    </span>-->
+    <span id="search-cancel" >Cancel</span>
+    <!--<i id="search-trigger" class="fas fa-search fa-fw"></i>
+    <span id="search-wrapper" class="align-items-center">
+      <i class="fas fa-search fa-fw"></i>
+      <input class="form-control" id="search-input" type="search"
+        aria-label="search" autocomplete="off" placeholder="{{ site.data.locales[lang].search.hint | capitalize }}...">
+      <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i>-->
     </span>
-    <span id="search-cancel" >Cancel</span>-->
+    <span id="search-cancel" >{{ site.data.locales[lang].search.cancel }}</span>
   </div>
 
 </div>

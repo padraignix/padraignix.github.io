@@ -7,23 +7,23 @@ thumbnail:  https://github.com/padraignix.png
 canon:      https://padraignix.github.io/tabs/disclaimer/
 ---
 
-<p>Last updated: November 13, 2020</p>
+<p>Last updated: December 30, 2021</p>
 
-<p>The information contained on the https://padraignix.github.io website (the "Service") is for general information purposes only.</p>
+<p>The information contained on the https://padraignix.github.io website, also known as https://blog.quantumlyconfused.com, (the "Service") is for general information purposes only.</p>
 
-<p>Padraignix's InfoSec Blog assumes no responsibility for errors or omissions in the contents on the Service.</p>
+<p>The Quantumly Confused Blog assumes no responsibility for errors or omissions in the contents on the Service.</p>
 
-<p>In no event shall Padraignix's InfoSec Blog be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. Padraignix's InfoSec Blog reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.</p>
+<p>In no event shall Quantumly Confused Blog be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. Quantumly Confused Blog reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.</p>
 
-<p>Padraignix's InfoSec Blog does not warrant that the website is free of viruses or other harmful components.</p>
+<p>Quantumly Confused Blog does not warrant that the website is free of viruses or other harmful components.</p>
 
-<p>The views and opinions expressed on Padraignix's InfoSec Blog are those of the author and do not necessarily reflect the official policy or position of any other agency, organization, employer or company. Any content provided by the author is of their opinion and is not intended to malign any religion, ethnic group, club, organization, company, individual or anyone or anything.</p>
+<p>The views and opinions expressed on Quantumly Confused Blog are those of the author and do not necessarily reflect the official policy or position of any other agency, organization, employer or company. Any content provided by the author is of their opinion and is not intended to malign any religion, ethnic group, club, organization, company, individual or anyone or anything.</p>
 
 <h1>Cookies Policy</h1>
 
-<p>Last updated: November 13, 2020</p>
+<p>Last updated: December 30, 2021</p>
 
-<p>Padraignix's InfoSec Blog ("us", "we", or "our") uses cookies on the https://padraignix.github.io website (the "Service"). By using the Service, you consent to the use of cookies.</p>
+<p>Quantumly Confused Blog ("us", "we", or "our") uses cookies on the https://blog.quantumlyconfused.com website (the "Service"). By using the Service, you consent to the use of cookies.</p>
 
 <p>Our Cookies Policy explains what cookies are, how we use cookies, how third-parties we may partner with may use cookies on the Service, your choices regarding cookies and further information about cookies.</p>
 
@@ -33,7 +33,7 @@ canon:      https://padraignix.github.io/tabs/disclaimer/
 
 <p>Cookies can be "persistent" or "session" cookies. Persistent cookies remain on your personal computer or mobile device when you go offline, while session cookies are deleted as soon as you close your web browser.</p>
 
-<h2>How Padraignix's InfoSec Blog uses cookies</h2>
+<h2>How Quantumly Confused Blog uses cookies</h2>
 
 <p>When you use and access the Service, we may place a number of cookies files in your web browser.</p>
 
@@ -90,9 +90,9 @@ canon:      https://padraignix.github.io/tabs/disclaimer/
 
 <h1>Privacy Policy</h1>
 
-<p>Effective date: November 13, 2020</p>
+<p>Effective date: December 30, 2021</p>
 
-<p>Padraignix's InfoSec Blog ("us", "we", or "our") operates the https://padraignix.github.io website (hereinafter referred to as the "Service").</p>
+<p>Quantumly Confused Blog ("us", "we", or "our") operates the https://blog.quantumlyconfused.com (also known as https://padraignix.github.io) website (hereinafter referred to as the "Service").</p>
 
 <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
 
@@ -103,7 +103,7 @@ canon:      https://padraignix.github.io/tabs/disclaimer/
 <ul>
     <li>
         <p><strong>Service</strong></p>
-        <p>Service is the https://padraignix.github.io website operated by Padraignix's InfoSec Blog</p>
+        <p>Service is the https://blog.quantumlyconfused.com website operated by Quantumly Confused Blog</p>
     </li>
     <li>
         <p><strong>Personal Data</strong></p>
@@ -148,7 +148,7 @@ canon:      https://padraignix.github.io/tabs/disclaimer/
 
 <h2>Use of Data</h2>
     
-<p>Padraignix's InfoSec Blog uses the collected data for various purposes:</p>    
+<p>Quantumly Confused Blog uses the collected data for various purposes:</p>    
 <ul>
     <li>To provide and maintain the Service</li>
     <li>To notify you about changes to our Service</li>
@@ -163,15 +163,15 @@ canon:      https://padraignix.github.io/tabs/disclaimer/
 <p>Your information, including Personal Data, may be transferred to - and maintained on - computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
 <p>If you are located outside Canada and choose to provide information to us, please note that we transfer the data, including Personal Data, to Canada and process it there.</p>
 <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
-<p>Padraignix's InfoSec Blog will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<p>Quantumly Confused Blog will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
 
 <h2>Disclosure Of Data</h2>
 
 <h3>Legal Requirements</h3>
-<p>Padraignix's InfoSec Blog may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<p>Quantumly Confused Blog may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
 <ul>
     <li>To comply with a legal obligation</li>
-    <li>To protect and defend the rights or property of Padraignix's InfoSec Blog</li>
+    <li>To protect and defend the rights or property of Quantumly Confused Blog</li>
     <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
     <li>To protect the personal safety of users of the Service or the public</li>
     <li>To protect against legal liability</li>

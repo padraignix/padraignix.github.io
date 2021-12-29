@@ -8,12 +8,12 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: "Padraignix's InfoSec Blog"                          # the main title
+title: "Quantumly Confused"                          # the main title
 
-tagline: InfoSec, Quantum, Crypto, CTFs, and related adventures.  # it will display as the sub-title
+tagline: Quantum, InfoSec, Crypto, CTFs, and related adventures  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
+  Personal blog covering Quantum Computing, CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://padraignix.github.io'
@@ -77,9 +77,10 @@ theme_mode: dark
 
 # boolean type, global switch for ToC in posts.
 toc: true
-
+lang: en
 paginate: 6
-
+read_time:
+  unit: min
 markdown: kramdown
 
 highlighter: rouge

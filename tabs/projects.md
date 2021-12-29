@@ -2,7 +2,7 @@
 title: Projects
 title2: Padraignix's InfoSec Blog - Projects
 summary: Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
-keywords: hacking, blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
+keywords: hacking,quantumly confused,blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
 thumbnail:  https://github.com/padraignix.png
 canon:      https://padraignix.github.io/tabs/projects/
 ---
