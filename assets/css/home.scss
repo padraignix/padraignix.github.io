@@ -12,14 +12,25 @@
 #post-list {
   margin-top: 1rem;
   padding-right: 0.5rem;
-
+  a {
+    &:not(.img-hyperlink) {
+      @extend %link-color;
+      &:hover {
+        @extend %link-hover;
+      }
+    }
+  }
   .post-preview {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-border-color);
-
+    &:hover {
+      text-decoration: none;
+      background-color: var(--main-border-color);
+    } 
     h1 {
       font-size: 1.4rem;
+      padding-top: 1.3rem;
       margin: 0;
       ~i { // pinned icon
         font-size: 0.86rem;
@@ -49,7 +60,7 @@
         -webkit-box-orient: vertical;
       }
     }
-
+  
   } // .post-preview
 
 } // #post-list
