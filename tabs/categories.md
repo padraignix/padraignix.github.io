@@ -24,7 +24,6 @@ canon:      https://padraignix.github.io/tabs/categories/
 
   {% if category_name == first_post.categories[0] %}
     {% assign sub_categories = "" | split: "" %}
-
     {% for post in posts_of_category %}
       {% assign second_category = post.categories[1] %}
       {% if second_category %}
@@ -33,14 +32,12 @@ canon:      https://padraignix.github.io/tabs/categories/
         {% endunless %}
       {% endif %}
     {% endfor %}
-
     {% assign sub_categories = sub_categories | sort %}
     {% assign sub_categories_size = sub_categories | size %}
 
-
   <div class="card categories">
     <!-- top-category -->
-    <div class="card-header d-flex justify-content-between hide-border-bottom"
+    <div onclick="location.href='{{ site.baseurl }}/categories/{{ category_name | replace: ' ', '-' | downcase | url_encode }}/'" class="card-header d-flex justify-content-between hide-border-bottom"
         id="{{ HEAD_PREFIX }}{{ group_index }}">
       <span>
       {% if sub_categories_size > 0 %}
@@ -52,7 +49,6 @@ canon:      https://padraignix.github.io/tabs/categories/
           class="ml-1 mr-2">
           {{ category_name }}
         </a>
-
         <!-- content count -->
         {% assign top_posts_size = site.categories[category_name] | size %}
         <span class="text-muted small font-weight-light">
@@ -64,7 +60,6 @@ canon:      https://padraignix.github.io/tabs/categories/
             post{% if top_posts_size > 1 %}s{% endif %}
         </span>
       </span>
-
       <!-- arrow -->
       {% if sub_categories_size > 0%}
       <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse" 
@@ -77,9 +72,7 @@ canon:      https://padraignix.github.io/tabs/categories/
         <i class="fas fa-fw fa-angle-right"></i>
       </span>
       {% endif %}
-
     </div> <!-- .card-header -->
-
     <!-- Sub-categories -->
     {% if sub_categories_size > 0 %}
     <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
@@ -100,8 +93,6 @@ canon:      https://padraignix.github.io/tabs/categories/
     {% endif %}
 
   </div> <!-- .card -->
-
     {% assign group_index = group_index | plus: 1 %}
-
   {% endif %}
 {% endfor %}
