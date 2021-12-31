@@ -8,8 +8,8 @@ categories: [quantum-computing]
 thumbnail:  microchip
 math: true
 keywords:   quantum computing,pennylane,quantum,python,challenge,qubits,quantum gates,logic gates,quantum machine learning,QML,xanadu,qhack,qhack2021
-thumbnail:  https://padraignix.github.io/assets/quantum-computing/qhack2021/title.png
-canon:      https://padraignix.github.io/quantum-computing/2021/02/28/xanadu-qhack-2021-circuit-training/
+thumbnail:  https://blog.quantumlyconfused.com/assets/quantum-computing/qhack2021/title.png
+canon:      https://blog.quantumlyconfused.com/quantum-computing/2021/02/28/xanadu-qhack-2021-circuit-training/
 tags:
  - pennylane
  - quantum-computing

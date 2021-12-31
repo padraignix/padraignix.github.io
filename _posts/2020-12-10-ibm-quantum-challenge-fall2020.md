@@ -8,8 +8,8 @@ categories: [quantum-computing]
 thumbnail:  microchip
 math: true
 keywords:   quantum computing,qiskit,quantum,python,ibm,challenge,qubits,quantum gates,logic gates,grover,qram
-thumbnail:  https://padraignix.github.io/assets/quantum-computing/quantum-challenge-fall2020/catbanner.jpg
-canon:      https://padraignix.github.io/quantum-computing/2020/12/10/ibm-quantum-challenge-fall2020/
+thumbnail:  https://blog.quantumlyconfused.com/assets/quantum-computing/quantum-challenge-fall2020/catbanner.jpg
+canon:      https://blog.quantumlyconfused.com/quantum-computing/2020/12/10/ibm-quantum-challenge-fall2020/
 tags:
  - qiskit
  - quantum-computing

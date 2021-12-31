@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Forest - padraignix.github.io
+title2:      HacktheBox Writeup - Forest - QuantumlyConfused
 title:     Hack the Box - Forest
 date:       2020-4-3 12:00:00 -0400
 summary:    HTB Forest machine walkthrough. Forest started with Windows enumeration using SMB and LDAP queries that lead to leveraging a lingering service account with PRE_AUTH disabled for user access. Once on the machine, we were able to abuse the existing Active Directory entitlements to create a malicious user entry with the rights to perform a DCSync using Mimikatz to acquire the Administrator's hash, finally using it to execute a pass-the-hash escalation to Administrator.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,forest,active directory,AD,pass-the-hash,pth,mimikatz,bloodhound,dcsync
-thumbnail:  https://padraignix.github.io/assets/htb-forest/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/04/03/htb-machine-forest/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-forest/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/04/03/htb-machine-forest/
 tags:
  - htb 
  - active-directory

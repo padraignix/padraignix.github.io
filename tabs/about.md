@@ -4,7 +4,7 @@ title2: Padraignix's InfoSec Blog - About Me
 summary: Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
 keywords: hacking,quantumly confused,blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
 thumbnail:  https://github.com/padraignix.png
-canon:      https://padraignix.github.io/tabs/about/
+canon:      https://blog.quantumlyconfused.com/tabs/about/
 ---
 
 

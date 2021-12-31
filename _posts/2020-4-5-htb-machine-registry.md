@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Registry - padraignix.github.io
+title2:      HacktheBox Writeup - Registry - QuantumlyConfused
 title:     Hack the Box - Registry
 date:       2020-4-5 09:00:00 -0400
 summary:    HTB Registry machine walkthrough. Working with insecure Docker credentials we manage to extract a SSH key and corresponding password crumbs for an initial user foothold. Following that access we find a sqlite file containing Bolt CMS admin credentials. Logging into the CMS we quickly modify the config file to allow a PHP shell of our choosing to access the host as www-data. Finally once we have www-data access we are able to abuse a restic sudo rule to expose the root flag.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,registry,docker,git
-thumbnail:  https://padraignix.github.io/assets/htb-registry/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/04/05/htb-machine-registry/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-registry/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/04/05/htb-machine-registry/
 tags:
  - htb 
  - docker

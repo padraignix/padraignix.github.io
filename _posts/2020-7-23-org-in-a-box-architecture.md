@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      Org-in-a-Box - Project Architecture - padraignix.github.io
+title2:      Org-in-a-Box - Project Architecture - QuantumlyConfused
 title:     Org-in-a-Box - Architecture
 date:       2020-7-23 10:00:00 -0400
 summary:    Initial post covering my personal project of an organization in a box. Using fundamental open source Identity and Access Management components of an organization in a self-contained box to explore and expand knowledge of those various components. This article will cover the overall architecture and help establish the high level plan moving forward.
 categories: [org-in-a-box]
 thumbnail:  cogs
 keywords:   org-in-a-box,identity management,access management,IAM,architecture,organizational planning,personal project,raspberry pi,pi
-thumbnail:  https://padraignix.github.io/assets/org-in-a-box/infocard-architecture.png
-canon:      https://padraignix.github.io/org-in-a-box/2020/07/23/org-in-a-box-architecture/
+thumbnail:  https://blog.quantumlyconfused.com/assets/org-in-a-box/infocard-architecture.png
+canon:      https://blog.quantumlyconfused.com/org-in-a-box/2020/07/23/org-in-a-box-architecture/
 tags:
  - org-in-a-box
  - architecture

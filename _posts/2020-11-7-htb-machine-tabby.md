@@ -1,14 +1,14 @@
 ---
 layout:     post
 title:      Hack the Box - Tabby
-title2:     HacktheBox Writeup - Tabby - padraignix.github.io
+title2:     HacktheBox Writeup - Tabby - QuantumlyConfused
 date:       2020-11-8 15:00:00 -0400
 summary:    HTB Tabby machine walkthrough. Tabby starts off with careful recon enumeration leveraging local file inclusion to harvest credentials then using those credentials to establish a foothold through Apache manager script usage. User escalation then came through a backup zip file encrypted with the user's system password, gathered by using zip2john. Lastly root privesc was achieved by leveraging LXD system container manager as the regular user was part of the lxd control group. Overall this was a fun box to get back into the swing of things after a couple month hiatus and I learned a few tips and tricks.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,lxd,apache,lfi
-thumbnail:  https://padraignix.github.io/assets/htb-tabby/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/11/08/htb-machine-tabby/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-tabby/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/11/08/htb-machine-tabby/
 tags:
  - htb 
  - apache

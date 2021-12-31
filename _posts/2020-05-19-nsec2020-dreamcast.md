@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      NSEC 2020 - Dreamcast Writeup - padraignix.github.io
+title2:      NSEC 2020 - Dreamcast Writeup - QuantumlyConfused
 title:     NSEC 2020 - Dreamcast
 date:       2020-5-19 10:00:00 -0400
 summary:    Walkthrough of the two Dreamcast challenges from NorthSec 2020. Starting with a quick overview of the Dreamcast architecture then quickly pivoting into analyzing the provided roms follow along as I cover my approach and solution to the challenges.
 categories: [reverse-engineering]
 thumbnail:  cogs
 keywords:   northsec,nsec2020,ctf,writeup,binary,reverse engineering,dreamcast,re,ghidra,gdb,gef,emulator,rom
-thumbnail:  https://padraignix.github.io/assets/nsec2020/infocard-dreamcast.PNG
-canon:      https://padraignix.github.io/reverse-engineering/2020/05/19/nsec2020-dreamcast/
+thumbnail:  https://blog.quantumlyconfused.com/assets/nsec2020/infocard-dreamcast.PNG
+canon:      https://blog.quantumlyconfused.com/reverse-engineering/2020/05/19/nsec2020-dreamcast/
 tags:
  - nsec2020
  - ctf

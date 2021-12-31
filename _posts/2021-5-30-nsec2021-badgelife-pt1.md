@@ -7,8 +7,8 @@ summary:    Walkthrough of the first 9 badge flags for NSEC 2021's hardware badg
 categories: [ctf]
 thumbnail:  cogs
 keywords:   northsec,nsec,nsec2021,ctf,writeup,binary,reverse engineering,esp32,re,ghidra,firmware,badgelife
-thumbnail:  https://padraignix.github.io/assets/nsec2021/badgelife/horse.png
-canon:      https://padraignix.github.io/ctf/2021/05/30/nsec2021-badegelife-pt1/
+thumbnail:  https://blog.quantumlyconfused.com/assets/nsec2021/badgelife/horse.png
+canon:      https://blog.quantumlyconfused.com/ctf/2021/05/30/nsec2021-badegelife-pt1/
 tags:
  - nsec2021
  - ctf

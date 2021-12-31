@@ -8,8 +8,8 @@ categories: [ctf]
 thumbnail:  cogs
 math: true
 keywords:   northsec,nsec,nsec2021,ctf,writeup,cryptography,nonce reuse,ctr,RC4,captcha
-thumbnail:  https://padraignix.github.io/assets/nsec2021/ctf/choir/infocard.png
-canon:      https://padraignix.github.io/ctf/2021/05/24/nsec2021-choir-of-infinite-verses/
+thumbnail:  https://blog.quantumlyconfused.com/assets/nsec2021/ctf/choir/infocard.png
+canon:      https://blog.quantumlyconfused.com/ctf/2021/05/24/nsec2021-choir-of-infinite-verses/
 tags:
  - nsec2021
  - ctf

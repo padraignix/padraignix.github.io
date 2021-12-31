@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Postman - padraignix.github.io
+title2:      HacktheBox Writeup - Postman - QuantumlyConfused
 title:     Hack the Box - Postman
 date:       2020-3-14 12:00:00 -0400
 summary:    HTB Postman machine walkthrough. Postman was a quick, simple machine from HTB. We start off with a redis exploit for initial foothold, then pivot to user by using JTR to crack a backup SSH key before finally using an authenticated Webmin exploit to escalate ourselves to root.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,postman,redis,webmin,metasploit,john,john the ripper,jtr
-thumbnail:  https://padraignix.github.io/assets/htb-postman/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/03/14/htb-machine-postman/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-postman/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/03/14/htb-machine-postman/
 tags:
  - htb 
  - redis

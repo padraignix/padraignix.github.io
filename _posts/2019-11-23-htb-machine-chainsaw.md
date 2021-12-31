@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Chainsaw - padraignix.github.io 
+title2:      HacktheBox Writeup - Chainsaw - QuantumlyConfused 
 title:     Hack the Box - Chainsaw
 date:       2019-11-23 12:00:00 -0400
 summary:    HTB Chainsaw machine walkthrough. Anonymous ftp connections, smart contract abuse, InterPlanetary File System and cracked password protected ssh private keys for user pivot. A loosely defined SUID file and PATH hijacking for root shell then finally leveraging root.txt's slack space to get the final flag.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,chainsaw,smart contract,eth,ethereum,slack space,ftp,ipfs,jtr,john the ripper
-thumbnail:  https://padraignix.github.io/assets/htb-chainsaw/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2019/11/23/htb-machine-chainsaw/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-chainsaw/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2019/11/23/htb-machine-chainsaw/
 tags:
  - htb 
  - smart contract

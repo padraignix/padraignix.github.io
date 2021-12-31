@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Sniper - padraignix.github.io
+title2:      HacktheBox Writeup - Sniper - QuantumlyConfused
 title:     Hack the Box - Sniper
 date:       2020-4-4 12:01:00 -0400
 summary:    HTB Sniper machine walkthrough. From an initial LFI/RFI foothold within the company website, to abusing malicious Windows help files, Sniper presents the story of a disgruntled developer and their middle finger to the Administrator/CEO on their way out. Sniper was a fun machine with a new angle on the RFI approach I had not used before and allowed me an opportunity to work with CHM files, something I previously also had not done.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,infosec,cybersecurity,forest,active directory,AD,bloodhound,pass-the-hash,pth,mimikatz
-thumbnail:  https://padraignix.github.io/assets/htb-sniper/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/04/04/htb-machine-sniper/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-sniper/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/04/04/htb-machine-sniper/
 tags:
  - htb 
  - lfi

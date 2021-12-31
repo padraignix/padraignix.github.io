@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Networked - padraignix.github.io 
+title2:      HacktheBox Writeup - Networked - QuantumlyConfused 
 title:     Hack the Box - Networked
 date:       2019-11-16 10:00:00 -0400
 summary:    HTB Networked machine walkthrough. Generally discussed as the easiest of the active boxes at time of retirement there is nothing particularly complex with getting to root.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,networked,sudo,dir buster,dirb,cron job,cron
-thumbnail:  https://padraignix.github.io/assets/htb-networked/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2019/11/16/htb-machine-networked/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-networked/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2019/11/16/htb-machine-networked/
 tags:
  - htb 
  - cron

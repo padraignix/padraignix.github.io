@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Bankrobber - padraignix.github.io
+title2:      HacktheBox Writeup - Bankrobber - QuantumlyConfused
 title:     Hack the Box - Bankrobber
 date:       2020-03-07 12:00:00 -0400
 summary:    Starting with a client side XSS exploit to get admin app credentials, then chaining it with a localhost code execution bypass we get a user priviledged shell. A suspicious app running locally as System then presented a ... delicate ... buffer overflow opporunity to pivot into System priviledges.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,bankrobber,xss,buffer overflow,metasploit,meterpreter,port forward,brute force
-thumbnail:  https://padraignix.github.io/assets/htb-bankrobber/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/03/07/htb-machine-bankrobber/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-bankrobber/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/03/07/htb-machine-bankrobber/
 tags:
  - htb 
  - xss

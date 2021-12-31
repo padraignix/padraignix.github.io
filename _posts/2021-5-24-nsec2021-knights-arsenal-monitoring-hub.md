@@ -7,8 +7,8 @@ summary:    Walkthrough and approach of the Knight's Siege Arsenal track of NSEC
 categories: [ctf]
 thumbnail:  cogs
 keywords:   northsec,nsec,nsec2021,ctf,writeup,ossec,rce
-thumbnail:  https://padraignix.github.io/assets/nsec2021/ctf/knights-arsenal/infocard.PNG
-canon:      https://padraignix.github.io/ctf/2021/05/24/nsec2021-knights-arsenal-monitoring-hub/
+thumbnail:  https://blog.quantumlyconfused.com/assets/nsec2021/ctf/knights-arsenal/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/ctf/2021/05/24/nsec2021-knights-arsenal-monitoring-hub/
 tags:
  - nsec2021
  - ctf

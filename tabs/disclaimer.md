@@ -4,7 +4,7 @@ title2: Padraignix's InfoSec Blog - Disclaimer
 summary: Legal disclaimer, Cookie policy, and Privacy policy for Padraignix's InfoSec Blog.
 keywords: hacking, blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
 thumbnail:  https://github.com/padraignix.png
-canon:      https://padraignix.github.io/tabs/disclaimer/
+canon:      https://blog.quantumlyconfused.com/tabs/disclaimer/
 ---
 
 <p>Last updated: December 30, 2021</p>

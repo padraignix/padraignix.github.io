@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - AI - padraignix.github.io
+title2:      HacktheBox Writeup - AI - QuantumlyConfused
 title:     Hack the Box - AI
 date:       2020-2-4 17:00:00 -0400
 summary:    HTB AI machine walkthrough. Initial portions were more frustrating than complicated, reminiscent of daily struggles dealing with various home assistants. Once foothold was established priviledged escalation to root involved abusing a java debugging process running locally.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,ai,ttv,text to voice,jdwp,java
-thumbnail:  https://padraignix.github.io/assets/htb-ai/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2020/02/04/htb-machine-ai/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-ai/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2020/02/04/htb-machine-ai/
 tags:
  - htb 
  - ai

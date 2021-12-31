@@ -1,14 +1,14 @@
 ---
 layout:     post
-title2:      HacktheBox Writeup - Safe - padraignix.github.io 
+title2:      HacktheBox Writeup - Safe - QuantumlyConfused
 title:      Hack the Box - Safe
 date:       2019-10-26 10:00:00 -0400
 summary:    HTB Safe machine walkthrough. A contentious box from HTB requiring a custom developed ROP (return-oriented programming) exploit tied into cracking a KeepPass database.
 categories: [hack-the-box]
 thumbnail:  cogs
 keywords:   hackthebox,htb,pentest,redteam,writeup,walkthrough,buffer overflow,keeppass,jtr,john-the-ripper,rop,safe
-thumbnail:  https://padraignix.github.io/assets/htb-safe/infocard.PNG
-canon:      https://padraignix.github.io/hack-the-box/2019/10/26/htb-machine-safe/
+thumbnail:  https://blog.quantumlyconfused.com/assets/htb-safe/infocard.PNG
+canon:      https://blog.quantumlyconfused.com/hack-the-box/2019/10/26/htb-machine-safe/
 tags:
  - htb 
  - buffer-overflow
