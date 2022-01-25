@@ -3,7 +3,7 @@ layout:     post
 title2:     Trench Talk - An Infosec Ops Team Series
 title:      Trench Talk - An Infosec Ops Team Series
 date:       2022-1-24 15:00:00 -0400
-summary:    Kick off to a new post series covering "the narrative" of the last decade of being in an Infosec Operations team. This post will introduce the topics to be covered and give an introduction to the overall reason for doing this - sharing my hard earned knowledge and hopefully inspiring future generations that follow similar paths. 
+summary:    Kick off to a new post series covering 'the narrative' of the last decade of being in an Infosec Operations team. This post will introduce the topics to be covered and give an introduction to the overall reason for doing this - sharing my hard earned knowledge and hopefully inspiring future generations that follow similar paths. 
 categories: [trench-talk]
 thumbnail:  microchip
 math: false
