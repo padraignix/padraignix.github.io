@@ -19,7 +19,7 @@ tags:
 <h1>Introduction</h1>
 
 <p>
-<a href="/assets/misc/hvac-2021/logo.png" data-lightbox="image1"><img width="70%" height="70%" src="{{ '/assets//misc/hvac-2021/logo.png' | relative_url }}"></a>
+<a href="/assets/misc/hvac-2021/logo.png" data-lightbox="image1"><img width="60%" height="60%" src="{{ '/assets//misc/hvac-2021/logo.png' | relative_url }}"></a>
 </p>
 
 <p>HVACs, InfoSec, recruitment practices - what do these topics have in common? As we shall see surprisingly a lot! I recently had a chance to take a small vacation recharge mentally and physically. Unfortunately near the end I ran into a slightly uncomfortable situation. In the middle of a heat wave my HVAC system decided to stop working effectively! With temperatures reaching over 40C with humidex it quickly became an "outage" situation and despite my lack of HVAC knowledge my troubleshooting instincts kicked in and I dove right into figuring out what was wrong. What I started to notice was that regardless of the domain, if we approach it with an inquisitive mind our established processes and methodologies can directly translate to helping us organize a logical troubleshoot & resolution.</p>
@@ -72,9 +72,11 @@ tags:
 
 <p>So what do we know at this point?</p>
 
-* The air is actually being cooled as measured
-* There is ice build up on the external unit
-* The air flow seems reduced
+<ul>
+    <li>The air is actually being cooled as measured</li>
+    <li>There is ice build up on the external unit</li>
+    <li>The air flow seems reduced</li>
+</ul>
 
 <p>Since the air is being cooled the air flow being reduced could explain why the cooling isn't permeating throughout the house. What can cause that? Hum...the air filter! Time to go check it out.<p>
 
@@ -104,9 +106,11 @@ tags:
 
 <p>Wow, ok! That layer of ice would definitely block airflow. As I talked with my friend we established a few more points that lead to the actual <code>root cause</code>.</p>
 
-* Increasing fan speed increases the back pressure in the overall system which can lead to freezing.
-* Dirty air filters will slow down the flow of air, leading to a similar back pressure build up.
-* Closing various vents in the house (in an attempt to "focus" the cooling) will also lead to a pressure build up.
+<ul>
+    <li>Increasing fan speed increases the back pressure in the overall system which can lead to freezing.</li>
+    <li>Dirty air filters will slow down the flow of air, leading to a similar back pressure build up.</li>
+    <li>Closing various vents in the house (in an attempt to "focus" the cooling) will also lead to a pressure build up.</li>
+</ul>
 
 <p>With all of these points culminating together, some self-inflicted as attempted workarounds, the system degraded enough to reach the point where condensation was freezing. At this point the system was caught in a degrading loop and would most likely not get better by itself.</p>
 
