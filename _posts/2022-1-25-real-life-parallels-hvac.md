@@ -9,7 +9,7 @@ thumbnail:  microchip
 math: false
 keywords:   hvac,real-life,investigation,troubleshoot,incident management,problem management,sre,
 thumbnail:  https://blog.quantumlyconfused.com/assets/misc/hvac-2021/logo.png
-canon:      https://blog.quantumlyconfused.com/miscellaneous/2022/1/28/real-life-parallels-hvac/
+canon:      https://blog.quantumlyconfused.com/miscellaneous/2022/1/25/real-life-parallels-hvac/
 tags:
  - SRE
  - troubleshooting

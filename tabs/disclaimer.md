@@ -1,6 +1,6 @@
 ---
 title: Disclaimer
-title2: Padraignix's InfoSec Blog - Disclaimer
+title2: Quantumly Confused - Disclaimer
 summary: Legal disclaimer, Cookie policy, and Privacy policy for Padraignix's InfoSec Blog.
 keywords: hacking, blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
 thumbnail:  https://github.com/padraignix.png
@@ -21,7 +21,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/disclaimer/
 
 <h1>Cookies Policy</h1>
 
-<p>Last updated: December 30, 2021</p>
+<p>Last updated: April 14, 2022</p>
 
 <p>Quantumly Confused Blog ("us", "we", or "our") uses cookies on the https://blog.quantumlyconfused.com and https://quantumlyconfused.com websites (the "Service"). By using the Service, you consent to the use of cookies.</p>
 
