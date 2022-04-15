@@ -7,6 +7,24 @@ thumbnail:  https://github.com/padraignix.png
 canon:      https://blog.quantumlyconfused.com/tabs/projects/
 ---
 
+## CTF Events
+
+#### 2019 Splunk - BOSS of the SOC [winner](https://twitter.com/_PatrickDowning/status/1224873845468823552)
+#### 2019 ESP Innovation Day CTF [winner](https://twitter.com/_PatrickDowning/status/1224873845468823552)
+#### 2019 GridIron III CTF [winner](https://twitter.com/_PatrickDowning/status/1224873845468823552)
+#### 2020 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2020/)
+#### 2021 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2021/)
+
+## Quantum Events
+
+#### 2020 IBM Quantum Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+#### 2020 IBM Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+#### 2021 Xanadu QHack - [writeups](https://blog.quantumlyconfused.com/quantum-computing/2021/02/27/xanadu-qhack-2021-circuit-training)
+#### 2021 IBM Quantum ICPC Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+#### 2021 IBM Quantum Africa Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+#### 2021 IBM Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+#### 2022 Xanadu QHack - [writeups](https://blog.quantumlyconfused.com/quantum-computing/2022/03/06/xanadu-qhack2022/)
+
 ## Lockpicking
 
 Having stumbled on to [/r/lockpicking](https://www.reddit.com/r/lockpicking/) I immediately fell into the addiction. I love that the system was gamified with a series of belts (similar to martial arts rankings) that guides participants on how to challenge themselves in a meaningful manner. I plan on keep track of progress on this page and share any more meaningful or interesting tidbits in dedicated posts. For anyone interested in joining in I suggest perusing the subreddit (specifically [Beltranking](https://www.reddit.com/r/lockpicking/wiki/beltranking)) and the group's Discord which is highly active.
