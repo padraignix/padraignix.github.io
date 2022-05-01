@@ -579,4 +579,8 @@ As the engineering challenge of designing and creating reliable Quantum hardware
 
 Excited to participate in the next event and see where this journey continues!
 
+<p>
+<a href="/assets/quantum-computing/fall-2021/badge.png" data-lightbox="image15"><img width="50%" height="50%" src="{{ '/assets/quantum-computing/fall-2021/badge.png' | relative_url }}"></a>
+</p>
+
 Thanks folks, until next time!
