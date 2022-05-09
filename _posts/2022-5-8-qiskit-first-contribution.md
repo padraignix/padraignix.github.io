@@ -133,6 +133,6 @@ Arguably this wasn't a huge deployment such as a new feature, or large bugfix, h
 <a href="/assets/quantum-computing/qiskit-open-source/honestwork.png" data-lightbox="image1"><img src="{{ '/assets/quantum-computing/qiskit-open-source/honestwork.png' | relative_url }}"></a>
 </p>
 
-Time to wrap up this article. Everyone is capable of positively contributing and hopefully this helped demystify the process.I hope that anyone reading this now feels more comfortable taking the plunge and go on to open their own pull requests!
+Time to wrap up this article. Everyone is capable of positively contributing back to the community and hopefully this helped demystify one of the ways that can be accomplished. I hope that anyone reading this now feels more comfortable taking the plunge and go on to open their own pull requests!
 
 Thanks folks, until next time!
