@@ -9,7 +9,7 @@ thumbnail:  microchip
 math: true
 keywords:   quantum computing,qiskit,quantum,python,ibm,challenge,qubits,quantum gates,logic gates,
 thumbnail:  https://blog.quantumlyconfused.com/assets/quantum-computing/fall-2021/logo.png
-canon:      https://blog.quantumlyconfused.com/quantum-computing/2022/04/30/ibm-quantum-challenge-icpc2021/
+canon:      https://blog.quantumlyconfused.com/quantum-computing/2022/04/30/ibm-quantum-challenge-fall2021/
 tags:
  - qiskit
  - quantum-computing
