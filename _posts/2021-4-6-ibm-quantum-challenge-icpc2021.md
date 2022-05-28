@@ -1,9 +1,9 @@
 ---
 layout:     post
-title2:     Quantum Computing - IBM Quantum Challenge - ICPC 2021
-title:      IBM Quantum Challenge - ICPC 2021
+title2:     Quantum Computing - Qiskit Quantum Challenge - ICPC 2021
+title:      Qiskit Quantum Challenge - ICPC 2021
 date:       2021-04-06 08:00:00 -0400
-summary:    Overview and walkthrough of a top 20 finish in the 2021 ICPC Quantum Challenge with a focus on how the challenges were solved and how complexity was reduced.
+summary:    Overview and walkthrough of a top 20 finish in the 2021 ICPC Qiskit Quantum Challenge with a focus on how the challenges were solved and how complexity was reduced.
 categories: [quantum-computing]
 thumbnail:  microchip
 math: true

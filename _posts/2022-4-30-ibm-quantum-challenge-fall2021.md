@@ -1,9 +1,9 @@
 ---
 layout:     post
-title2:     Quantum Computing - IBM Quantum Challenge - Fall 2021
-title:      IBM Quantum Challenge - Fall 2021
+title2:     Quantum Computing - Qiskit Quantum Challenge - Fall 2021
+title:      Qiskit Quantum Challenge - Fall 2021
 date:       2022-04-30 08:01:00 -0400
-summary:    Overview and walkthrough of the IBM Fall 2021 Quantum Challenge with a focus on how the challenges were solved and lessons learned.
+summary:    Overview and walkthrough of the IBM Qiskit Fall 2021 Quantum Challenge with a focus on how the challenges were solved and lessons learned.
 categories: [quantum-computing]
 thumbnail:  microchip
 math: true

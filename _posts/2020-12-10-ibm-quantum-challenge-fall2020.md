@@ -1,9 +1,9 @@
 ---
 layout:     post
-title2:     Quantum Computing - IBM Quantum Challenge Fall 2020
-title:      IBM Quantum Challenge Fall 2020
+title2:     Quantum Computing - Qiskit Quantum Challenge Fall 2020
+title:      Qiskit Quantum Challenge Fall 2020
 date:       2020-12-10 08:02:00 -0400
-summary:    Overview and walkthrough of IBM Fall 2020 Quantum Final Challenge excercise with a focus on theoretically solving and circuit decomposition for reduced complexity cost. By the end of the improvement iterations the successful circuit resulted in a 12k complexity.
+summary:    Overview and walkthrough of IBM Qiskit Fall 2020 Quantum Final Challenge excercise with a focus on theoretically solving and circuit decomposition for reduced complexity cost. By the end of the improvement iterations the successful circuit resulted in a 12k complexity.
 categories: [quantum-computing]
 thumbnail:  microchip
 math: true

@@ -1,9 +1,9 @@
 ---
 layout:     post
-title2:      Quantum Computing - IBM Quantum Challenge 2020 Writeup
-title:     IBM Quantum Challenge 2020
+title2:      Quantum Computing - Qiskit Quantum Challenge 2020 Writeup
+title:     Qiskit Quantum Challenge 2020
 date:       2020-5-09 08:00:00 -0400
-summary:    Overview and walkthrough of the IBM 4th anniversary Quantum Challenge excercises and my solutions.
+summary:    Overview and walkthrough of the IBM Qiskit 4th anniversary Quantum Challenge excercises and my solutions.
 categories: [quantum-computing]
 thumbnail:  microchip
 math: true
