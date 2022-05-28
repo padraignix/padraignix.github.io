@@ -12,6 +12,8 @@ thumbnail:  https://blog.quantumlyconfused.com/assets/nsec2022/safecracking/logo
 canon:      https://blog.quantumlyconfused.com/ctf/2022/05/28/nsec2022-safecracking/
 tags:
  - safe cracking
+ - nsec2022
+ - ctf
 ---
 
 <h1>Introduction</h1>
