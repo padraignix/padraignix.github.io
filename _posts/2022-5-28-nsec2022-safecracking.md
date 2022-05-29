@@ -29,7 +29,14 @@ Participants at Northsec 2022 CTF this year we were presented with an interestin
 
 <h1>Challenge Description</h1>
 
-<!-- Insert Description Image once gotten here -->
+<p><blockquote>MikhailVolkov:<br>
+I saw my office painting slightly crooked than usual. Since my safe is behind the painting, it immediately raised my suspicion.<br>
+I found this <code>strange piece of paper</code> on my safe containing highly sensitive documents.<br>
+I am not going to open my safe with you guys close by.<br>
+Since you claim to be good at security, validate for me if someone had an access to my safe.
+<br><br>
+Note: flag is in FLAG-\d{2}-\d{2}-\d{2} format
+</blockquote></p>
 
 The challenge starts out with a missive - the Ouyaya company member believes someone could have broken into their safe and accessed sensitive documents. There was some cryptic letter left on top the safe and they provided us a copy of it. Let's start this challenge off and take a look at the mysterious note.
 
@@ -37,7 +44,7 @@ The challenge starts out with a missive - the Ouyaya company member believes som
 <a href="/assets/nsec2022/safecracking/input.png" data-lightbox="image1"><img src="{{ '/assets/nsec2022/safecracking/input.png' | relative_url }}"></a>
 </p>
 
-Before going into the challenge I had not researched safe cracking theory. Someone with that background should be able to immediately identify what this means, however I had to start at the basics and start looking online with "where do I start?!".
+Before going into the challenge I had not looked worked with safe cracking. Someone with that background should be able to immediately identify what this means, however I had to start at the basics and start looking online with "where do I start?!".
 
 <h1>Safe Cracking Theory</h1>
 
