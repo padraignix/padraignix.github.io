@@ -1,7 +1,7 @@
 ---
 layout:     post
-title2:     Quantum Computing - IBM Quantum Challenge - Spring 2022
-title:      IBM Quantum Challenge - Spring 2022
+title2:     Quantum Computing - Qiskit Quantum Challenge - Spring 2022
+title:      Qiskit Quantum Challenge - Spring 2022
 date:       2022-05-29 08:01:00 -0400
 summary:    Overview and walkthrough of the IBM Qiskit Spring 2022 Quantum Challenge with a focus on how the challenges were solved and lessons learned.
 categories: [quantum-computing]
