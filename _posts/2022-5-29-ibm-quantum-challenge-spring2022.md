@@ -387,7 +387,7 @@ And if we look at the actual statevector output it becomes very clear.
 <a href="/assets/quantum-computing/spring-2022/incorrect3.png" data-lightbox="image23"><img src="{{ '/assets/quantum-computing/spring-2022/incorrect3.png' | relative_url }}"></a>
 </p>
 
-<p>If you are still not following along, essentially with the current code snippet we are summing the probabilities together, however we are not weighing them accordingly. For the above examples our second statevector has a half-weight of \(\left|0000\right>\) which means the imbalance should be half the imbalance value of \(\left|0111\right>\) and half the imbalance value of \(\left|0111\right>\) - which comes out to simply half the value of the sole imbalance of \(\left|0111\right>\). </p>
+<p>If you are still not following along, essentially with the current code snippet we are summing the probabilities together, however we are not weighing them accordingly. For the above examples our second statevector has a half-weight of \(\left|0000\right>\) which means the imbalance should be half the imbalance value of \(\left|0111\right>\) and half the imbalance value of \(\left|0111\right>\) - which we can see \(\left|0000\right>\) is zero.</p>
 
 We need to repeat the summation as we had done, but we then need to also weigh it by the statevector index itself.
 
