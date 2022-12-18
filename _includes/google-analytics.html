@@ -1,12 +1,14 @@
-<!-- Global site tag (gtag.js) - Google Analytics-->
-
-<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
+<!--
+  The GA snippet
+-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  
-  gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics.id }}');
-</script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
 
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics.id }}');
+  });
+</script>
