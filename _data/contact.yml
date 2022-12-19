@@ -7,16 +7,13 @@
   type: github
   icon: 'fab fa-github-alt'   
 -  
-  type: twitter
-  icon: 'fab fa-twitter'
--
   type: reddit
   icon: 'fab fa-reddit-alien'
   url:  'https://www.reddit.com/user/Padraignix'
-#-
-#  type: ctftimes
-#  icon: 'icon-faviconn'
-#  url:  https://ctftime.org/user/{{ site.ctftime_username }}
+-
+  type: mastodon
+  icon: 'fa-brands fa-mastodon'
+  url:  https://infosec.exchange/@patrickdowning
 -
   type: rss
   icon: 'fas fa-rss'
