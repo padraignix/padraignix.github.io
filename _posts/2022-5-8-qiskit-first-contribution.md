@@ -29,7 +29,7 @@ Qiskit has fascinated me for a couple years at this point. It was my first hands
 
 From the first days exploring Qiskit I knew I wanted to eventually contribute back to the community. While I don't have any formal Quantum Computing or Physics training, I do come from a Computer Science background, and I am familiar enough with the software development lifecycle process. As I found out recently, this was enough to get started down my open-source quantum contribution journey. Hopefully posts like this inspire more people to take stock of what they can bring to the table, especially those who may not otherwise think they could contribute meaningfully.
 
-<p><blockquote>The journey of a thousand miles beings with a single step</blockquote></p>
+<p><blockquote>The journey of a thousand miles begins with a single step</blockquote></p>
 
 <h1>Why Contribute Now?</h1>
 
