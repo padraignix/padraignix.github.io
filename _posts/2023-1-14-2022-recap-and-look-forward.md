@@ -140,9 +140,9 @@ In addition the quantum computing and cybersecurity efforts I participate in, 20
 
 <h2>Game Development</h2>
 
-Whether it's for learning through a gamified system, or for recreational gaming, games, especially video games, have been part of my life since my youth. I've owned and played every major console released and credit a lot of my critical analysis and problem solving capabilities to gaming.
+Whether it's for learning through a gamified system, or for recreational gaming, games, especially video games, have been part of my life since my youth. I've owned and played every major console released in the last 25 years and I credit a lot of my critical analysis and problem solving capabilities to gaming.
 
-Back in 2012 I started dabbling with Unity game development. At the time, this was a passing interest. A full decade later, in 2022, I decided to make a more focused effort and started down Unity's [Learning Pathways](https://learn.unity.com/pathways). Throughout the year I was able to finish up two of the pathways - Core, and Jr Programmer.
+Back in 2012 I started dabbling with Unity game development. At the time, this was a passing interest. A full decade later, in 2022, I decided to make a more focused effort and started down Unity's [Learning Pathways](https://learn.unity.com/pathways). Throughout the year I was able to finish up two of the pathways - Essentials, and Junior Programmer.
 
 <p>
 <a href="/assets/personal/2022recap/unity1.png" data-lightbox="image8"><img width="80%" height="80%" src="{{ '/assets/personal/2022recap/unity1.png' | relative_url }}"></a>
