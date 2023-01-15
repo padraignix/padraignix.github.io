@@ -3,7 +3,7 @@ layout:     post
 title2:     A 2022 Personal Recap & Look Forward 
 title:      A 2022 Personal Recap & Look Forward 
 date:       2023-01-14 09:00:00 -0400
-summary:    A personal recap on 2022 events, announcement, hobbies, and look at what the new year will bring across the quantum ecosystem, cybersecurity events, and more miscellaneous personal growth.
+summary:    A personal recap on 2022 events, announcements, hobbies, and look at what the new year will bring across the quantum ecosystem, cybersecurity events, and more miscellaneous personal growth.
 categories: [personal]
 thumbnail:  microchip
 math: false
