@@ -51,21 +51,21 @@ Looking forward, I've already got several events lined up. I fully expect this t
 
 <h2>Quantum Contributions</h2>
 
-In addition to learning through consumption of material, 2022 was also the year I took the next step and started contributing towards pushing the needle of knowledge. Taking my previous event involvements, [quantum blog writeups](https://blog.quantumlyconfused.com/categories/quantum-computing/), and following the [Qiskit Advocate contribution guidelines](https://github.com/qiskit-advocate/application-guide) for other contribution categories - I was happy to receive a successful application to the [Qiskit Advocate](https://qiskit.org/advocates/) program.
-
-<p>
-<a href="/assets/personal/2022recap/advocate.png" data-lightbox="image1"><img src="{{ '/assets/personal/2022recap/advocate.png' | relative_url }}"></a>
-</p>
-<p>
-<a href="/assets/personal/2022recap/advbadge.png" data-lightbox="image2"><img width="60%" height="60%" src="{{ '/assets/personal/2022recap/advbadge.png' | relative_url }}"></a>
-</p>
+In addition to learning through consumption of material, 2022 was also the year I took the next step and started contributing back to the Quantum ecosystem. Taking my previous event involvements, [quantum blog writeups](https://blog.quantumlyconfused.com/categories/quantum-computing/), and following the [Qiskit Advocate contribution guidelines](https://github.com/qiskit-advocate/application-guide) for other contribution categories - I was humbled to be accepted into the [Qiskit Advocate](https://qiskit.org/advocates/) program.
 
 <blockquote>The Qiskit advocate program is a global program that provides support to the individuals who actively contribute to the Qiskit Community.
 <br><br>
 
 Qiskit advocates are some of the finest minds in quantum computing, all over the world. If you are interested in getting involved with the quantum computing community, reach out to an advocate local to your area.</blockquote>
 
-With an interest in not only expanding my own quantum computing knowledge but also helping others start their own quantum journeys, the Qiskit Advocate program provides the resources and support to both. As one of the currently nine advocates located in Canada please feel free to reach out for a quantum discussion!
+<p>
+<a href="/assets/personal/2022recap/advocate.png" data-lightbox="image1"><img src="{{ '/assets/personal/2022recap/advocate.png' | relative_url }}"></a>
+</p>
+<p>
+<a href="/assets/personal/2022recap/advbadge.png" data-lightbox="image2"><img width="80%" height="80%" src="{{ '/assets/personal/2022recap/advbadge.png' | relative_url }}"></a>
+</p>
+
+With an interest in not only expanding my own quantum computing knowledge but also helping others start their own quantum journeys, the Qiskit Advocate program provides the resources and support to both. Currently as one of the nine advocates located in Canada please feel free to reach out for a discussion!
 
 <h2>Canada Quantum Strategy</h2>
 
