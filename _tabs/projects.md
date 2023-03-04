@@ -18,13 +18,17 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 
 ## Quantum Events
 
-* 2020 IBM Quantum Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
-* 2020 IBM Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
-* 2021 Xanadu QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2021/02/27/xanadu-qhack-2021-circuit-training)
-* 2021 IBM Quantum ICPC Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
-* 2021 IBM Quantum Africa Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
-* 2021 IBM Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
-* 2022 Xanadu QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2022/03/06/xanadu-qhack2022/)
+* 2020 Qiskit Quantum Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2020 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2021 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2021/02/27/xanadu-qhack-2021-circuit-training)
+* 2021 Qiskit Quantum ICPC Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2021 Qiskit Quantum Africa Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2021 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2022 Qiskit Quantum Spring Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2022 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2022/03/06/xanadu-qhack2022/)
+* 2022 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2022 Xanadu PennyLane Code Camp - [Accreditation](https://verified.sertifier.com/en/profile/patrickdowning925955)
+* 2023 Xanadu PennyLane QHack
 
 ## Lockpicking
 
