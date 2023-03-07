@@ -411,7 +411,7 @@ The first, was that ApproxTimeEvolution has a function, .decomposition() that al
 <a href="/assets/quantum-computing/qhack2023/400-decomp.png" data-lightbox="image13"><img src="{{ '/assets/quantum-computing/qhack2023/400-decomp.png' | relative_url }}"></a>
 </p>
 
-While I could have gone through the same manual break down of the RXX, RYY, RZZ gates, I had previous experience with Qiskit's transpile. Setting the gate that I was interested in (rx, ry, rz, cx), transpile was able to breakdown the original circuit to one we were interested in.
+While I could have gone through the same manual break down of the RXX, RYY, RZZ gates, I had previous experience with Qiskit's transpile. Setting the gate that I was interested in (rx, ry, rz, cx), transpile was able to breakdown the original circuit to one we were restricted to using.
 
 <p>
 <a href="/assets/quantum-computing/qhack2023/400-transpile.png" data-lightbox="image14"><img src="{{ '/assets/quantum-computing/qhack2023/400-transpile.png' | relative_url }}"></a>
