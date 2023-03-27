@@ -28,7 +28,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2022 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2022/03/06/xanadu-qhack2022/)
 * 2022 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Xanadu PennyLane Code Camp - [Accreditation](https://verified.sertifier.com/en/profile/patrickdowning925955)
-* 2023 Xanadu PennyLane QHack
+* 2023 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2023/03/07/xanadu-qhack2023/)
 
 ## Lockpicking
 
@@ -58,13 +58,3 @@ Having stumbled on to [/r/lockpicking](https://www.reddit.com/r/lockpicking/) I 
 
 * American 1100 - [[Pic]](https://imgur.com/a/4WPxr2w)
 
----
-
-## Cryptopals
-
-Starting off my infosec journey more on the cryptography side I have always wanted to go through and complete the [Cryptopals](https://cryptopals.com/) series. As both a reinforcement of the basics and expanding my practical knowledge going through the exercises offers the perfect mix of theoretical and hands-on to push my boundaries in the cryptography space. Progress and the coding itself will be stored on [Github](https://github.com/padraignix/cryptopals).
-
-### Progress
-
-* Problem Set 1 - Basics [8/8]
-* Problem Set 2 - Block Crypto [2/8]
