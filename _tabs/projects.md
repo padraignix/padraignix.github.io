@@ -15,6 +15,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2020 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2020/)
 * 2021 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2021/)
 * 2022 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2022/)
+* 2023 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2023/)
 
 ## Quantum Events
 
@@ -29,6 +30,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2022 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Xanadu PennyLane Code Camp - [Accreditation](https://verified.sertifier.com/en/profile/patrickdowning925955)
 * 2023 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2023/03/07/xanadu-qhack2023/)
+* 2023 Qiskit Quantum Spring Challenge (Mentor for the event) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 
 ## Lockpicking
 
