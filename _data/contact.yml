@@ -7,9 +7,9 @@
   type: github
   icon: 'fab fa-github-alt'   
 -  
-  type: reddit
-  icon: 'fab fa-reddit-alien'
-  url:  'https://www.reddit.com/user/Padraignix'
+  type: twitter
+  icon: 'fab fa-twitter'
+  url:  'https://twitter.com/_PatrickDowning'
 -
   type: mastodon
   icon: 'fa-brands fa-mastodon'
