@@ -32,9 +32,9 @@ This dovetailed nicely with a few colleagues who had been going through similar 
       
 ### How did this all begin?
 
-In addition to professional day-to-day, I am a big proponent of Gamified learning experiences. From participating, to running, I believe that by incorporating competitive and compensating elements to the learning journey, the journey to learning, quite literally anything, can be enhanced to be more accessible to the masses.
+In addition to professional day-to-day, I am a big proponent of Gamified learning experiences. From participating, to running, I believe that by incorporating competitive and compensating elements to the learning journey can be enhanced to be more accessible to the masses.
 
-I spend my time participating in CTF events testing new techniques on CTF-like online exercises and platforms, such as Hackthebox to explore the Cyber Security realm. Additionally, I enjoy participating in Quantum Challenges and Hackathons by companies like IBM and Xanadu - testing the waters of this bleeding edge technology. I also enjoy taking the time to understand the nuts and bolts of old gaming systems by attempting to emulate them and follow a similar methodology to recreate and understand cryptographic systems under the hood. 
+I spend my time participating in CTF events testing new techniques on CTF-like online exercises and platforms, such as Hackthebox to explore the Cyber Security realm. Additionally, I enjoy participating in Quantum Challenges and Hackathons by companies like IBM and Xanadu - testing the waters of this bleeding edge technology. I also enjoy taking the time to understand the nuts and bolts of old gaming systems by attempting to emulate them and follow a similar methodology to recreate and understand cryptographic systems under the hood. I have been following the latest NIST Post-Quantum Cryptography (PQC) standardization process with interest.
 
 If you're reading this I finally decided to take the plunge. Between preparing and participating in Gamified events and various other projects I needed a place to gather my thoughts and keep track of important notes. More importantly, I set this up as a way to keep myself in check and make sure I don't let things fall to the side.
 
