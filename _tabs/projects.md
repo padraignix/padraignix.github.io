@@ -27,6 +27,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2021 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Qiskit Quantum Spring Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2022/03/06/xanadu-qhack2022/)
+* 2022 Qiskit Global Summer School - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Xanadu PennyLane Code Camp - [Accreditation](https://verified.sertifier.com/en/profile/patrickdowning925955)
 * 2023 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2023/03/07/xanadu-qhack2023/)
