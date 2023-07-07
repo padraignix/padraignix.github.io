@@ -32,7 +32,11 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2022 Qiskit Quantum Fall Challenge - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2022 Xanadu PennyLane Code Camp - [Accreditation](https://verified.sertifier.com/en/profile/patrickdowning925955)
 * 2023 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2023/03/07/xanadu-qhack2023/)
-* 2023 Qiskit Quantum Spring Challenge (Mentor for the event) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2023 Qiskit Quantum Spring Challenge (event mentor) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+
+## Speaking Events
+
+* 2023 Dawson - Cybersecurity, Quantum, and AI Applications in Finance - [Event Link](https://www.dawsoncollege.qc.ca/dawscon/program-2023/)
 
 ## Lockpicking
 
