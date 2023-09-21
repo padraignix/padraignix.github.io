@@ -8,7 +8,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/about/
 ---
 
 
-![me](/assets/0.png)
+![me](/assets/headshot.png)
 
 ### Who am I?
 
