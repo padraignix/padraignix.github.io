@@ -153,7 +153,7 @@ shor_circuit.draw('mpl')
 <p>Then running the circuit we get the results of 0,2,4,8.</p>
 
 <p>
-<a href="/assets/quantum-computing/pqc-shor/fullresut.png" data-lightbox="image8"><img src="{{ '/assets/quantum-computing/pqc-shor/fullresult.png' | relative_url }}"></a>
+<a href="/assets/quantum-computing/pqc-shor/fullresult.png" data-lightbox="image8"><img src="{{ '/assets/quantum-computing/pqc-shor/fullresult.png' | relative_url }}"></a>
 </p>
 
 <p>But wait, didn't you say it should be giving us <i>s/r</i>? That doesn't seem to be the right numbers. There's one last part we didn't account for. The circuit itself is actually giving us $$2^n \cdot \frac{s}{r}$$ so we need to adjust appropriately.</p>
