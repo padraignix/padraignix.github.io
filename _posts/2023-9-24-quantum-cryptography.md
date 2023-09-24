@@ -2,7 +2,7 @@
 layout:     post
 title2:     Post-Quantum Cryptography - Shor's Algorithm in Action
 title:      Post-Quantum Cryptography - Shor's Algorithm in Action
-date:       2023-09-21 09:00:00 -0400
+date:       2023-09-24 09:00:00 -0400
 summary:    A post going over the theoretical implementation of Shor's algorithm as well as covering a previous Qiskit challenge that involved practically implementing Shor's to factor the number 35. This will lay the groundwork to further posts exploring the need for post-quantum cryptography and implementations so far.
 categories: [quantum-computing]
 thumbnail:  microchip
@@ -11,7 +11,10 @@ keywords:   quantum computing,pqc,cryptography,post quantum,qiskit
 thumbnail:  https://blog.quantumlyconfused.com/assets/quantum-computing/pqc-shor/banner.jpg
 canon:      https://blog.quantumlyconfused.com/quantum-computing/2022/09/21/quantum-cryptography/
 tags:
- - tbd
+ - quantum-computing
+ - quantum challenge
+ - quantum cryptography
+ - post-quantum cryptography
 ---
 
 <h1>Introduction</h1>
