@@ -3,7 +3,7 @@ layout:     post
 title2:     Post-Quantum Cryptography - Standardization and Summarization
 title:      Post-Quantum Cryptography - Standardization and Summarization
 date:       2023-09-25 09:00:00 -0400
-summary:    Tbd  
+summary:    A post going over the current post-quantum cryptography landscape, including the current NIST standardization efforts and the underlying mathematical approaches to selected algorithms. This second post in the PQC series sets the groundwork for the practical exploration using experimental branches in the upcoming third post.
 categories: [quantum-computing]
 thumbnail:  microchip
 math: true
