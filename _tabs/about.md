@@ -28,6 +28,8 @@ Through those humble beginnings my Quantum journey has grown. In 2022 I was succ
 
 This dovetailed nicely with a few colleagues who had been going through similar experiences in other horizon technology domains. Together we explored the challenges involved in adopting these emerging technologies and successfully built, proposed, and got ratified the [Zenith](https://github.com/finos/zenith) Emerging Tech Special Interest Group within [FINOS](https://finos.org/). Through this collaboration we hope to push the boundaries on emerging tech adoption by lowering the barriers to entry, curating the initial guidance and knowledge primers, and providing innovative ideas the support required to be explored and developed.
 
+At the later parts of 2023 I pivoted my career. After almost a decade in Finance, I made the jump to [GitHub](https://github.com/) taking a role in the Secure Access Engineering org. Focusing on secrets management, this represents a shift back to my roots of cryptographic services while now intersecting with promoting & supporting open-source development as well as fostering an environment to explore emerging technologies further.
+
 ---
       
 ### How did this all begin?
@@ -36,7 +38,7 @@ In addition to professional day-to-day, I am a big proponent of Gamified learnin
 
 I spend my time participating in CTF events testing new techniques on CTF-like online exercises and platforms, such as Hackthebox to explore the Cyber Security realm. Additionally, I enjoy participating in Quantum Challenges and Hackathons by companies like IBM and Xanadu - testing the waters of this bleeding edge technology. I also enjoy taking the time to understand the nuts and bolts of old gaming systems by attempting to emulate them and follow a similar methodology to recreate and understand cryptographic systems under the hood. I have been following the latest NIST Post-Quantum Cryptography (PQC) standardization process with interest.
 
-If you're reading this I finally decided to take the plunge. Between preparing and participating in Gamified events and various other projects I needed a place to gather my thoughts and keep track of important notes. More importantly, I set this up as a way to keep myself in check and make sure I don't let things fall to the side.
+If you're reading this it's because I finally decided to do so. Between preparing and participating in gamified events and various other projects I needed a place to gather my thoughts and keep track of important notes. More importantly, I set this up as a way to keep myself in check and make sure I don't let things fall to the side.
 
 ---
 
