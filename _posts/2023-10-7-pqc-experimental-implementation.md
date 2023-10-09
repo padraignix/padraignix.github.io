@@ -66,7 +66,7 @@ We can then calculate the polynomial vector <code>t</code> as:
 At which point we have our keys:
 
 * Private key: <code>s</code>
-* Public key: Public key: (<code>A</code>,<code>t</code>)
+* Public key: (<code>A</code>,<code>t</code>)
 
 For the encryption and decryption portions I will again highly suggest going through the <a href="https://cryptopedia.dev/posts/kyber/">Approachable Cryptography's mini-Kyber</a> example as it keeps the parameters low to keep the calculations understandable. The fun part of this as mentioned is that the implementation of Kyber is generally the same and the fundamental differences are in the parameters chosen. Having set the base above with Kyber 512, we can now take a look at some experimental branches and compare to our theoretic understanding.
 
