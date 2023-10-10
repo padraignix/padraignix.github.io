@@ -179,11 +179,13 @@ I then updated my <code>~/openssh/regress/ssh_config</code> on the laptop (actin
 ./ssh-keygen -t ssh-ecdsa-nistp521-sphincssha2256fsimple -f ~/ssh_client/id_ssh-ecdsa-nistp521-sphincssha2256fsimple
 {% endhighlight %}
 
-Leveraging the following in the ssh_config. This section wasn't strictly necessary since it was defined in the command line arguments, however I found that with the default full list of IdentityFile's in the config I was running into auth failures. After cleaning up the config to only include the Sphincs Identity, I was able to successfully authenticate.
+Leveraging the following in the ssh_config.
 
 {% highlight bash%}
 IdentityFile /home/padraignix/ssh_client/id_ssh-ecdsa-nistp521-sphincssha2256fsimple
 {% endhighlight %}
+
+This section wasn't strictly necessary since it was defined in the command line arguments, however I found that with the default full list of IdentityFile's in the config I was running into auth failures. After cleaning up the config to only include the Sphincs Identity, I was able to successfully authenticate.
 
 And with that, we should be all set to go! Let's give it a shot!
 
