@@ -14,6 +14,11 @@ tags:
  - minecraft
  - oracle cloud
  - observability
+comments:
+  host: infosec.exchange
+  username: patrickdowning
+  id: 111581410222539256
+mermaid: true
 ---
 
 <h1>Introduction</h1>
@@ -29,6 +34,51 @@ Recently a group of friends decided they wanted to start a new server. Initially
 Around this time I stumbled on to an interesting blog post by Oracle - [Setting up a really powerful free Minecraft server in the cloud](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud), and I knew I was going to go down the rabbit hole.
 
 My own journey in tech has evolved since the previous local servers, and I wanted to introduce some more modern concepts, while also making it more "production ready" to my standards. Essentially, I wanted to emulate the same infrastructure and features that my friend was currently paying for, and see just how far we could go, while keeping the core concept of remaining free. There are a few blog posts worth of content I plan on writing but to cut the suspense right away - we got pretty darn far, even moving past some of the functionality that the paid service offered.
+
+```mermaid
+flowchart TB
+        subgraph "Game Panel"
+                MSCM_Web1[MSCM Web Panel]
+                MSCM_Daemon1[MSCM Daemon]
+                SSHDaemon1[SSH]
+        end
+        subgraph "Management Server"
+                MSCM_Daemon2[MSCM Daemon]
+                SSHDaemon3[SSH]
+        end
+        subgraph "Game Server"
+                MC[Minecraft]
+                MSCM_Daemon3[MSCM Daemon]
+                Prometheus1[Prometheus Exporter - Forge]
+                Prometheus2[Prometheus Exporter - Grafana]
+                SSHDaemon2[SSH]
+        end
+        subgraph "Client - Player"
+                MC_Client[Minecraft Client]
+                WebPage[Browser]
+        SSHClient[SSH]
+        end
+        subgraph "Grafana Cloud"
+                Grafana[Grafana]
+        end
+        subgraph "Discord"
+                MCChat[MC Chat]
+                MCCommand[MC Observability]
+        end
+
+MSCM_Daemon1 --> MSCM_Web1
+MSCM_Daemon2 --> MSCM_Web1
+MSCM_Daemon3 --> MSCM_Web1
+Prometheus1 --> Grafana
+Prometheus2 --> Grafana
+MC_Client --> MC
+WebPage --> MSCM_Web1
+SSHClient --> SSHDaemon1
+SSHClient --> SSHDaemon2
+SSHClient --> SSHDaemon3
+Grafana --> MCCommand
+MCChat <--> MC
+```
 
 Let's dive into it and see how we setup a production-grade Minecraft server in the cloud!
 

@@ -1,0 +1,73 @@
+<section class="page__comments">
+    <h4 class="page__comments-title">COMMENTS</h4>
+    <p>You can use your <a href="https://joinmastodon.org">Mastodon</a> or other ActivityPub account to comment on this article by replying to the associated <a class="link" href="https://{{ page.comments.host }}/@{{ page.comments.username }}/{{ page.comments.id }}">post</a>.</p>
+    <p id="mastodon-comments-list">
+      <button id="load-comment" class="card">Load comments from Mastodon</button>
+    </p>
+    <noscript><p>You have to allow JavaScript to view the comments.</p></noscript>
+    <script src="/assets/js/purify.min.js"></script>
+    <script type="text/javascript">
+      function escapeHtml(unsafe) {
+        return unsafe
+             .replace(/&/g, "&amp;")
+             .replace(/</g, "&lt;")
+             .replace(/>/g, "&gt;")
+             .replace(/"/g, "&quot;")
+             .replace(/'/g, "&#039;");
+      }
+  
+      document.getElementById("load-comment").addEventListener("click", function() {
+        document.getElementById("load-comment").innerHTML = "Loading";
+        fetch('https://{{ page.comments.host }}/api/v1/statuses/{{ page.comments.id }}/context')
+          .then(function(response) {
+            return response.json();
+          })
+          .then(function(data) {
+            if(data['descendants'] &&
+               Array.isArray(data['descendants']) && 
+              data['descendants'].length > 0) {
+                document.getElementById('mastodon-comments-list').innerHTML = "";
+                data['descendants'].forEach(function(reply) {
+                  if(reply.account.display_name.length > 0)
+                  {
+                    reply.account.display_name = escapeHtml(reply.account.display_name);
+                    reply.account.emojis.forEach(emoji => {
+                      reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                      `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                      });
+                  } else {
+                    reply.account.display_name = reply.account.acct;
+                  };
+                  mastodonComment =
+                    `<article id="comment-${reply.id }" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+                       <div class="js-comment comment">
+                         <div class="comment__avatar-wrapper">
+                           <img class="comment__avatar" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
+                         </div>
+                         <div class="comment__content-wrapper">
+                          <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <a rel="external nofollow" itemprop="url" href="${reply.account.url}" rel="nofollow">
+                              <span>${reply.account.display_name}</span>
+                            </a>
+                          </h3>
+                          <p class="comment__date">
+                            <a itemprop= "url" href="${reply.uri}" rel="nofollow">${reply.created_at.substr(0, 10)}</a>
+                          </p>
+                          <div itemprop="text">${reply.content}</div>
+                          <div class="status">
+                            <a href="${reply.url}" rel="nofollow"><i class="fa fa-reply fa-fw"></i>${reply.replies_count}</a>&nbsp;|&nbsp; 
+                            <a href="${reply.url}" rel="nofollow"><i class="fa fa-retweet fa-fw"></i>${reply.reblogs_count}</a>&nbsp;|&nbsp;
+                            <a href="${reply.url}" rel="nofollow"><i class="fa fa-star fa-fw"></i>${reply.favourites_count}</a>
+                          </div> 
+                         </div>
+                        </div>
+                      </article>`;
+                  document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+                });
+            } else {
+              document.getElementById('mastodon-comments-list').innerHTML = "<p>No comments found (yet! be the first!)</p>";
+            }
+          });
+        });
+    </script>
+  </section>

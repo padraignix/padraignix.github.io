@@ -147,4 +147,8 @@ tail_includes:
 
   </div><!-- .post-tail-bottom -->
 
+  {% if page.comments %}
+    {% include fediverse_comments.html %}
+  {% endif %}
+
 </div><!-- div.post-tail-wrapper -->
