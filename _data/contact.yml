@@ -6,10 +6,10 @@
 -
   type: github
   icon: 'fab fa-github-alt'   
--  
-  type: twitter
-  icon: 'fab fa-twitter'
-  url:  'https://twitter.com/_PatrickDowning'
+#-  
+#  type: twitter
+#  icon: 'fab fa-twitter'
+#  url:  'https://twitter.com/_PatrickDowning'
 -
   type: mastodon
   icon: 'fa-brands fa-mastodon'
