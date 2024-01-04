@@ -7,7 +7,7 @@ summary:    Journey of building a production-grade Minecraft server in the cloud
 categories: [trench-talk]
 thumbnail:  microchip
 math: true
-keywords:   
+keywords:   minecraft, observability, oracle cloud, grafana, prometheus, self-hosting, cloud, infrastructure, monitoring
 thumbnail:  https://blog.quantumlyconfused.com/assets/minecraft/server-setup/logo.jpg
 canon:      https://blog.quantumlyconfused.com/quantum-computing/2022/12/02/mc-cloud-infrastructure
 tags:
