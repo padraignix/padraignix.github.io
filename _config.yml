@@ -24,7 +24,7 @@ title: "Quantumly Confused"                          # the main title
 tagline: Quantum, InfoSec, Crypto, CTFs, and related adventures  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Personal blog covering Quantum Computing, CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
+  Quantumly Confused is a blog that explores the fascinating world of quantum computing and cybersecurity. Whether you are a beginner or an expert, you will find something interesting and informative here. You will learn about the basics of quantum mechanics, the challenges and opportunities of quantum technology, and the latest developments and breakthroughs in the field. You will also discover how quantum computing can impact various domains, such as cryptography, artificial intelligence, and more. Join me on this journey to unravel the mysteries and potentials of quantum computing while staying secure.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://padraignix.github.io'
