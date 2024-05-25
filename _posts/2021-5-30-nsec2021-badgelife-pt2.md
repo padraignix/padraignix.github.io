@@ -8,7 +8,7 @@ categories: [ctf]
 thumbnail:  cogs
 keywords:   northsec,nsec,nsec2021,ctf,writeup,binary,reverse engineering,esp32,re,ghidra,firmware,badgelife
 thumbnail:  https://blog.quantumlyconfused.com/assets/nsec2021/badgelife/re-infocard.png
-canon:      https://blog.quantumlyconfused.com/ctf/2021/05/30/nsec2021-badegelife-pt2/
+canon:      https://blog.quantumlyconfused.com/ctf/2021/05/30/nsec2021-badgelife-pt2/
 tags:
  - nsec2021
  - ctf
