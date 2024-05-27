@@ -15,6 +15,10 @@ tags:
  - ctf
  - reverse-engineering
  - hardware 
+comments:
+  host: infosec.exchange
+  username: patrickdowning
+  id: 112508481145846543
 ---
 
 <h1>Introduction</h1>
