@@ -17,6 +17,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2021 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2021/)
 * 2022 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2022/)
 * 2023 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2023/)
+* 2024 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2024/)
 
 ## Quantum Events
 
@@ -34,6 +35,8 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2023 Xanadu PennyLane QHack - [writeup](https://blog.quantumlyconfused.com/quantum-computing/2023/03/07/xanadu-qhack2023/)
 * 2023 Qiskit Quantum Spring Challenge (event mentor) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2023 Qiskit Global Summer School (event mentor) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
+* 2024 Xanadu PennyLane QHack - [PennyLane Profile](https://pennylane.ai/profile/padraignix)
+* 2024 Qiskit Quantum Fall Challenge (event mentor) - [Event Repo](https://github.com/qiskit-community/ibm-quantum-challenge-2024)
 
 ## Speaking Events
 
