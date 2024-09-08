@@ -52,17 +52,17 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: 4x5Z0Ong7lBlu0f5GVm2D_Fma9DU4A_GvFaBJA5lOOo              # fill in to your verification string
+#google_site_verification: 4x5Z0Ong7lBlu0f5GVm2D_Fma9DU4A_GvFaBJA5lOOo              # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: 'G-WG4CTK40KD'                # fill in your Google Analytics ID
+#google_analytics:
+#  id: 'G-WG4CTK40KD'                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+#  pv:
+#    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+#    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
