@@ -7,6 +7,16 @@ thumbnail:  https://github.com/padraignix.png
 canon:      https://blog.quantumlyconfused.com/tabs/projects/
 ---
 
+## Speaking Events
+
+* 2023 Dawson - Cybersecurity, Quantum, and AI Applications in Finance - [session](https://www.dawsoncollege.qc.ca/dawscon/program-2023/)
+
+## Workshops
+
+* 2024 MontreHack - NSec 2024’s Phospholipid Track ([session](https://montrehack.ca/2024/08/21/nsec-2024-phospholipid.html))
+* 2024 Hackfest - Hardware Hacking for Everyone ([session](https://cfp.hackfest.ca/hf2024/talk/SARBKM/))
+* 2025 NorthSec - Reading The Docs: Hardware Hacking ([session](https://nsec.io/session/2025-reading-the-docs-hardware-hacking.html))
+
 ## CTF Events
 
 * 2019 Splunk - BOSS of the SOC [winner](https://twitter.com/_PatrickDowning/status/1224873845468823552)
@@ -37,10 +47,6 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2023 Qiskit Global Summer School (event mentor) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2024 Xanadu PennyLane QHack - [PennyLane Profile](https://pennylane.ai/profile/padraignix)
 * 2024 Qiskit Quantum Fall Challenge (event mentor) - [Event Repo](https://github.com/qiskit-community/ibm-quantum-challenge-2024)
-
-## Speaking Events
-
-* 2023 Dawson - Cybersecurity, Quantum, and AI Applications in Finance - [Event Link](https://www.dawsoncollege.qc.ca/dawscon/program-2023/)
 
 ## Lockpicking
 
