@@ -9,7 +9,7 @@ thumbnail:  microchip
 math:       false
 keywords:   defcon33,ctf,quantum,post-quantum,cryptography,ml-dsa-65,low-entropy
 thumbnail:  https://blog.quantumlyconfused.com/assets/dc33/entropyheist-logo.png
-canon:      https://blog.quantumlyconfused.com/ctf/2025/08/16/defcon33-quantum-village-entropy-heist/
+canon:      https://blog.quantumlyconfused.com/ctf/2025/08/16/defcon33-quantumvillage-entropy-heist/
 tags:
  - defcon33
  - ctf
