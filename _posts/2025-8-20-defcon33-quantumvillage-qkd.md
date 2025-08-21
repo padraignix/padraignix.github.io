@@ -202,7 +202,7 @@ I figured I would need to take out the leetspeak, bringing us to `qv{photon_numb
 <a href="/assets/dc33/shapiro-result.png" data-lightbox="image7"><img width="80%" height="80%" src="{{ '/assets/dc33/shapiro-result.png' | relative_url }}"></a>
 </p>
 
-I also find the flag funny as photon number splitting (PNS) is another real attack vector against QKD. subtle nod, it was excellent.
+I also find the flag funny as photon number splitting (PNS) is another real attack vector against QKD. Subtle nod, it was excellent.
 
 <h1>Summary</h1>
 
