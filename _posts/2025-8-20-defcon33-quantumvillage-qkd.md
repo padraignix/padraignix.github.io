@@ -104,7 +104,7 @@ Critically, Bob's measurement outcome is supposed to be random from Eve's perspe
 
 But this "perfect" view assumes ideal detectors. We have been given classical instrumentation telemetry that reveals imperfections in the detection process.
 
-<h1>Glitch in the Matrix</h1>
+<h1>Glitch In The Matrix</h1>
 
 This was one of the cooler aspects of this challenge for me. While I was already familiar with QKD and the BB84 protocol, I hadn't spent much time digging into real-world implementations. This challenge allowed me to learn more about the operational, noisy, side of things.
 
@@ -122,7 +122,7 @@ To help illustrate what we are working with here is an example schematic of an i
 
 > Schematic diagram of main components of the QKD system, showing the transmitter (Alice) and receiver (Bob). LD: Laser diode, IM: Intensity modulator, BS: Beam splitter, PBS: Polarising beam splitter, A: Variable optical attenuator, I: Optical isolator, F: Narrow band pass optical filter, DL: Delay line, MD: Monitoring detector, EPC: Electronic polarisation controller, FS: Fibre stretcher, APD: Avalanche photodiode detector, SD: self-differencing circuit. [[1](https://www.researchgate.net/figure/Schematic-diagram-of-main-components-of-the-QKD-system-showing-the-transmitter-Alice_fig2_317008650)].
 
-<h1>Why a Louder Click Gives Away a Little More</h1>
+<h1>Why A Louder Click Gives Away A Little More</h1>
 
 Real detectors are not twins. While the two bit channels sit behind identical APDs, environmental factors mean one channel will have a slightly larger high-amplitude tail or a slightly different gain.
 
@@ -144,7 +144,7 @@ If you stare at those curves long enough you still won't see a gap, trust me I t
 | 90                | 2.665     | 2,511       | 0.492      | 0.508      |
 | 95                | 2.741     | 1,256       | 0.474      | 0.526      |
 
-Now the leakage starts to show up. At 50% the sequence is almost a fair coin: ~50/50. As you raise the cutoff and keep only louder avalanches the distribution skews, topping 52.6% ones vs 47.4% zeros at the highest cutoffs.
+Now the leakage starts to show up. At 50% the sequence is basically a fair coin: ~50/50. As you raise the cutoff and keep only louder avalanches the distribution skews, topping 52.6% ones vs 47.4% zeros at the highest cutoffs.
 
 If you take all bits, you see random garbage. The higher the cutoff, the more pronounced the bias, however the less data to work with. We need to find the middle ground. If you select only the tail, which based on our graph above is around 70%, we're left with a slightly unfair coin, but enough data to work with. When you concatenate tens of thousands of those bits, the bias is enough to "shine through", as we will see when we align the stream into bytes as part of the challenge.
 
