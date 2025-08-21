@@ -9,7 +9,7 @@ thumbnail:  microchip
 math:       false
 keywords:   defcon33,ctf,quantum,qkd,satellite,data interception
 thumbnail:  https://blog.quantumlyconfused.com/assets/dc33/shapiro-logo.png
-canon:      https://blog.quantumlyconfused.com/ctf/2025/08/20/defcon33-quantumvillage-qkd/
+canon:      https://blog.quantumlyconfused.com/ctf/2025/08/20/defcon33-quantumvillage-shapiro/
 tags:
  - defcon33
  - ctf
