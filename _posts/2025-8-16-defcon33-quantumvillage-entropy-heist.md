@@ -1,9 +1,9 @@
 ---
 layout:     post
-title2:     Def Con 33 - Quantum Village - The Entropy Heist
-title:      Def Con 33 - Quantum Village - The Entropy Heist
+title2:     DEF CON 33 - Quantum Village - The Entropy Heist
+title:      DEF CON 33 - Quantum Village - The Entropy Heist
 date:       2025-08-16 17:00:00 -0400
-summary:    This blog post covers my experience at Def Con 33's Quantum Village, focusing on the post-quantum cryptography ML-DSA-65 "The Entropy Heist" challenge and solution.
+summary:    This blog post covers my experience at DEF CON 33's Quantum Village, focusing on the post-quantum cryptography ML-DSA-65 "The Entropy Heist" challenge and solution.
 categories: [ctf]
 thumbnail:  microchip
 math:       false
@@ -346,7 +346,11 @@ Signature length: 3309
 Flag (first 8 bytes, pair-swapped): e5866ca28da52a64
 ```
 
-And, tada, the flag `qv{e5866ca28da52a64}` was correct!
+And, tada, the flag `qv{e5866ca28da52a64}` was correct! Good enough to get first blood as well!
+
+<p>
+<a href="/assets/dc33/entropy-result.png" data-lightbox="image2"><img width="80%" height="80%" src="{{ '/assets/dc33/entropy-result.png' | relative_url }}"></a>
+</p>
 
 <h1>Summary</h1>
 
