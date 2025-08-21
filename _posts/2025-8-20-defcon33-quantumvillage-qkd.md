@@ -202,6 +202,8 @@ I figured I would need to take out the leetspeak, bringing us to `qv{photon_numb
 <a href="/assets/dc33/shapiro-result.png" data-lightbox="image7"><img width="80%" height="80%" src="{{ '/assets/dc33/shapiro-result.png' | relative_url }}"></a>
 </p>
 
+I also find the flag funny as photon number splitting (PNS) is another real attack vector against QKD. subtle nod, it was excellent.
+
 <h1>Summary</h1>
 
 I loved this challenge because it rewards curiosity about how things actually work. In BB84 theory, Eve cannot gain information without disturbing the quantum states and raising the error rate - ultimately causing detection. But what we were exploiting here did not interfere with the quantum nature of QKD. It was the noisy, analog, classical layer where photons become voltages and voltages become bits.
