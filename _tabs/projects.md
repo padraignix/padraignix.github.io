@@ -29,6 +29,7 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2023 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2023/)
 * 2024 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2024/)
 * 2025 NSEC - Badge Team, Challenge Designer
+* 2026 NSEC - Badge Team/Firmware Lead, Challenge Designer
 
 ## Quantum Events
 
