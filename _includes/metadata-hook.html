@@ -1,0 +1,26 @@
+<!-- Custom metadata retained from the site overlay. -->
+{% if page.summary %}
+	<meta name="description" content="{{ page.summary | strip_html | escape }}">
+	<meta property="og:description" content="{{ page.summary | strip_html | truncatewords: 20 | escape }}">
+	<meta name="twitter:description" content="{{ page.summary | strip_html | truncatewords: 20 | escape }}">
+{% endif %}
+
+{% if page.keywords %}
+	<meta name="keywords" content="{{ page.keywords | escape }}">
+{% endif %}
+
+{% if page.canon %}
+	<link rel="canonical" href="{{ page.canon }}">
+	<meta property="og:url" content="{{ page.canon }}">
+{% endif %}
+
+{% if page.title2 %}
+	<meta property="og:title" content="{{ page.title2 | escape }}">
+	<meta name="twitter:title" content="{{ page.title2 | escape }}">
+{% endif %}
+
+{% if page.thumbnail %}
+	<meta property="og:image" content="{{ page.thumbnail }}">
+	<meta name="twitter:image" content="{{ page.thumbnail }}">
+	<meta name="twitter:card" content="summary_large_image">
+{% endif %}

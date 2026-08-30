@@ -1,0 +1,109 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* Preserve the compact post-list presentation from the previous theme. */
+#post-list {
+  .card-wrapper:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .post-preview {
+    border-bottom: 1px solid var(--main-border-color);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .card .card-body .card-title {
+    color: var(--link-color) !important;
+  }
+
+  .legacy-thumbnail {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    max-height: 100px;
+    border-radius: 0;
+    object-fit: contain;
+  }
+}
+
+/* Center post images by default, including images inside legacy lightbox links. */
+main article .content a.img-link:not(.left):not(.right) {
+  position: relative;
+  left: 50%;
+  justify-content: center;
+  transform: translateX(-50%);
+}
+
+main article .content img:not(.left):not(.right) {
+  display: block;
+  margin-inline: auto !important;
+}
+
+.page__comments {
+  margin-top: 3rem;
+
+  .page__comments-title {
+    margin-bottom: 0.75rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--main-border-color);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+
+  .card {
+    padding: 0.5rem 1rem;
+    border-color: var(--card-border-color);
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    box-shadow: 0 0 5px var(--card-box-shadow);
+  }
+
+  .comment {
+    display: flow-root;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--main-border-color);
+  }
+
+  .comment__avatar-wrapper {
+    float: left;
+    width: 60px;
+    margin-top: 0.25rem;
+  }
+
+  .comment__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .comment__content-wrapper {
+    float: right;
+    width: calc(100% - 60px);
+  }
+
+  .comment__author,
+  .comment__date {
+    margin: 0;
+  }
+
+  .status {
+    margin-top: 0.5rem;
+  }
+}

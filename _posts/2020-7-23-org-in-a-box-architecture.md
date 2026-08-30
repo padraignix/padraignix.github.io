@@ -12,7 +12,7 @@ canon:      https://blog.quantumlyconfused.com/org-in-a-box/2020/07/23/org-in-a-
 tags:
  - org-in-a-box
  - architecture
- - IAM
+ - iam
  - raspberry pi
  - project 
 ---

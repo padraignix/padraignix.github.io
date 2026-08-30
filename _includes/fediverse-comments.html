@@ -1,0 +1,85 @@
+{% if page.comments.id and page.comments.host and page.comments.username %}
+  <section class="page__comments" aria-labelledby="fediverse-comments-title">
+    <h2 id="fediverse-comments-title" class="page__comments-title">Comments</h2>
+    <p>
+      Use a <a href="https://joinmastodon.org">Mastodon</a> or other ActivityPub account to comment by replying to the
+      <a href="https://{{ page.comments.host }}/@{{ page.comments.username }}/{{ page.comments.id }}">associated post</a>.
+    </p>
+    <div id="mastodon-comments-list">
+      <button id="load-comments" type="button" class="card">Load comments from Mastodon</button>
+    </div>
+    <noscript><p>JavaScript is required to view the comments.</p></noscript>
+
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+    <script>
+      (() => {
+        const button = document.getElementById('load-comments');
+        const list = document.getElementById('mastodon-comments-list');
+
+        if (!button || !list) return;
+
+        const escapeHtml = (value) => {
+          const element = document.createElement('span');
+          element.textContent = value || '';
+          return element.innerHTML;
+        };
+
+        button.addEventListener('click', async () => {
+          button.disabled = true;
+          button.textContent = 'Loading…';
+
+          try {
+            const response = await fetch(
+              'https://{{ page.comments.host }}/api/v1/statuses/{{ page.comments.id }}/context'
+            );
+
+            if (!response.ok) throw new Error(`Mastodon returned ${response.status}`);
+
+            const data = await response.json();
+            const replies = Array.isArray(data.descendants) ? data.descendants : [];
+
+            if (replies.length === 0) {
+              list.innerHTML = '<p>No comments found yet. Be the first!</p>';
+              return;
+            }
+
+            list.replaceChildren();
+            replies.forEach((reply) => {
+              const displayName = escapeHtml(reply.account.display_name || reply.account.acct);
+              const comment = `
+                <article id="comment-${escapeHtml(reply.id)}" class="comment" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
+                  <div class="comment__avatar-wrapper">
+                    <img class="comment__avatar" src="${escapeHtml(reply.account.avatar_static)}" width="40" height="40" alt="">
+                  </div>
+                  <div class="comment__content-wrapper">
+                    <h3 class="comment__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                      <a itemprop="url" href="${escapeHtml(reply.account.url)}" rel="external nofollow noopener">
+                        <span itemprop="name">${displayName}</span>
+                      </a>
+                    </h3>
+                    <p class="comment__date">
+                      <a href="${escapeHtml(reply.url)}" rel="nofollow noopener">${escapeHtml(reply.created_at.substring(0, 10))}</a>
+                    </p>
+                    <div itemprop="text">${reply.content}</div>
+                    <div class="status">
+                      <a href="${escapeHtml(reply.url)}" rel="nofollow noopener"><i class="fa fa-reply fa-fw"></i>${reply.replies_count}</a>
+                      &nbsp;|&nbsp;
+                      <a href="${escapeHtml(reply.url)}" rel="nofollow noopener"><i class="fa fa-retweet fa-fw"></i>${reply.reblogs_count}</a>
+                      &nbsp;|&nbsp;
+                      <a href="${escapeHtml(reply.url)}" rel="nofollow noopener"><i class="fa fa-star fa-fw"></i>${reply.favourites_count}</a>
+                    </div>
+                  </div>
+                </article>`;
+
+              list.appendChild(DOMPurify.sanitize(comment, { RETURN_DOM_FRAGMENT: true }));
+            });
+          } catch (error) {
+            button.disabled = false;
+            button.textContent = 'Retry loading comments';
+            console.error('Unable to load Mastodon comments:', error);
+          }
+        });
+      })();
+    </script>
+  </section>
+{% endif %}

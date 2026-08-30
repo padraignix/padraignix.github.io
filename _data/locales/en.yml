@@ -15,6 +15,8 @@ tabs:
   tags: Tags
   archives: Archives
   about: About
+  projects: Projects
+  disclaimer: Disclaimer
 
 # the text displayed in the search bar & search results
 search:
@@ -40,14 +42,19 @@ copyright:
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
 
-meta: Powered by :PLATFORM with :THEME theme.
+meta: Using the :THEME theme for :PLATFORM.
 
 not_found:
-  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+  statement: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
 
 notification:
-  update_found: A new version of content is available.
+  update_found: New content available
   update: Update
+
+theme:
+  light: Light
+  dark: Dark
+  system: System
 
 # ----- Posts related labels -----
 
@@ -60,6 +67,7 @@ post:
   read_time:
     unit: min
     prompt: read
+  edit: Edit this post
   relate_posts: Further Reading
   share: Share
   button:
@@ -70,18 +78,16 @@ post:
     share_link:
       title: Copy link
       succeed: Link copied successfully!
-  # pinned prompt of posts list on homepage
-  pin_prompt: Pinned
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: '%b %e, %Y'
-    dayjs: 'll'
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
   archives:
-    strftime: '%b'
-    dayjs: 'MMM'
+    strftime: "%b"
+    dayjs: "MMM"
 
 # categories page
 categories:

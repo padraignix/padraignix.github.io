@@ -40,14 +40,19 @@ copyright:
     Kecuali jika dinyatakan, Postingan blog di situs ini dilisensikan
     di bawah Lisensi Creative Commons Attribution 4.0 International (CC BY 4.0) oleh penulis.
 
-meta: Didukung oleh :PLATFORM dengan tema :THEME.
+meta: Didukung oleh :PLATFORM dengan tema :THEME
 
 not_found:
-  statment: Maaf, kami gagal menemukan URL itu atau memang mengarah ke sesuatu yang tidak ada.
+  statement: Maaf, kami gagal menemukan URL itu atau memang mengarah ke sesuatu yang tidak ada.
 
 notification:
-  update_found: Versi konten baru tersedia.
+  update_found: Konten baru tersedia
   update: Perbarui
+
+theme:
+  light: Terang
+  dark: Gelap
+  system: Sistem
 
 # ----- Posts related labels -----
 
@@ -60,6 +65,7 @@ post:
   read_time:
     unit: menit
     prompt: baca
+  edit: Sunting entri ini
   relate_posts: Postingan Lainya
   share: Bagikan
   button:
@@ -70,8 +76,6 @@ post:
     share_link:
       title: Salin tautan
       succeed: Tautan berhasil disalin!
-  # pinned prompt of posts list on homepage
-  pin_prompt: Disematkan
 
 # categories page
 categories:

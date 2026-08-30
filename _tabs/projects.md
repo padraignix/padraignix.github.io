@@ -1,5 +1,7 @@
 ---
 title: Projects
+icon: fas fa-code
+order: 5
 title2: Padraignix's InfoSec Blog - Projects
 summary: Personal blog covering CTF events, Security Infrastructure, Cryptography, Emulator development, Quantum Technology and related adventures
 keywords: hacking,quantumly confused,blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering
