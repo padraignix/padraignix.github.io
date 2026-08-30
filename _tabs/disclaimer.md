@@ -1,5 +1,7 @@
 ---
 title: Disclaimer
+icon: fas fa-shield-alt
+order: 6
 title2: Quantumly Confused - Disclaimer
 summary: Legal disclaimer, Cookie policy, and Privacy policy for Padraignix's InfoSec Blog.
 keywords: hacking, blog,information security,infosec,hackthebox,quantum computing,quantum technology,emulation,emulators,reverse engineering

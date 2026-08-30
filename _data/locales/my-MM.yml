@@ -40,14 +40,19 @@ copyright:
     အခြားမှတ်သားထားချက်များမှလွဲ၍ ဤဆိုက်ရှိ ဘလော့ဂ်ပို့စ်များသည် စာရေးသူ၏
     Creative Commons Attribution 4.0 International (CC BY 4.0) အောက်တွင် လိုင်စင်ရထားပါသည်။
 
-meta: Powered by :PLATFORM with :THEME theme.
+meta: Powered by :PLATFORM with :THEME theme
 
 not_found:
-  statment: ဝမ်းနည်းပါသည်၊ ကျွန်ုပ်တို့သည် အဆိုပါ URL ကို မှားယွင်းစွာ နေရာချထားခြင်း သို့မဟုတ် ၎င်းသည် မရှိသောအရာကို ညွှန်ပြနေပါသည်။
+  statement: ဝမ်းနည်းပါသည်၊ ကျွန်ုပ်တို့သည် အဆိုပါ URL ကို မှားယွင်းစွာ နေရာချထားခြင်း သို့မဟုတ် ၎င်းသည် မရှိသောအရာကို ညွှန်ပြနေပါသည်။
 
 notification:
-  update_found: အကြောင်းအရာဗားရှင်းအသစ်ကို ရနိုင်ပါပြီ။
+  update_found: အကြောင်းအရာအသစ် တွေ့ရှိပါသည်
   update: အပ်ဒိတ်
+
+theme:
+  light: အလင်း
+  dark: အမှောင်
+  system: စနစ်
 
 # ----- Posts related labels -----
 
@@ -60,6 +65,7 @@ post:
   read_time:
     unit: မိနစ်
     prompt: ဖတ်ပါမည်
+  edit: ဤပို့စ်ကို တည်းဖြတ်ပါ
   relate_posts: နောက်ထပ်ဖတ်ရန်
   share: မျှဝေရန်
   button:
@@ -70,8 +76,6 @@ post:
     share_link:
       title: လင့်ခ်ကို ကူးယူရန်
       succeed: လင့်ခ်ကို ကူးယူလိုက်ပြီ။
-  # pinned prompt of posts list on homepage
-  pin_prompt: ချိတ်ထားသည်။
 
 # categories page
 categories:

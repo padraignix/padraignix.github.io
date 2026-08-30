@@ -40,14 +40,19 @@ copyright:
     Освен ако не е посочено друго, публикациите в блога на този сайт са лицензирани
     под лиценза Creative Commons Attribution 4.0 (CC BY 4.0) от автора.
 
-meta: Създадено чрез :PLATFORM и :THEME тема.
+meta: Създадено чрез :PLATFORM и :THEME тема
 
 not_found:
-  statment: Съжалявам, но на този URL адрес няма налично съдържание.
+  statement: Съжалявам, но на този URL адрес няма налично съдържание.
 
 notification:
-  update_found: Налична е нова версия на съдържанието.
+  update_found: Има ново съдържание
   update: Обнови
+
+theme:
+  light: Светла
+  dark: Тъмна
+  system: Системна
 
 # ----- Posts related labels -----
 
@@ -60,6 +65,7 @@ post:
   read_time:
     unit: мин
     prompt: четиво
+  edit: Редактирай тази публикация
   relate_posts: Още за четене
   share: Споделете
   button:
@@ -70,8 +76,6 @@ post:
     share_link:
       title: Копирай линк
       succeed: Линкът е копиран успешно!
-  # pinned prompt of posts list on homepage
-  pin_prompt: Прикрепенa
 
 # categories page
 categories:

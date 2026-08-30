@@ -11,7 +11,7 @@ keywords:   quantum computing,qiskit,quantum,python,ibm,pennylane,qubits,quantum
 thumbnail:  https://blog.quantumlyconfused.com/assets/quantum-computing/qiskit-open-source/logo.png
 canon:      https://blog.quantumlyconfused.com/quantum-computing/2022/05/08/qiskit-first-contribution/
 tags:
- - quantum computing
+ - quantum-computing
  - qiskit
  - open source
  - github
