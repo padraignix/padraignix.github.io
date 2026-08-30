@@ -6,6 +6,9 @@ on:
       - "_javascript/**/*.js"
       - ".github/workflows/scripts/**/*.js"
       - "*.js"
+
+permissions:
+  contents: read
   pull_request:
     paths:
       - "_javascript/**/*.js"
@@ -24,7 +27,7 @@ jobs:
           node-version: lts/*
 
       - name: Install Dependencies
-        run: npm i
+        run: npm ci
 
       - name: Lint JS
         run: npm run lint:js

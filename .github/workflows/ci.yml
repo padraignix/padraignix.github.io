@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
       - "hotfix/*"
     paths-ignore:
       - ".github/**"
@@ -12,6 +12,9 @@ on:
       - "docs/**"
       - README.md
       - LICENSE
+
+permissions:
+  contents: read
   pull_request:
     paths-ignore:
       - ".github/**"
@@ -47,7 +50,7 @@ jobs:
           node-version: lts/*
 
       - name: Build Assets
-        run: npm i && npm run build
+        run: npm ci && npm run build
 
       - name: Test Site
         run: bash tools/test.sh
