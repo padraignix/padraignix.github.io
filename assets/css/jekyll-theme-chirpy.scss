@@ -42,8 +42,16 @@
   }
 }
 
-/* Keep explicitly centered post images centered after Chirpy adds its popup wrapper. */
-main center > .img-link > img {
+/* Center post images by default, including images inside legacy lightbox links. */
+main article .content a.img-link:not(.left):not(.right) {
+  position: relative;
+  left: 50%;
+  justify-content: center;
+  transform: translateX(-50%);
+}
+
+main article .content img:not(.left):not(.right) {
+  display: block;
   margin-inline: auto !important;
 }
 
