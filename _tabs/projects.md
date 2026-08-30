@@ -30,6 +30,8 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2022 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2022/)
 * 2023 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2023/)
 * 2024 NSEC [writeups](https://blog.quantumlyconfused.com/tags/nsec2024/)
+* 2025 NSEC - Badge Team, Challenge Designer
+* 2026 NSEC - Badge Team/Firmware Lead, Challenge Designer
 
 ## Quantum Events
 
@@ -49,6 +51,8 @@ canon:      https://blog.quantumlyconfused.com/tabs/projects/
 * 2023 Qiskit Global Summer School (event mentor) - [Advanced Badge](https://www.credly.com/users/patrick-downing/badges)
 * 2024 Xanadu PennyLane QHack - [PennyLane Profile](https://pennylane.ai/profile/padraignix)
 * 2024 Qiskit Quantum Fall Challenge (event mentor) - [Event Repo](https://github.com/qiskit-community/ibm-quantum-challenge-2024)
+* 2025 Qiskit Global Summer School (event mentor)
+* 2025 Defcon 33 Quantum Village CTF - Second place
 
 ## Lockpicking
 
