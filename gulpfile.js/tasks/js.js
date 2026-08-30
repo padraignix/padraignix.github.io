@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
-"use strict";
+'use strict';
 
 const { src, dest, watch, series, parallel} = require('gulp');
 
 const concat = require('gulp-concat');
-const rename = require("gulp-rename");
+const rename = require('gulp-rename');
 const uglify = require('gulp-uglify');
 const insert = require('gulp-insert');
 const fs = require('fs');
 
 const JS_SRC = '_javascript';
-const JS_DEST = `assets/js/dist`;
+const JS_DEST = 'assets/js/dist';
 
 function concatJs(files, output) {
   return src(files)
