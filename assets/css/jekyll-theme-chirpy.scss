@@ -42,16 +42,9 @@
   }
 }
 
-/* Chirpy centers generated popup links; extend that behavior to legacy markup. */
-main p > a.img-link[data-lightbox] {
-  position: relative;
-  left: 50%;
-  width: fit-content;
-  transform: translateX(-50%);
-
-  > img {
-    margin-inline: auto !important;
-  }
+/* Keep explicitly centered post images centered after Chirpy adds its popup wrapper. */
+main center > .img-link > img {
+  margin-inline: auto !important;
 }
 
 .page__comments {

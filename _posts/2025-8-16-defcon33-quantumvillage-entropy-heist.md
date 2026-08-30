@@ -5,6 +5,7 @@ title:      DEF CON 33 - Quantum Village - The Entropy Heist
 date:       2025-08-16 17:00:00 -0400
 summary:    This blog post covers my experience at DEF CON 33's Quantum Village, focusing on the post-quantum cryptography ML-DSA-65 "The Entropy Heist" challenge and solution.
 categories: [ctf]
+permalink:  /ctf/2025/08/16/defcon33-quantumvillage-entropy-heist/
 math:       false
 keywords:   defcon33,ctf,quantum,post-quantum,cryptography,ml-dsa-65,low-entropy
 thumbnail:  https://blog.quantumlyconfused.com/assets/dc33/entropyheist-logo.png

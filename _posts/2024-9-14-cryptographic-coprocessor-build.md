@@ -23,9 +23,9 @@ tags:
 
 <h1>Introduction & Recap</h1>
 
-<p>
+<center>
 <img width="70%" height="70%" src="{{ '/assets/nsec2024/custom/title-addon.jpg' | relative_url }}">
-</p>
+</center>
 
 Recently I had an opportunity to participate in the [Montrehack](https://montrehack.ca/) event covering the NSEC 2024's [Cryptographic co-processor badge addon](https://blog.quantumlyconfused.com/ctf/2024/05/25/nsec2024-badgelife-addon/). This was a mentored session format going over the CTF challenges and offering an opportunity for those who weren't able to participate at NSEC. Jonathan Marcil reached out and aked if I would be interested in helping out and I was overjoyed to say yes. The event itself was fantastic, and I was happy to see more people "get it" as I did during the CTF. Here's to many more events, more hardware, and more challenges to come!
 
