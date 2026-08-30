@@ -14,6 +14,46 @@
 
 /* append your custom style below */
 
+/* Preserve the compact post-list presentation from the previous theme. */
+#post-list {
+  .card-wrapper:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .post-preview {
+    border-bottom: 1px solid var(--main-border-color);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .card .card-body .card-title {
+    color: var(--link-color) !important;
+  }
+
+  .legacy-thumbnail {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    max-height: 100px;
+    border-radius: 0;
+    object-fit: contain;
+  }
+}
+
+/* Chirpy centers generated popup links; extend that behavior to legacy markup. */
+main p > a.img-link[data-lightbox] {
+  position: relative;
+  left: 50%;
+  width: fit-content;
+  transform: translateX(-50%);
+
+  > img {
+    margin-inline: auto !important;
+  }
+}
+
 .page__comments {
   margin-top: 3rem;
 
