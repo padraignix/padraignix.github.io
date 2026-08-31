@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1050" viewBox="0 0 2800 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Seven months to the NSEC 2026 badge launch</title>
+  <desc id="desc">A simple horizontal timeline from October to May. The badge progresses from ideas and design through prototypes, production, final preparation, a shipping crisis, and conference launch.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071c24"/><stop offset="0.62" stop-color="#102d31"/><stop offset="1" stop-color="#28162e"/>
+    </linearGradient>
+    <linearGradient id="timeline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62d6a7"/><stop offset="0.55" stop-color="#d9d56b"/><stop offset="0.78" stop-color="#f2a24e"/><stop offset="1" stop-color="#ff4164"/>
+    </linearGradient>
+    <linearGradient id="pressure" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62d6a7" stop-opacity="0.04"/><stop offset="0.6" stop-color="#f2c14e" stop-opacity="0.13"/><stop offset="0.84" stop-color="#f78154" stop-opacity="0.42"/><stop offset="1" stop-color="#ff4164" stop-opacity="0.82"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="13" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="13" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 Z" fill="#ff4164"/></marker>
+    <style>
+      .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .headline { font-size: 65px; font-weight: 800; fill: #f7fff9; letter-spacing: -1px; }
+      .subtitle { font-size: 27px; fill: #b8d8d2; }
+      .month { font-size: 25px; font-weight: 900; fill: #f7fff9; letter-spacing: 2px; }
+      .summary { font-size: 23px; font-weight: 750; fill: #f7fff9; }
+      .detail { font-size: 18px; fill: #aed0c8; }
+      .pressure { font-size: 17px; font-weight: 800; fill: #f4b26b; letter-spacing: 2px; }
+      .footer { font-size: 18px; font-weight: 800; fill: #f2c14e; letter-spacing: 2px; }
+      .stem { stroke: #749b94; stroke-width: 3; }
+    </style>
+  </defs>
+
+  <rect width="2800" height="1050" rx="38" fill="url(#background)"/>
+  <circle cx="180" cy="100" r="270" fill="#62d6a7" opacity="0.045"/>
+  <circle cx="2690" cy="980" r="400" fill="#ff4164" opacity="0.07"/>
+
+  <g class="sans">
+    <text class="headline" x="105" y="108">SEVEN MONTHS TO BADGE DAY</text>
+    <text class="subtitle" x="108" y="158">From the first idea to conference day—with almost no room left at the finish.</text>
+
+    <path d="M120 565 L120 535 C830 534 1510 525 1990 490 C2330 465 2555 400 2690 290 L2690 565 Z" fill="url(#pressure)"/>
+    <text class="pressure" x="2690" y="250" text-anchor="end">RISING SCHEDULE PRESSURE</text>
+
+    <line x1="125" y1="565" x2="2685" y2="565" stroke="#183e43" stroke-width="36" stroke-linecap="round"/>
+    <line x1="125" y1="565" x2="2675" y2="565" stroke="url(#timeline)" stroke-width="16" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+    <line class="stem" x1="155" y1="540" x2="155" y2="390"/>
+    <circle cx="155" cy="565" r="23" fill="#62d6a7" stroke="#effff8" stroke-width="5"/>
+    <text class="month" x="155" y="625" text-anchor="middle">OCT</text>
+    <text class="summary" x="155" y="325" text-anchor="middle">Imagine</text>
+    <text class="detail" x="155" y="355" text-anchor="middle">Theme, features</text><text class="detail" x="155" y="380" text-anchor="middle">and first concepts</text>
+
+    <line class="stem" x1="510" y1="590" x2="510" y2="735"/>
+    <circle cx="510" cy="565" r="15" fill="#76d9a4"/>
+    <text class="month" x="510" y="625" text-anchor="middle">NOV</text>
+    <text class="summary" x="510" y="785" text-anchor="middle">Explore</text>
+    <text class="detail" x="510" y="815" text-anchor="middle">Artwork and hardware</text><text class="detail" x="510" y="840" text-anchor="middle">evolve together</text>
+
+    <line class="stem" x1="865" y1="540" x2="865" y2="390"/>
+    <circle cx="865" cy="565" r="15" fill="#96d997"/>
+    <text class="month" x="865" y="625" text-anchor="middle">DEC</text>
+    <text class="summary" x="865" y="325" text-anchor="middle">Refine</text>
+    <text class="detail" x="865" y="355" text-anchor="middle">Design decisions</text><text class="detail" x="865" y="380" text-anchor="middle">begin to converge</text>
+
+    <line class="stem" x1="1220" y1="590" x2="1220" y2="735"/>
+    <circle cx="1220" cy="565" r="20" fill="#bad77c" stroke="#f7ffe9" stroke-width="4"/>
+    <text class="month" x="1220" y="625" text-anchor="middle">JAN</text>
+    <text class="summary" x="1220" y="785" text-anchor="middle">Commit</text>
+    <text class="detail" x="1220" y="815" text-anchor="middle">Badge identity settles</text><text class="detail" x="1220" y="840" text-anchor="middle">and parts are ordered</text>
+
+    <line class="stem" x1="1575" y1="540" x2="1575" y2="390"/>
+    <circle cx="1575" cy="565" r="23" fill="#d9d56b" stroke="#fffbdc" stroke-width="5"/>
+    <text class="month" x="1575" y="625" text-anchor="middle">FEB</text>
+    <text class="summary" x="1575" y="325" text-anchor="middle">Prototype</text>
+    <text class="detail" x="1575" y="355" text-anchor="middle">First hardware arrives</text><text class="detail" x="1575" y="380" text-anchor="middle">and comes to life</text>
+
+    <line class="stem" x1="1930" y1="590" x2="1930" y2="735"/>
+    <circle cx="1930" cy="565" r="25" fill="#edbd54" stroke="#fff4d7" stroke-width="5"/>
+    <text class="month" x="1930" y="625" text-anchor="middle">MAR</text>
+    <text class="summary" x="1930" y="785" text-anchor="middle">Validate</text>
+    <text class="detail" x="1930" y="815" text-anchor="middle">Features and V2 work;</text><text class="detail" x="1930" y="840" text-anchor="middle">production is ordered</text>
+
+    <line class="stem" x1="2285" y1="540" x2="2285" y2="360"/>
+    <circle cx="2285" cy="565" r="27" fill="#f58a50" stroke="#ffe6d5" stroke-width="5"/>
+    <text class="month" x="2285" y="625" text-anchor="middle">APR</text>
+    <text class="summary" x="2285" y="295" text-anchor="middle">Race</text>
+    <text class="detail" x="2285" y="325" text-anchor="middle">Firmware, add-ons, tooling</text><text class="detail" x="2285" y="350" text-anchor="middle">and shipping converge</text>
+
+    <line x1="2635" y1="535" x2="2635" y2="330" stroke="#ff7182" stroke-width="4"/>
+    <circle cx="2635" cy="565" r="34" fill="#ff4164" stroke="#fff" stroke-width="7" filter="url(#glow)"/>
+    <text class="month" x="2635" y="625" text-anchor="middle">MAY 14</text>
+    <text class="summary" x="2635" y="265" text-anchor="middle">Recover</text>
+    <text class="detail" x="2635" y="295" text-anchor="middle">Shipping crisis → delivery</text><text class="detail" x="2635" y="320" text-anchor="middle">→ flash → launch</text>
+
+    <text class="footer" x="108" y="970">IDEA  →  HARDWARE  →  PRODUCTION  →  PANIC  →  BADGES IN HAND</text>
+    <text class="detail" x="2690" y="970" text-anchor="end">NSEC 2026 BADGE TEAM JOURNEY</text>
+  </g>
+</svg>
