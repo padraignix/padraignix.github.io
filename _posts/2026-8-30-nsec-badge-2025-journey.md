@@ -91,7 +91,7 @@ Prototype V1 arrived on February 16. Holding the first assembled board changed t
 The first boot target was intentionally simple: make the LEDs respond. When the test firmware lit them, we had our first visible confirmation that the board could be programmed and controlled. It was a small technical milestone and a large morale boost. From there, the work accelerated and spread across the team.
 
 {% include embed/video.html
-  src="/assets/nsec2026/badge-journey/protov1-ledtest.mp4"
+  src="/assets/nsec2026/badge-journey/protov1-Ledtest.mp4"
   autoplay=false
   muted=false
   loop=true
