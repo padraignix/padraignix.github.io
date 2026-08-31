@@ -314,7 +314,7 @@ There were complications throughout, but the project kept moving because the tea
 
 It was not the ending shown on our original timeline, but it may have been the ending that best represented the project. The badge succeeded because a remarkable team stayed collaborative under pressure, trusted the preparation already completed, and kept solving the next problem until the boards reached attendees' hands.
 
-Finally, I'd love to share the actualy ballad of the badge that one of the team members generate, capturing our overall struggles, journey, and triumph. 
+Finally, I'd love to share the actual "ballad of the badge" that one of the team members generated during the conference, capturing our overall struggles, journey, and triumph. 
 
 {% include embed/audio.html
   src="/assets/nsec2026/badge-journey/ballad-for-a-badge-v1.mp3"
