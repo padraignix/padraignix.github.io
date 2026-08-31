@@ -178,7 +178,7 @@ On March 13, we finally showed the outside world a glimpse of what the team had 
 <a href="/assets/nsec2026/badge-journey/newsletter.jpg" data-lightbox="image10"><img width="70%" height="70%" src="{{ '/assets/nsec2026/badge-journey/newsletter.jpg' | relative_url }}"></a>
 </p>
 
-The proof of concept was deliberately focused. Its value was in validating the complete path from firmware, through the wireless interface, to something a user could operate in a browser. With that path working, the team could refine the experience without continuing to question the architecture beneath it.
+The value of the captive portal was to give participants an easy way to integrate with the badge internals, especially since we were not longer going with a screen due to lack of inventory, through a fmailiar wireless interface as something a user could operate in a browser. With that path working, the polish of user experience was expanded further than what originally would have been capable with only an onboard screen.
 
 <!-- MEDIA: /assets/nsec2026/badge-journey/wifi-portal-poc.mp4 (Wi-Fi portal demonstration) -->
 {% include embed/video.html
@@ -228,7 +228,7 @@ At the same time, we had to prepare for scale. By April 19 the multi-flasher scr
 python tools/flash.py --mode dual --bin-dir release/dual --all
 === NorthSec Badge 2026 Flasher ===
 Mode:      dual
-Bin dir:   C:\Users\padra\OneDrive\Documents\GitHub\badge-2026\release\dual       
+Bin dir:   ..\badge-2026\release\dual       
 Files to flash:
   0x0  bootloader.bin  (14.8 KB)
   0x8000  partitions.bin  (3.0 KB)
