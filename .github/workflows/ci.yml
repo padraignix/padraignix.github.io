@@ -50,7 +50,7 @@ jobs:
           node-version: lts/*
 
       - name: Build Assets
-        run: npm ci && npm run build
+        run: npm install && npm run build
 
       - name: Test Site
         run: bash tools/test.sh

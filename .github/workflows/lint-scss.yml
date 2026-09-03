@@ -4,12 +4,12 @@ on:
   push:
     paths:
       - "_sass/**/*.scss"
-
-permissions:
-  contents: read
   pull_request:
     paths:
       - "_sass/**/*.scss"
+
+permissions:
+  contents: read
 
 jobs:
   lint-scss:
@@ -23,7 +23,7 @@ jobs:
           node-version: lts/*
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Lint SCSS
         run: npm run lint:scss
