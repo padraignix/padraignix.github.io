@@ -12,9 +12,6 @@ on:
       - "docs/**"
       - README.md
       - LICENSE
-
-permissions:
-  contents: read
   pull_request:
     paths-ignore:
       - ".github/**"
@@ -23,6 +20,9 @@ permissions:
       - "docs/**"
       - README.md
       - LICENSE
+
+permissions:
+  contents: read
 
 jobs:
   build:
